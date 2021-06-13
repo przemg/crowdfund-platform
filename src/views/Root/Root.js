@@ -6,7 +6,7 @@ const Root = () => (
   <MainTemplate>
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={() => <h1>Hello world</h1>} />
+        <Route path="/" component={() => <p>Hello world</p>} />
       </Switch>
     </BrowserRouter>
   </MainTemplate>

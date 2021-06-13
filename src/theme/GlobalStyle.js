@@ -15,7 +15,9 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-size: 1.6rem;
+    font-size: ${({ theme }) => theme.fonts.bodyTextM};
+    font-weight: ${({ theme }) => theme.fonts.regular};
+    color: ${({ theme }) => theme.colors.gray100};
     font-family: 'Commissioner', sans-serif;
   }
 `;
