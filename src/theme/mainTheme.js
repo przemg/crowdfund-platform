@@ -1,9 +1,11 @@
 export const mainTheme = {
   colors: {
-    cyan100: ' hsl(176, 50%, 47%)',
-    cyan200: 'hsl(176, 72%, 28%)',
-    gray100: 'hsl(0, 0%, 70%)',
-    gray200: 'hsl(0, 0%, 48%)',
+    cyan100: ' hsl(176, 50%, 95%)',
+    cyan200: ' hsl(176, 50%, 47%)',
+    cyan300: 'hsl(176, 72%, 28%)',
+    gray100: 'hsl(0, 0%, 90%)',
+    gray200: 'hsl(0, 0%, 70%)',
+    gray300: 'hsl(0, 0%, 48%)',
     black: 'hsl(0, 0%, 0%)',
     white: 'hsl(0, 0%, 100%)',
   },
