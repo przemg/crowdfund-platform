@@ -61,16 +61,7 @@
       "eslint --fix"
     ]
   },
-  "eslintConfig": {
-    "overrides": [
-      {
-        "files": [
-          "**/*.stories.*"
-        ],
-        "rules": {
-          "import/no-anonymous-default-export": "off"
-        }
-      }
-    ]
+  "resolutions": {
+    "babel-loader": "8.1.0"
   }
 }
