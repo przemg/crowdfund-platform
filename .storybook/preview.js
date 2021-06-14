@@ -1,6 +1,7 @@
 import GlobalStyle from '../src/theme/GlobalStyle';
 import { ThemeProvider } from 'styled-components';
 import { mainTheme } from '../src/theme/mainTheme';
+import StoryRouter from 'storybook-react-router';
 
 const customViewports = {
   mobile: {
@@ -38,6 +39,7 @@ export const parameters = {
 };
 
 export const decorators = [
+  StoryRouter(),
   (Story) => (
     <ThemeProvider theme={mainTheme}>
       <GlobalStyle />
