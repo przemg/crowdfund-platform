@@ -17,6 +17,7 @@ export const mainTheme = {
     headingXS: '1.8rem',
     bodyTextM: '1.6rem',
     bodyTextS: '1.4rem',
+    captionM: '1.1rem',
     regular: 400,
     medium: 500,
     bold: 700,
