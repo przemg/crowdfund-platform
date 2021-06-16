@@ -38,8 +38,8 @@ const StyledButton = styled.button`
 `;
 
 const StyledWrapper = styled.div`
-  display: inline-block;
   position: relative;
+  width: fit-content;
 
   ${({ priceLeadingIcon }) =>
     priceLeadingIcon &&
@@ -59,14 +59,13 @@ const StyledWrapper = styled.div`
         padding: 0 20px 0 36px;
       }
     `}
-
   ${({ passwordShowAction }) =>
     passwordShowAction &&
     css`
       & > ${StyledInput} {
         padding: 0 70px 0 20px;
       }
-    `}
+    `};
 `;
 
 const Input = ({ priceLeadingIcon, passwordShowAction, ...props }) => {
