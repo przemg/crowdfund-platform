@@ -15,7 +15,6 @@ export default {
 const StyledWrapper = styled.div`
   display: grid;
   grid-gap: 12px;
-  width: 300px;
 `;
 
 const PlaygroundTemplate = ({ disabled, active, ...args }) => (
