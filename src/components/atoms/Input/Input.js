@@ -3,17 +3,17 @@ import styled, { css } from 'styled-components';
 import PropTypes from 'prop-types';
 
 const StyledInput = styled.input`
-  font-size: ${({ theme }) => theme.fonts.bodyTextS};
-  font-weight: ${({ theme }) => theme.fonts.medium};
-  color: ${({ theme }) => theme.colors.black};
+  font-size: ${({ theme }) => theme.font.bodyTextS};
+  font-weight: ${({ theme }) => theme.font.medium};
+  color: ${({ theme }) => theme.color.black};
   height: 44px;
   padding: 0 20px;
   border-radius: 24px;
-  border: 2px solid ${({ theme }) => theme.colors.gray100};
+  border: 2px solid ${({ theme }) => theme.color.gray300};
   outline: none;
 
   :focus {
-    border-color: ${({ theme }) => theme.colors.cyan200};
+    border-color: ${({ theme }) => theme.color.cyan200};
   }
 `;
 
@@ -26,14 +26,14 @@ const StyledButton = styled.button`
   background-color: transparent;
   cursor: pointer;
   text-transform: uppercase;
-  font-size: ${({ theme }) => theme.fonts.captionM};
-  font-weight: ${({ theme }) => theme.fonts.bold};
-  color: ${({ theme }) => theme.colors.gray200};
+  font-size: ${({ theme }) => theme.font.captionM};
+  font-weight: ${({ theme }) => theme.font.bold};
+  color: ${({ theme }) => theme.color.gray300};
 
   ${({ active }) =>
     active &&
     css`
-      color: ${({ theme }) => theme.colors.cyan200};
+      color: ${({ theme }) => theme.color.cyan200};
     `}
 `;
 
@@ -50,9 +50,9 @@ const StyledWrapper = styled.div`
         top: 50%;
         left: 20px;
         transform: translateY(-50%);
-        font-size: ${({ theme }) => theme.fonts.bodyTextS};
-        font-weight: ${({ theme }) => theme.fonts.bold};
-        color: ${({ theme }) => theme.colors.gray200};
+        font-size: ${({ theme }) => theme.font.bodyTextS};
+        font-weight: ${({ theme }) => theme.font.bold};
+        color: ${({ theme }) => theme.color.gray300};
       }
 
       & > ${StyledInput} {

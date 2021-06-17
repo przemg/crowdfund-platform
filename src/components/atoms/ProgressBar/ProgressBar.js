@@ -6,12 +6,12 @@ const ProgressBar = styled.progress`
     height: 12px;
 
     ::-webkit-progress-bar {
-      background-color: ${({ theme }) => theme.colors.gray100};
+      background-color: ${({ theme }) => theme.color.gray300};
       border-radius: 8px;
     }
 
     ::-webkit-progress-value {
-      background-color: ${({ theme }) => theme.colors.cyan200};
+      background-color: ${({ theme }) => theme.color.cyan200};
       border-radius: 8px;
     }
   }

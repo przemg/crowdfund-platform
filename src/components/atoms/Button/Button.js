@@ -1,10 +1,10 @@
 import styled, { css } from 'styled-components';
 
 const Button = styled.button`
-  font-size: ${({ theme }) => theme.fonts.bodyTextS};
-  font-weight: ${({ theme }) => theme.fonts.medium};
-  color: ${({ theme }) => theme.colors.white};
-  background-color: ${({ theme }) => theme.colors.cyan200};
+  font-size: ${({ theme }) => theme.font.bodyTextS};
+  font-weight: ${({ theme }) => theme.font.medium};
+  color: ${({ theme }) => theme.color.white};
+  background-color: ${({ theme }) => theme.color.cyan200};
   padding: 0 32px;
   width: fit-content;
   min-width: 150px;
@@ -15,24 +15,24 @@ const Button = styled.button`
   transition: background-color 0.3s ease-in;
 
   :disabled {
-    background-color: ${({ theme }) => theme.colors.gray100};
+    background-color: ${({ theme }) => theme.color.gray200};
     cursor: not-allowed;
 
     :hover {
-      background-color: ${({ theme }) => theme.colors.gray100};
+      background-color: ${({ theme }) => theme.color.gray200};
     }
   }
 
   :hover {
-    background-color: ${({ theme }) => theme.colors.cyan300};
+    background-color: ${({ theme }) => theme.color.cyan300};
   }
 
   ${({ icon }) =>
     icon &&
     css`
       position: relative;
-      background-color: ${({ theme }) => theme.colors.gray100};
-      color: ${({ theme }) => theme.colors.gray300};
+      background-color: ${({ theme }) => theme.color.gray200};
+      color: ${({ theme }) => theme.color.gray400};
       padding: 0 24px 0 calc(16px + 44px);
 
       ::before,
@@ -49,44 +49,44 @@ const Button = styled.button`
       }
 
       ::before {
-        background-color: ${({ theme }) => theme.colors.black};
+        background-color: ${({ theme }) => theme.color.black};
         transition: background-color 0.3s ease-in;
       }
 
       ::after {
-        background-color: ${({ theme }) => theme.colors.gray200};
+        background-color: ${({ theme }) => theme.color.gray300};
         mask-image: url(${icon});
         mask-size: 44px 44px;
       }
 
       :hover {
-        background-color: ${({ theme }) => theme.colors.gray100};
+        background-color: ${({ theme }) => theme.color.gray200};
       }
 
       :hover::before {
-        background-color: ${({ theme }) => theme.colors.gray300};
+        background-color: ${({ theme }) => theme.color.gray400};
       }
 
       ${({ active }) =>
         active &&
         css`
-          background-color: ${({ theme }) => theme.colors.cyan100};
-          color: ${({ theme }) => theme.colors.cyan300};
+          background-color: ${({ theme }) => theme.color.cyan100};
+          color: ${({ theme }) => theme.color.cyan300};
 
           ::before {
-            background-color: ${({ theme }) => theme.colors.cyan300};
+            background-color: ${({ theme }) => theme.color.cyan300};
           }
 
           ::after {
-            background-color: ${({ theme }) => theme.colors.white};
+            background-color: ${({ theme }) => theme.color.white};
           }
 
           :hover {
-            background-color: ${({ theme }) => theme.colors.cyan100};
+            background-color: ${({ theme }) => theme.color.cyan100};
           }
 
           :hover::before {
-            background-color: ${({ theme }) => theme.colors.cyan200};
+            background-color: ${({ theme }) => theme.color.cyan200};
           }
         `}
     `}

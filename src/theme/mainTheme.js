@@ -1,15 +1,16 @@
 export const mainTheme = {
-  colors: {
+  color: {
     cyan100: ' hsl(176, 50%, 95%)',
     cyan200: ' hsl(176, 50%, 47%)',
     cyan300: 'hsl(176, 72%, 28%)',
-    gray100: 'hsl(0, 0%, 90%)',
-    gray200: 'hsl(0, 0%, 70%)',
-    gray300: 'hsl(0, 0%, 48%)',
+    gray100: 'hsl(0, 0%, 98%)',
+    gray200: 'hsl(0, 0%, 90%)',
+    gray300: 'hsl(0, 0%, 70%)',
+    gray400: 'hsl(0, 0%, 48%)',
     black: 'hsl(0, 0%, 0%)',
     white: 'hsl(0, 0%, 100%)',
   },
-  fonts: {
+  font: {
     headingXL: '3.2rem',
     headingL: '2.8rem',
     headingM: '2.4rem',

@@ -1,9 +1,9 @@
 import styled, { css } from 'styled-components';
 
 const Heading = styled.h1`
-  font-size: ${({ theme }) => theme.fonts.headingM};
-  font-weight: ${({ theme }) => theme.fonts.bold};
-  color: ${({ theme }) => theme.colors.black};
+  font-size: ${({ theme }) => theme.font.headingM};
+  font-weight: ${({ theme }) => theme.font.bold};
+  color: ${({ theme }) => theme.color.black};
   line-height: 1.8;
   margin: 0;
   max-width: 60ch;
@@ -11,25 +11,25 @@ const Heading = styled.h1`
   ${({ extraSmall }) =>
     extraSmall &&
     css`
-      font-size: ${({ theme }) => theme.fonts.headingXS};
+      font-size: ${({ theme }) => theme.font.headingXS};
     `}
 
   ${({ small }) =>
     small &&
     css`
-      font-size: ${({ theme }) => theme.fonts.headingS};
+      font-size: ${({ theme }) => theme.font.headingS};
     `}
 
   ${({ large }) =>
     large &&
     css`
-      font-size: ${({ theme }) => theme.fonts.headingL};
+      font-size: ${({ theme }) => theme.font.headingL};
     `}
 
   ${({ extraLarge }) =>
     extraLarge &&
     css`
-      font-size: ${({ theme }) => theme.fonts.headingXL};
+      font-size: ${({ theme }) => theme.font.headingXL};
     `}
 `;
 

@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 const MenuLink = styled(NavLink)`
   position: relative;
-  font-size: ${({ theme }) => theme.fonts.bodyTextS};
-  font-weight: ${({ theme }) => theme.fonts.regular};
-  color: ${({ theme }) => theme.colors.white};
+  font-size: ${({ theme }) => theme.font.bodyTextS};
+  font-weight: ${({ theme }) => theme.font.regular};
+  color: ${({ theme }) => theme.color.white};
   padding: 12px 16px;
   text-decoration: none;
 
@@ -16,7 +16,7 @@ const MenuLink = styled(NavLink)`
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: ${({ theme }) => theme.colors.white};
+    background-color: ${({ theme }) => theme.color.white};
     transform-origin: left;
     transition: transform 0.3s ease-in;
     border-radius: 2px;
