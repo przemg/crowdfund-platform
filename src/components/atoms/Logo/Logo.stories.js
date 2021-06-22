@@ -1,6 +1,4 @@
-/* eslint-disable react/prop-types */
 import * as React from 'react';
-import styled from 'styled-components';
 import Logo from '.';
 
 export default {
@@ -13,21 +11,17 @@ export default {
     },
   },
   args: {
-    backgroundColor: '#000',
     color: 'white',
+  },
+  parameters: {
+    storyBackground: {
+      defaultValue: 'black',
+      basedOnArg: 'color',
+      values: [{ argValue: 'black', value: 'white' }],
+    },
   },
 };
 
-const Wrapper = styled.div`
-  display: inline-block;
-  background-color: ${({ backgroundColor }) => backgroundColor};
-  padding: 80px;
-`;
-
-const Template = ({ color, ...args }) => (
-  <Wrapper {...args}>
-    <Logo color={color} />
-  </Wrapper>
-);
+const Template = (args) => <Logo {...args} />;
 
 export const Normal = Template.bind({});

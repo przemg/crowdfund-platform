@@ -11,6 +11,10 @@
       {
         "custom": "ignore"
       }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": [".storybook/**", "src/**/*.stories.js"] }
     ]
   },
   "settings": {

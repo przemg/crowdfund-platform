@@ -1,31 +1,9 @@
-import GlobalStyle from '../src/theme/GlobalStyle';
-import { ThemeProvider } from 'styled-components';
-import { mainTheme } from '../src/theme/mainTheme';
+import styled, { ThemeProvider } from 'styled-components';
 import StoryRouter from 'storybook-react-router';
-
-const customViewports = {
-  mobile: {
-    name: 'Mobile',
-    styles: {
-      width: '375px',
-      height: '100%',
-    },
-  },
-  tablet: {
-    name: 'Tablet',
-    styles: {
-      width: '768px',
-      height: '100%',
-    },
-  },
-  desktop: {
-    name: 'Desktop',
-    styles: {
-      width: '1440px',
-      height: '100%',
-    },
-  },
-};
+import GlobalStyle from 'theme/GlobalStyle';
+import { mainTheme } from 'theme/mainTheme';
+import { customViewports } from './data/customStorybookSettings';
+import StoryBackgroundDecorator from './decorators/setStoryBackgroundDecorator';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -36,14 +14,25 @@ export const parameters = {
     },
   },
   viewport: { viewports: customViewports },
+  backgrounds: {
+    disable: true,
+    grid: { disable: true },
+  },
 };
+
+const StyledGlobalWrapper = styled.div`
+  padding: 24px;
+`;
 
 export const decorators = [
   StoryRouter(),
+  StoryBackgroundDecorator(),
   (Story) => (
     <ThemeProvider theme={mainTheme}>
       <GlobalStyle />
-      <Story />
+      <StyledGlobalWrapper>
+        <Story />
+      </StyledGlobalWrapper>
     </ThemeProvider>
   ),
 ];

@@ -10,6 +10,11 @@ export default {
   args: {
     children: 'Example content',
   },
+  parameters: {
+    storyBackground: {
+      defaultValue: 'gray',
+    },
+  },
 };
 
 const argTypesForBrandBox = {
@@ -23,33 +28,27 @@ const argsForBrandBox = {
 };
 
 const StyledWrapper = styled.div`
-  background-color: ${({ theme }) => theme.color.gray100};
-  padding: 40px;
-`;
-
-const StyledPlaygroundWrapper = styled(StyledWrapper)`
   display: grid;
   grid-gap: 64px;
-  min-height: unset;
 `;
 
 const PlaygroundTemplate = ({ file, brandColor, ...args }) => (
-  <StyledPlaygroundWrapper>
+  <StyledWrapper>
     <Box {...args} />
     <Box brandLogo={file} brandColor={brandColor} {...args} />
-  </StyledPlaygroundWrapper>
+  </StyledWrapper>
 );
 
 const NormalTemplate = (args) => (
-  <StyledWrapper>
+  <>
     <Box {...args} />
-  </StyledWrapper>
+  </>
 );
 
 const BrandTemplate = ({ file, brandColor, ...args }) => (
-  <StyledWrapper>
+  <>
     <Box brandLogo={file} brandColor={brandColor} {...args} />
-  </StyledWrapper>
+  </>
 );
 
 export const Playground = PlaygroundTemplate.bind({});
