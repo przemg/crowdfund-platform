@@ -9,7 +9,7 @@ const MenuLink = styled(NavLink)`
   padding: 12px 16px;
   text-decoration: none;
 
-  ::after {
+  &::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -23,14 +23,14 @@ const MenuLink = styled(NavLink)`
     transform: scaleX(0);
   }
 
-  :hover::after {
+  &:hover::after {
     transform: scaleX(1);
   }
 
   ${({ active }) =>
     active &&
     css`
-      ::after {
+      &::after {
         transform: scaleX(1);
       }
     `}

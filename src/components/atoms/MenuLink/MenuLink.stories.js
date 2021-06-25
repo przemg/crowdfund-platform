@@ -4,9 +4,6 @@ import MenuLink from '.';
 export default {
   title: 'Atoms/MenuLink',
   component: MenuLink,
-  args: {
-    active: false,
-  },
   parameters: {
     storyBackground: {
       defaultValue: 'black',
@@ -14,10 +11,13 @@ export default {
   },
 };
 
-const Template = (args) => (
-  <MenuLink to="/" {...args}>
-    Menu link
-  </MenuLink>
-);
+const Template = (args) => <MenuLink to="/" {...args} />;
 
-export const Normal = Template.bind({});
+export const Playground = Template.bind({});
+
+Playground.args = {
+  children: 'Menu link',
+  active: false,
+};
+
+export const Default = () => <MenuLink to="/">Default menu link</MenuLink>;
