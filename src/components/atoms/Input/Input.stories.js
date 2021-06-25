@@ -1,5 +1,4 @@
 import * as React from 'react';
-import styled from 'styled-components';
 import Input from '.';
 
 export default {
@@ -7,19 +6,17 @@ export default {
   component: Input,
 };
 
-const StyledWrapper = styled.div`
-  display: grid;
-  grid-gap: 12px;
-`;
+const Template = (args) => <Input {...args} />;
 
-export const Playground = () => (
-  <StyledWrapper>
-    <Input type="text" />
-    <Input type="number" priceLeadingIcon />
-    <Input type="password" passwordShowAction />
-  </StyledWrapper>
-);
+export const Playground = Template.bind({});
 
-export const Normal = () => <Input type="text" />;
-export const Price = () => <Input type="number" priceLeadingIcon />;
-export const Password = () => <Input type="password" passwordShowAction />;
+Playground.args = {
+  priceLeadingIcon: false,
+  passwordShowAction: false,
+};
+
+export const Default = () => <Input />;
+
+export const Price = () => <Input priceLeadingIcon />;
+
+export const Password = () => <Input passwordShowAction />;

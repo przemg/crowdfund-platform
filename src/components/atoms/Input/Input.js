@@ -12,7 +12,7 @@ const StyledInput = styled.input`
   border: 2px solid ${({ theme }) => theme.color.gray300};
   outline: none;
 
-  :focus {
+  &:focus {
     border-color: ${({ theme }) => theme.color.cyan200};
   }
 `;
@@ -44,7 +44,7 @@ const StyledWrapper = styled.div`
   ${({ priceLeadingIcon }) =>
     priceLeadingIcon &&
     css`
-      ::before {
+      &::before {
         content: '$';
         position: absolute;
         top: 50%;
