@@ -12,11 +12,11 @@ const Radio = styled.input.attrs(() => ({
   cursor: pointer;
   transition: background-color 0.3s ease-in;
 
-  :checked {
+  &:checked {
     background-color: ${({ theme }) => theme.color.cyan200};
   }
 
-  :disabled {
+  &:disabled {
     cursor: not-allowed;
   }
 `;

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import styled from 'styled-components';
+
 import Radio from '.';
 
 export default {
@@ -7,24 +7,22 @@ export default {
   component: Radio,
 };
 
-const StyledWrapper = styled.div`
-  display: grid;
-  grid-gap: 12px;
-`;
+const Template = (args) => <Radio readOnly {...args} />;
 
-export const Playground = () => (
-  <StyledWrapper>
-    <Radio name="storybook" />
-    <Radio name="storybook" checked />
-    <Radio name="storybook" disabled />
-  </StyledWrapper>
-);
+export const Playground = Template.bind({});
 
-const Template = (args) => <Radio {...args} />;
-
-export const Normal = Template.bind({});
-
-Normal.args = {
+Playground.args = {
   checked: false,
   disabled: false,
 };
+
+export const Default = () => <Radio readOnly />;
+
+export const Checked = () => <Radio readOnly checked />;
+
+export const Disabled = () => (
+  <>
+    <Radio readOnly disabled />
+    <Radio readOnly disabled checked />
+  </>
+);
