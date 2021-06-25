@@ -1,15 +1,10 @@
-/* eslint-disable react/prop-types */
 import * as React from 'react';
-import styled from 'styled-components';
 import LogoWhite from 'assets/brand/logo-white.svg';
 import Box from '.';
 
 export default {
   title: 'Atoms/Box',
-  componenet: Box,
-  args: {
-    children: 'Example content',
-  },
+  component: Box,
   parameters: {
     storyBackground: {
       defaultValue: 'gray',
@@ -17,46 +12,23 @@ export default {
   },
 };
 
-const argTypesForBrandBox = {
-  file: {
-    control: { type: 'file' },
-  },
+const Template = (args) => <Box {...args} />;
+
+export const Playground = Template.bind({});
+
+Playground.argTypes = {
+  brandColor: { control: { type: 'color' } },
+  brandLogo: { control: { type: 'file' } },
 };
-const argsForBrandBox = {
-  brandColor: '#000',
-  file: LogoWhite,
+
+Playground.args = {
+  children: 'Example box content',
 };
 
-const StyledWrapper = styled.div`
-  display: grid;
-  grid-gap: 64px;
-`;
+export const Default = () => <Box>This is default box</Box>;
 
-const PlaygroundTemplate = ({ file, brandColor, ...args }) => (
-  <StyledWrapper>
-    <Box {...args} />
-    <Box brandLogo={file} brandColor={brandColor} {...args} />
-  </StyledWrapper>
+export const Brand = () => (
+  <Box brandColor="#000000" brandLogo={LogoWhite}>
+    This is brand box
+  </Box>
 );
-
-const NormalTemplate = (args) => (
-  <>
-    <Box {...args} />
-  </>
-);
-
-const BrandTemplate = ({ file, brandColor, ...args }) => (
-  <>
-    <Box brandLogo={file} brandColor={brandColor} {...args} />
-  </>
-);
-
-export const Playground = PlaygroundTemplate.bind({});
-Playground.argTypes = argTypesForBrandBox;
-Playground.args = argsForBrandBox;
-
-export const Normal = NormalTemplate.bind({});
-
-export const Brand = BrandTemplate.bind({});
-Brand.argTypes = argTypesForBrandBox;
-Brand.args = argsForBrandBox;

@@ -13,7 +13,7 @@ const Box = styled.div`
     css`
       padding: 56px 40px 40px;
 
-      ::before {
+      &::before {
         content: '';
         position: absolute;
         top: 0;
