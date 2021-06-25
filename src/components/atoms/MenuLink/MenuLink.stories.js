@@ -21,3 +21,9 @@ Playground.args = {
 };
 
 export const Default = () => <MenuLink to="/">Default menu link</MenuLink>;
+
+export const Active = () => (
+  <MenuLink active to="/">
+    Active menu link
+  </MenuLink>
+);
