@@ -1,8 +1,9 @@
 import styled, { css } from 'styled-components';
+import BookmarkIcon from 'assets/icons/icon-bookmark.svg';
 
 const Button = styled.button`
   font-size: ${({ theme }) => theme.font.bodyTextS};
-  font-weight: ${({ theme }) => theme.font.medium};
+  font-weight: ${({ theme }) => theme.font.bold};
   color: ${({ theme }) => theme.color.white};
   background-color: ${({ theme }) => theme.color.cyan200};
   padding: 0 32px;
@@ -14,29 +15,33 @@ const Button = styled.button`
   cursor: pointer;
   transition: background-color 0.3s ease-in;
 
-  :disabled {
-    background-color: ${({ theme }) => theme.color.gray200};
-    cursor: not-allowed;
-
-    :hover {
-      background-color: ${({ theme }) => theme.color.gray200};
-    }
-  }
-
-  :hover {
+  &:hover:not(:disabled) {
     background-color: ${({ theme }) => theme.color.cyan300};
   }
 
-  ${({ icon }) =>
-    icon &&
-    css`
-      position: relative;
-      background-color: ${({ theme }) => theme.color.gray200};
-      color: ${({ theme }) => theme.color.gray400};
-      padding: 0 24px 0 calc(16px + 44px);
+  &:disabled {
+    background-color: ${({ theme }) => theme.color.gray200};
+    cursor: not-allowed;
+  }
 
-      ::before,
-      ::after {
+  ${({ bookmark, active }) =>
+    bookmark &&
+    css`
+      // && - to increase the specificity to overide gray background when button get bookmark,
+      // active and disabled props in the same time
+      && {
+        position: relative;
+        background-color: ${({ theme }) => theme.color[active ? 'cyan100' : 'gray200']};
+        color: ${({ theme }) => theme.color[active ? 'cyan300' : 'gray400']};
+        padding: 0 24px 0 calc(16px + 44px);
+      }
+
+      &&:hover {
+        background-color: ${({ theme }) => theme.color[active ? 'cyan100' : 'gray200']};
+      }
+
+      &::before,
+      &::after {
         display: block;
         content: '';
         width: 44px;
@@ -48,47 +53,20 @@ const Button = styled.button`
         border-radius: 50%;
       }
 
-      ::before {
-        background-color: ${({ theme }) => theme.color.black};
+      &::before {
+        background-color: ${({ theme }) => theme.color[active ? 'cyan300' : 'black']};
         transition: background-color 0.3s ease-in;
       }
 
-      ::after {
-        background-color: ${({ theme }) => theme.color.gray300};
-        mask-image: url(${icon});
+      &::after {
+        background-color: ${({ theme }) => theme.color[active ? 'white' : 'gray300']};
+        mask-image: url(${BookmarkIcon});
         mask-size: 44px 44px;
       }
 
-      :hover {
-        background-color: ${({ theme }) => theme.color.gray200};
+      &:hover:not(:disabled)::before {
+        background-color: ${({ theme }) => theme.color[active ? 'cyan200' : 'gray400']};
       }
-
-      :hover::before {
-        background-color: ${({ theme }) => theme.color.gray400};
-      }
-
-      ${({ active }) =>
-        active &&
-        css`
-          background-color: ${({ theme }) => theme.color.cyan100};
-          color: ${({ theme }) => theme.color.cyan300};
-
-          ::before {
-            background-color: ${({ theme }) => theme.color.cyan300};
-          }
-
-          ::after {
-            background-color: ${({ theme }) => theme.color.white};
-          }
-
-          :hover {
-            background-color: ${({ theme }) => theme.color.cyan100};
-          }
-
-          :hover::before {
-            background-color: ${({ theme }) => theme.color.cyan200};
-          }
-        `}
     `}
 `;
 
