@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 import BookmarkIcon from 'assets/icons/icon-bookmark.svg';
+import PropTypes from 'prop-types';
 
 const Button = styled.button`
   font-size: ${({ theme }) => theme.font.bodyTextS};
@@ -69,5 +70,17 @@ const Button = styled.button`
       }
     `}
 `;
+
+Button.propTypes = {
+  bookmark: PropTypes.bool,
+  active: PropTypes.bool,
+  disabled: PropTypes.bool,
+};
+
+Button.defaultProps = {
+  bookmark: false,
+  active: false,
+  disabled: false,
+};
 
 export default Button;

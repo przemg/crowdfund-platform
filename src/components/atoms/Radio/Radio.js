@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const Radio = styled.input.attrs(() => ({
   type: 'radio',
@@ -20,5 +21,15 @@ const Radio = styled.input.attrs(() => ({
     cursor: not-allowed;
   }
 `;
+
+Radio.propTypes = {
+  disabled: PropTypes.bool,
+  checked: PropTypes.bool,
+};
+
+Radio.defaultProps = {
+  disabled: false,
+  checked: false,
+};
 
 export default Radio;

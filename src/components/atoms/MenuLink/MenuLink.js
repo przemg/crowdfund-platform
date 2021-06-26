@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 import { NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 const MenuLink = styled(NavLink)`
   position: relative;
@@ -35,5 +36,13 @@ const MenuLink = styled(NavLink)`
       }
     `}
 `;
+
+MenuLink.propTypes = {
+  active: PropTypes.bool,
+};
+
+MenuLink.defaultProps = {
+  active: false,
+};
 
 export default MenuLink;
