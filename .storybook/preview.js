@@ -12,6 +12,7 @@ export const parameters = {
       color: /(background|color)$/i,
       date: /Date$/,
     },
+    hideNoControlsWarning: true,
   },
   viewport: { viewports: customViewports },
   backgrounds: {
