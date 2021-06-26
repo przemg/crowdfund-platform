@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import PropTypes from 'prop-types';
 
 const Box = styled.div`
   position: relative;
@@ -30,5 +31,15 @@ const Box = styled.div`
       }
     `}
 `;
+
+Box.propTypes = {
+  brandLogo: PropTypes.string,
+  brandColor: PropTypes.string,
+};
+
+Box.defaultProps = {
+  brandLogo: '',
+  brandColor: '',
+};
 
 export default Box;
