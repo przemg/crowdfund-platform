@@ -11,19 +11,17 @@ export default {
   },
 };
 
-const Template = (args) => <MenuLink to="/" {...args} />;
+const Template = (args) => <MenuLink activeClassName="active" {...args} />;
 
 export const Playground = Template.bind({});
 
 Playground.args = {
   children: 'Menu link',
-  active: false,
+  to: '/fancy-url',
 };
 
-export const Default = () => <MenuLink to="/">Default menu link</MenuLink>;
-
-export const Active = () => (
-  <MenuLink active to="/">
-    Active menu link
+export const Default = () => (
+  <MenuLink to="/fancy-url" activeClassName="active">
+    Default menu link
   </MenuLink>
 );
