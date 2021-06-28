@@ -7,6 +7,8 @@ export const mainTheme = {
     gray200: 'hsl(0, 0%, 90%)',
     gray300: 'hsl(0, 0%, 70%)',
     gray400: 'hsl(0, 0%, 48%)',
+    red100: 'hsl(360, 75%, 55%)',
+    green100: 'hsl(122, 87%, 37%)',
     black: 'hsl(0, 0%, 0%)',
     white: 'hsl(0, 0%, 100%)',
   },
