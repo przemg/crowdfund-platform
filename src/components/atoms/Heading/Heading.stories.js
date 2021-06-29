@@ -16,7 +16,7 @@ Playground.argTypes = {
     control: { type: 'select' },
   },
   size: {
-    options: ['XS', 'S', 'M', 'L', 'XL'],
+    options: ['xs', 's', 'm', 'l', 'xl'],
     control: { type: 'select' },
   },
 };
@@ -40,10 +40,10 @@ export const Levels = () => (
 
 export const Sizes = () => (
   <>
-    <Heading size="XL">This is extra large heading</Heading>
-    <Heading size="L">This is large heading</Heading>
-    <Heading size="M">This is medium heading</Heading>
-    <Heading size="S">This is small heading</Heading>
-    <Heading size="XS">This is extra small heading</Heading>
+    <Heading size="xl">This is extra large heading</Heading>
+    <Heading size="l">This is large heading</Heading>
+    <Heading size="m">This is medium heading</Heading>
+    <Heading size="s">This is small heading</Heading>
+    <Heading size="xs">This is extra small heading</Heading>
   </>
 );
