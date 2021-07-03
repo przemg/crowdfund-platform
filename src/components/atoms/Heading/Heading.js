@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const Heading = styled.h1.attrs(({ level, size: sizeProps }) => {
+const Heading = styled.h1.attrs(({ as, level, size: sizeProps }) => {
   const { length, ...sizesSortedByLevel } = ['xl', 'l', 'm', 's', 'xs', 'xs'];
   const size = sizeProps || sizesSortedByLevel[level - 1];
 
   return {
-    as: `h${level}`,
+    as: as || `h${level}`,
     size: size.toUpperCase(),
   };
 })`
