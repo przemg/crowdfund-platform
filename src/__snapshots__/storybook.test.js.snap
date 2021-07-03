@@ -1,0 +1,1304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Box Brand 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM btlxkH"
+  />
+  <div
+    className="sc-dlnjwi bOsBEG"
+  >
+    This is brand box
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Box Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM btlxkH"
+  />
+  <div
+    className="sc-dlnjwi ghTIof"
+  >
+    This is default box
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Box Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM btlxkH"
+  />
+  <div
+    className="sc-dlnjwi ghTIof"
+  >
+    Example box content
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Bookmark 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <button
+    className="sc-hKFxyN iBpFtu"
+    disabled={false}
+  >
+    Bookmark button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Bookmark Active 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <button
+    className="sc-hKFxyN caxjwi"
+    disabled={false}
+  >
+    Bookmark active button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <button
+    className="sc-hKFxyN dpeOGK"
+    disabled={false}
+  >
+    Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Disabled 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <button
+    className="sc-hKFxyN dpeOGK"
+    disabled={true}
+  >
+    This is disabled button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <button
+    className="sc-hKFxyN dpeOGK"
+    disabled={false}
+  >
+    This is sample button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <h1
+    className="sc-eCApnc upmsQ"
+    size="XL"
+  >
+    This is default heading
+  </h1>
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Levels 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <h1
+    className="sc-eCApnc upmsQ"
+    size="XL"
+  >
+    This is level 1 heading
+  </h1>
+  <h2
+    className="sc-eCApnc lfCuoH"
+    size="L"
+  >
+    This is level 2 heading
+  </h2>
+  <h3
+    className="sc-eCApnc Yyqdz"
+    size="M"
+  >
+    This is level 3 heading
+  </h3>
+  <h4
+    className="sc-eCApnc kYLptJ"
+    size="S"
+  >
+    This is level 4 heading
+  </h4>
+  <h5
+    className="sc-eCApnc lfCIpU"
+    size="XS"
+  >
+    This is level 5 heading
+  </h5>
+  <h6
+    className="sc-eCApnc lfCIpU"
+    size="XS"
+  >
+    This is level 6 heading
+  </h6>
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <h1
+    className="sc-eCApnc upmsQ"
+    size="XL"
+  >
+    This sample content
+  </h1>
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Sizes 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <h1
+    className="sc-eCApnc upmsQ"
+    size="XL"
+  >
+    This is extra large heading
+  </h1>
+  <h1
+    className="sc-eCApnc lfCuoH"
+    size="L"
+  >
+    This is large heading
+  </h1>
+  <h1
+    className="sc-eCApnc Yyqdz"
+    size="M"
+  >
+    This is medium heading
+  </h1>
+  <h1
+    className="sc-eCApnc kYLptJ"
+    size="S"
+  >
+    This is small heading
+  </h1>
+  <h1
+    className="sc-eCApnc lfCIpU"
+    size="XS"
+  >
+    This is extra small heading
+  </h1>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iCoGMd dWAWbQ"
+  >
+    <input
+      className="sc-jSFjdj cYqVkD"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Error 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iCoGMd dWAWbQ"
+  >
+    <input
+      className="sc-jSFjdj hrHhSL"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Password 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iCoGMd iIlTrz"
+  >
+    <input
+      className="sc-jSFjdj cYqVkD"
+      type="password"
+    />
+    <button
+      className="sc-gKAaRy iTrtHX"
+      onClick={[Function]}
+      type="button"
+    >
+      Show
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iCoGMd dWAWbQ"
+  >
+    <input
+      className="sc-jSFjdj cYqVkD"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Price 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iCoGMd giWxuf"
+  >
+    <input
+      className="sc-jSFjdj cYqVkD"
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Label Defaul 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <label
+    className="sc-fujyAs fWueyT"
+  >
+    This is default label
+  </label>
+</div>
+`;
+
+exports[`Storyshots Atoms/Label Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <label
+    className="sc-fujyAs fWueyT"
+  >
+    Label 
+  </label>
+</div>
+`;
+
+exports[`Storyshots Atoms/Logo Black 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="Crowdfund logo"
+      src="logo-black.svg"
+    />
+  </a>
+</div>
+`;
+
+exports[`Storyshots Atoms/Logo Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="Crowdfund logo"
+      src="logo-white.svg"
+    />
+  </a>
+</div>
+`;
+
+exports[`Storyshots Atoms/Logo White 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="Crowdfund logo"
+      src="logo-white.svg"
+    />
+  </a>
+</div>
+`;
+
+exports[`Storyshots Atoms/MenuLink Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <a
+    aria-current={null}
+    className="sc-pNWdM ckSJig"
+    href="/fancy-url"
+    onClick={[Function]}
+  >
+    Default menu link
+  </a>
+</div>
+`;
+
+exports[`Storyshots Atoms/MenuLink Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <a
+    aria-current={null}
+    className="sc-pNWdM ckSJig"
+    href="/fancy-url"
+    onClick={[Function]}
+  >
+    Menu link
+  </a>
+</div>
+`;
+
+exports[`Storyshots Atoms/Paragraph Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <p
+    className="sc-jrsJWt gNpvYE"
+  >
+    Fusce pellentesque quam semper nulla placerat vehicula. Donec et nibh tortor. Nulla ut felis in neque tempus volutpat ac et justo. Nulla elementum posuere lectus id tincidunt. Phasellus elementum metus arcu, non ultrices odio efficitur ut. Cras tellus quam, vestibulum vel porttitor a, dignissim sit amet dui. Vestibulum varius neque at lacus consequat, nec eleifend orci rhoncus. Praesent viverra non sapien vel blandit. Nulla sollicitudin mauris nisl, id elementum ante blandit in. Praesent interdum elit lorem, ac malesuada purus sollicitudin quis. Nulla condimentum tortor tortor, ac imperdiet tortor faucibus sit amet. Aliquam nibh velit, finibus vel diam sit amet, semper pellentesque libero. Nulla felis nisl, convallis ac molestie eu, pulvinar sit amet libero. Nam nisl arcu, fermentum tristique dui at, tincidunt maximus sem. Phasellus aliquet vestibulum urna eu facilisis. Pellentesque aliquam interdum tortor eu maximus.
+  </p>
+</div>
+`;
+
+exports[`Storyshots Atoms/Paragraph Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <p
+    className="sc-jrsJWt gNpvYE"
+  >
+    This is sample paragraph content
+  </p>
+</div>
+`;
+
+exports[`Storyshots Atoms/ProgressBar Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <progress
+    className="sc-kEqXSa fuVWuZ"
+    max={100}
+    value={50}
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/ProgressBar Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <progress
+    className="sc-kEqXSa fuVWuZ"
+    max={100}
+    value={30}
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Radio Checked 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <input
+    checked={true}
+    className="sc-iqAclL iqwub"
+    disabled={false}
+    readOnly={true}
+    type="radio"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Radio Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <input
+    checked={false}
+    className="sc-iqAclL iqwub"
+    disabled={false}
+    readOnly={true}
+    type="radio"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Radio Disabled 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <input
+    checked={false}
+    className="sc-iqAclL iqwub"
+    disabled={true}
+    readOnly={true}
+    type="radio"
+  />
+  <input
+    checked={true}
+    className="sc-iqAclL iqwub"
+    disabled={true}
+    readOnly={true}
+    type="radio"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Radio Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <input
+    checked={false}
+    className="sc-iqAclL iqwub"
+    disabled={false}
+    readOnly={true}
+    type="radio"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/TextMessage Error 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <label
+    className="sc-crzoAE jFRMoT"
+    type="error"
+  >
+    This is error message
+  </label>
+</div>
+`;
+
+exports[`Storyshots Atoms/TextMessage Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <label
+    className="sc-crzoAE jFRMoT"
+    type="error"
+  >
+    Sample error message
+  </label>
+</div>
+`;
+
+exports[`Storyshots Atoms/TextMessage Success 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <label
+    className="sc-crzoAE epWgW"
+    type="success"
+  >
+    This is success message
+  </label>
+</div>
+`;
+
+exports[`Storyshots Molecules/Card Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <article
+    className="sc-dlnjwi sc-dlMDgC ghTIof eAWumX"
+  >
+    <header
+      className="sc-dIsUp kjuXaM"
+    >
+      <h3
+        className="sc-eCApnc kYLptJ"
+        size="S"
+      >
+        Title of default card
+      </h3>
+    </header>
+    <p
+      className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
+    </p>
+    <footer
+      className="sc-bkbkJK jbXWLL"
+    >
+      <button
+        className="sc-hKFxyN dpeOGK"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Default action
+      </button>
+    </footer>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Molecules/Card Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <article
+    className="sc-dlnjwi sc-dlMDgC ghTIof eAWumX"
+  >
+    <header
+      className="sc-dIsUp kjuXaM"
+    >
+      <h3
+        className="sc-eCApnc kYLptJ"
+        size="S"
+      >
+        Example card title
+      </h3>
+    </header>
+    <p
+      className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
+    </p>
+    <footer
+      className="sc-bkbkJK jbXWLL"
+    >
+      <button
+        className="sc-hKFxyN dpeOGK"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Action button
+      </button>
+    </footer>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Molecules/Card Radio Card 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <article
+    className="sc-dlnjwi sc-dlMDgC ghTIof eAWumX"
+  >
+    <input
+      checked={false}
+      className="sc-iqAclL iqwub"
+      disabled={false}
+      id="radio-card"
+      name="radio-card"
+      onChange={[Function]}
+      type="radio"
+      value="radio-card"
+    />
+    <header
+      className="sc-dIsUp kjuXaM"
+    >
+      <label
+        className="sc-eCApnc sc-bqGGPW lfCIpU bUXfQc"
+        htmlFor="radio-card"
+        size="XS"
+      >
+        Title of Radio Card
+      </label>
+      <p
+        className="sc-jrsJWt sc-ksluID gNpvYE beGNuM"
+      >
+        Pledge 
+        $25
+         or more
+      </p>
+      <div
+        className="sc-hBMUJo bEMkAn"
+      >
+        <strong
+          className="sc-eCApnc lfCIpU"
+          size="XS"
+        >
+          60
+        </strong>
+        <p
+          className="sc-jrsJWt gNpvYE"
+        >
+          left
+        </p>
+      </div>
+    </header>
+    <p
+      className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
+    </p>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Molecules/Card Radio Card Out Of Stock 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <article
+    className="sc-dlnjwi sc-dlMDgC ghTIof gJCNNL"
+  >
+    <input
+      checked={false}
+      className="sc-iqAclL iqwub"
+      disabled={true}
+      id="radio-card"
+      name="radio-card-out-of-stock"
+      onChange={[Function]}
+      type="radio"
+      value="radio-card"
+    />
+    <header
+      className="sc-dIsUp kjuXaM"
+    >
+      <label
+        className="sc-eCApnc sc-bqGGPW lfCIpU bUXfQc"
+        htmlFor="radio-card"
+        size="XS"
+      >
+        Title of Radio Card
+      </label>
+      <p
+        className="sc-jrsJWt sc-ksluID gNpvYE beGNuM"
+      >
+        Pledge 
+        $25
+         or more
+      </p>
+      <div
+        className="sc-hBMUJo bEMkAn"
+      >
+        <strong
+          className="sc-eCApnc lfCIpU"
+          size="XS"
+        >
+          0
+        </strong>
+        <p
+          className="sc-jrsJWt gNpvYE"
+        >
+          left
+        </p>
+      </div>
+    </header>
+    <p
+      className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
+    </p>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <article
+    className="sc-dlnjwi sc-dlMDgC ghTIof eAWumX"
+  >
+    <input
+      checked={true}
+      className="sc-iqAclL iqwub"
+      disabled={false}
+      id="radio-card"
+      name="radio-selected"
+      onChange={[Function]}
+      type="radio"
+      value="radio-card"
+    />
+    <header
+      className="sc-dIsUp kjuXaM"
+    >
+      <label
+        className="sc-eCApnc sc-bqGGPW lfCIpU bUXfQc"
+        htmlFor="radio-card"
+        size="XS"
+      >
+        Title of Radio Card
+      </label>
+      <p
+        className="sc-jrsJWt sc-ksluID gNpvYE beGNuM"
+      >
+        Pledge 
+        $25
+         or more
+      </p>
+      <div
+        className="sc-hBMUJo bEMkAn"
+      >
+        <strong
+          className="sc-eCApnc lfCIpU"
+          size="XS"
+        >
+          10
+        </strong>
+        <p
+          className="sc-jrsJWt gNpvYE"
+        >
+          left
+        </p>
+      </div>
+    </header>
+    <p
+      className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
+    </p>
+    <footer
+      className="sc-bkbkJK eTlLeB"
+    >
+      <form
+        className="sc-iemWCZ jccXPX"
+        onSubmit={[Function]}
+      >
+        <div
+          className="sc-fFSPTT hzXBOi"
+        >
+          <label
+            className="sc-fujyAs sc-fnVZcZ fWueyT jKhmzT"
+            htmlFor="pledge"
+          >
+            Enter your pledge: 
+          </label>
+          <div
+            className="sc-iCoGMd giWxuf"
+          >
+            <input
+              className="sc-jSFjdj cYqVkD"
+              id="pledge"
+              name="pledge"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="number"
+            />
+          </div>
+        </div>
+        <button
+          className="sc-hKFxyN dpeOGK"
+          disabled={false}
+          type="submit"
+        >
+          Continue
+        </button>
+      </form>
+    </footer>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Molecules/Card Reward Card 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <article
+    className="sc-dlnjwi sc-dlMDgC ghTIof eAWumX"
+  >
+    <header
+      className="sc-dIsUp kjuXaM"
+    >
+      <h3
+        className="sc-eCApnc kYLptJ"
+        size="S"
+      >
+        Title of Reward Card
+      </h3>
+      <p
+        className="sc-jrsJWt sc-ksluID gNpvYE cwgYSw"
+      >
+        Pledge 
+        $25
+         or more
+      </p>
+    </header>
+    <p
+      className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
+    </p>
+    <footer
+      className="sc-bkbkJK jbXWLL"
+    >
+      <div
+        className="sc-dIvrsQ hAzeHv"
+      >
+        <strong
+          className="sc-eCApnc upmsQ"
+          size="XL"
+        >
+          60
+        </strong>
+        <p
+          className="sc-jrsJWt gNpvYE"
+        >
+          left
+        </p>
+      </div>
+      <button
+        className="sc-hKFxyN dpeOGK"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Select Reward
+      </button>
+    </footer>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Molecules/Card Reward Card Out Of Stock 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <article
+    className="sc-dlnjwi sc-dlMDgC ghTIof gJCNNL"
+  >
+    <header
+      className="sc-dIsUp kjuXaM"
+    >
+      <h3
+        className="sc-eCApnc kYLptJ"
+        size="S"
+      >
+        Title of Reward Card Out of stock
+      </h3>
+      <p
+        className="sc-jrsJWt sc-ksluID gNpvYE cwgYSw"
+      >
+        Pledge 
+        $200
+         or more
+      </p>
+    </header>
+    <p
+      className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
+    </p>
+    <footer
+      className="sc-bkbkJK jbXWLL"
+    >
+      <div
+        className="sc-dIvrsQ hAzeHv"
+      >
+        <strong
+          className="sc-eCApnc upmsQ"
+          size="XL"
+        >
+          0
+        </strong>
+        <p
+          className="sc-jrsJWt gNpvYE"
+        >
+          left
+        </p>
+      </div>
+      <button
+        className="sc-hKFxyN dpeOGK"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Out of stock
+      </button>
+    </footer>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Molecules/Cardinal Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-kfYoZR iVcYaP"
+  >
+    <h3
+      className="sc-eCApnc sc-fKgJPI upmsQ cDdjSl"
+      size="XL"
+    >
+      56
+    </h3>
+    <p
+      className="sc-jrsJWt sc-bCwfaz gNpvYE YqDmz"
+    >
+      days left
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Cardinal Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-kfYoZR iVcYaP"
+  >
+    <h3
+      className="sc-eCApnc sc-fKgJPI upmsQ cDdjSl"
+      size="XL"
+    >
+      5,007
+    </h3>
+    <p
+      className="sc-jrsJWt sc-bCwfaz gNpvYE YqDmz"
+    >
+      total backers
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Cardinal Price Format 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-kfYoZR iVcYaP"
+  >
+    <h3
+      className="sc-eCApnc sc-fKgJPI upmsQ cDdjSl"
+      size="XL"
+    >
+      $78,000
+    </h3>
+    <p
+      className="sc-jrsJWt sc-bCwfaz gNpvYE YqDmz"
+    >
+      of $100,000 backed
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/InputField Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-fFSPTT euxPzY"
+  >
+    <label
+      className="sc-fujyAs sc-fnVZcZ fWueyT jKhmzT"
+      htmlFor="default-input"
+    >
+      Default input: 
+    </label>
+    <div
+      className="sc-iCoGMd dWAWbQ"
+    >
+      <input
+        className="sc-jSFjdj cYqVkD"
+        id="default-input"
+        name="default-input"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/InputField Error 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-fFSPTT euxPzY"
+  >
+    <label
+      className="sc-fujyAs sc-fnVZcZ fWueyT jKhmzT"
+      htmlFor="error-input"
+    >
+      Error input: 
+    </label>
+    <div
+      className="sc-iCoGMd dWAWbQ"
+    >
+      <input
+        className="sc-jSFjdj cYqVkD"
+        id="error-input"
+        name="error-input"
+      />
+    </div>
+    <label
+      className="sc-crzoAE jFRMoT"
+      type="error"
+    >
+      Sample error message
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/InputField Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-fFSPTT euxPzY"
+  >
+    <label
+      className="sc-fujyAs sc-fnVZcZ fWueyT jKhmzT"
+      htmlFor="playground-input"
+    >
+      Example label: 
+    </label>
+    <div
+      className="sc-iCoGMd dWAWbQ"
+    >
+      <input
+        className="sc-jSFjdj cYqVkD"
+        id="playground-input"
+        name="playground-input"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/InputField Single Column 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-fFSPTT hzXBOi"
+  >
+    <label
+      className="sc-fujyAs sc-fnVZcZ fWueyT jKhmzT"
+      htmlFor="single-column-input"
+    >
+      Single column input: 
+    </label>
+    <div
+      className="sc-iCoGMd dWAWbQ"
+    >
+      <input
+        className="sc-jSFjdj cYqVkD"
+        id="single-column-input"
+        name="single-column-input"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/InputField Single Column Error 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-fFSPTT hzXBOi"
+  >
+    <label
+      className="sc-fujyAs sc-fnVZcZ fWueyT jKhmzT"
+      htmlFor="single-column-input"
+    >
+      Single column input: 
+    </label>
+    <div
+      className="sc-iCoGMd dWAWbQ"
+    >
+      <input
+        className="sc-jSFjdj cYqVkD"
+        id="single-column-input"
+        name="single-column-input"
+      />
+    </div>
+    <label
+      className="sc-crzoAE jFRMoT"
+      type="error"
+    >
+      Sample error message
+    </label>
+  </div>
+</div>
+`;
