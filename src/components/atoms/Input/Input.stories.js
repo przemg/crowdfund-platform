@@ -17,6 +17,6 @@ Playground.args = {
 
 export const Default = () => <Input />;
 
-export const Price = () => <Input priceLeadingIcon />;
+export const Price = () => <Input priceLeadingIcon type="number" />;
 
 export const Password = () => <Input passwordShowAction />;
