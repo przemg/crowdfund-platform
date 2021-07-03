@@ -1195,7 +1195,7 @@ exports[`Storyshots Molecules/InputField Error 1`] = `
       className="sc-iCoGMd dWAWbQ"
     >
       <input
-        className="sc-jSFjdj cYqVkD"
+        className="sc-jSFjdj hrHhSL"
         id="error-input"
         name="error-input"
       />
@@ -1288,7 +1288,7 @@ exports[`Storyshots Molecules/InputField Single Column Error 1`] = `
       className="sc-iCoGMd dWAWbQ"
     >
       <input
-        className="sc-jSFjdj cYqVkD"
+        className="sc-jSFjdj hrHhSL"
         id="single-column-input"
         name="single-column-input"
       />

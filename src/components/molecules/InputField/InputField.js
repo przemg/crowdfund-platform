@@ -32,7 +32,7 @@ const StyledWrapper = styled.div`
 const InputField = ({ singleColumn, id, name, label, error, ...props }) => (
   <StyledWrapper singleColumn={singleColumn}>
     <StyledLabel htmlFor={id}>{`${label}: `}</StyledLabel>
-    <Input id={id} name={name} {...props} />
+    <Input error={error.length > 0} id={id} name={name} {...props} />
     {error ? <TextMessage type="error">{error}</TextMessage> : null}
   </StyledWrapper>
 );

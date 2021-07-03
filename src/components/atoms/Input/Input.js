@@ -9,7 +9,7 @@ const StyledInput = styled.input`
   height: 44px;
   padding: 0 20px;
   border-radius: 24px;
-  border: 2px solid ${({ theme }) => theme.color.gray300};
+  border: 2px solid ${({ theme, error }) => theme.color[error ? 'red100' : 'gray300']};
   outline: none;
 
   &:focus {
@@ -68,7 +68,7 @@ const StyledWrapper = styled.div`
     `};
 `;
 
-const Input = ({ priceLeadingIcon, passwordShowAction, ...props }) => {
+const Input = ({ priceLeadingIcon, passwordShowAction, error, ...props }) => {
   const passedOnlyPasswordShowButtonProps = !priceLeadingIcon && passwordShowAction;
   const [isPasswordShown, setIsPasswordShown] = React.useState(false);
 
@@ -81,13 +81,13 @@ const Input = ({ priceLeadingIcon, passwordShowAction, ...props }) => {
     >
       {passedOnlyPasswordShowButtonProps ? (
         <>
-          <StyledInput {...props} type={isPasswordShown ? 'text' : 'password'} />
+          <StyledInput error={error} {...props} type={isPasswordShown ? 'text' : 'password'} />
           <StyledButton active={isPasswordShown} onClick={handleClick} type="button">
             {isPasswordShown ? 'Hide' : 'Show'}
           </StyledButton>
         </>
       ) : (
-        <StyledInput {...props} />
+        <StyledInput error={error} {...props} />
       )}
     </StyledWrapper>
   );
@@ -96,11 +96,13 @@ const Input = ({ priceLeadingIcon, passwordShowAction, ...props }) => {
 Input.propTypes = {
   priceLeadingIcon: PropTypes.bool,
   passwordShowAction: PropTypes.bool,
+  error: PropTypes.bool,
 };
 
 Input.defaultProps = {
   priceLeadingIcon: false,
   passwordShowAction: false,
+  error: false,
 };
 
 export default Input;

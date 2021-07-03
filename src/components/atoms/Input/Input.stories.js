@@ -13,6 +13,7 @@ export const Playground = Template.bind({});
 Playground.args = {
   priceLeadingIcon: false,
   passwordShowAction: false,
+  error: false,
 };
 
 export const Default = () => <Input />;
@@ -20,3 +21,5 @@ export const Default = () => <Input />;
 export const Price = () => <Input priceLeadingIcon type="number" />;
 
 export const Password = () => <Input passwordShowAction />;
+
+export const Error = () => <Input error />;
