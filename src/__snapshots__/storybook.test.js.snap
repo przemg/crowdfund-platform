@@ -251,7 +251,7 @@ exports[`Storyshots Atoms/Input Custom Width 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <div
-    className="sc-iCoGMd dWAWbQ"
+    className="sc-iCoGMd fsusVO"
   >
     <input
       className="sc-jSFjdj hyfHIU"
@@ -268,7 +268,7 @@ exports[`Storyshots Atoms/Input Default 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <div
-    className="sc-iCoGMd dWAWbQ"
+    className="sc-iCoGMd fsusVO"
   >
     <input
       className="sc-jSFjdj fJCzXq"
@@ -285,7 +285,7 @@ exports[`Storyshots Atoms/Input Error 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <div
-    className="sc-iCoGMd dWAWbQ"
+    className="sc-iCoGMd fsusVO"
   >
     <input
       className="sc-jSFjdj dYtENy"
@@ -302,14 +302,14 @@ exports[`Storyshots Atoms/Input Password 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <div
-    className="sc-iCoGMd iIlTrz"
+    className="sc-iCoGMd gGschl"
   >
     <input
       className="sc-jSFjdj fJCzXq"
       type="password"
     />
     <button
-      className="sc-gKAaRy iTrtHX"
+      className="sc-gKAaRy FQBZU"
       onClick={[Function]}
       type="button"
     >
@@ -327,7 +327,7 @@ exports[`Storyshots Atoms/Input Playground 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <div
-    className="sc-iCoGMd dWAWbQ"
+    className="sc-iCoGMd fsusVO"
   >
     <input
       className="sc-jSFjdj fJCzXq"
@@ -344,7 +344,7 @@ exports[`Storyshots Atoms/Input Price 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <div
-    className="sc-iCoGMd giWxuf"
+    className="sc-iCoGMd AqkNJ"
   >
     <input
       className="sc-jSFjdj fJCzXq"
@@ -939,10 +939,11 @@ exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
             Enter your pledge: 
           </label>
           <div
-            className="sc-iCoGMd giWxuf"
+            className="sc-iCoGMd AqkNJ"
           >
             <input
-              className="sc-jSFjdj fJCzXq"
+              className="sc-jSFjdj lfTYEO"
+              defaultValue={25}
               id="pledge"
               name="pledge"
               onBlur={[Function]}
@@ -1180,12 +1181,11 @@ exports[`Storyshots Molecules/InputField Default 1`] = `
       Default input: 
     </label>
     <div
-      className="sc-iCoGMd dWAWbQ"
+      className="sc-iCoGMd fsusVO"
     >
       <input
         className="sc-jSFjdj fJCzXq"
         id="default-input"
-        name="default-input"
       />
     </div>
   </div>
@@ -1209,12 +1209,11 @@ exports[`Storyshots Molecules/InputField Error 1`] = `
       Error input: 
     </label>
     <div
-      className="sc-iCoGMd dWAWbQ"
+      className="sc-iCoGMd fsusVO"
     >
       <input
         className="sc-jSFjdj dYtENy"
         id="error-input"
-        name="error-input"
       />
     </div>
     <label
@@ -1244,12 +1243,11 @@ exports[`Storyshots Molecules/InputField Playground 1`] = `
       Example label: 
     </label>
     <div
-      className="sc-iCoGMd dWAWbQ"
+      className="sc-iCoGMd fsusVO"
     >
       <input
         className="sc-jSFjdj fJCzXq"
         id="playground-input"
-        name="playground-input"
       />
     </div>
   </div>
@@ -1273,12 +1271,11 @@ exports[`Storyshots Molecules/InputField Single Column 1`] = `
       Single column input: 
     </label>
     <div
-      className="sc-iCoGMd dWAWbQ"
+      className="sc-iCoGMd fsusVO"
     >
       <input
         className="sc-jSFjdj fJCzXq"
         id="single-column-input"
-        name="single-column-input"
       />
     </div>
   </div>
@@ -1302,12 +1299,11 @@ exports[`Storyshots Molecules/InputField Single Column Error 1`] = `
       Single column input: 
     </label>
     <div
-      className="sc-iCoGMd dWAWbQ"
+      className="sc-iCoGMd fsusVO"
     >
       <input
         className="sc-jSFjdj dYtENy"
         id="single-column-input"
-        name="single-column-input"
       />
     </div>
     <label

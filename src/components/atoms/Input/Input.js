@@ -64,35 +64,38 @@ const StyledWrapper = styled.div`
     `};
 `;
 
-const Input = ({ priceLeadingIcon, passwordShowAction, error, inputWidth, ...props }) => {
-  const passedOnlyPasswordShowButtonProps = !priceLeadingIcon && passwordShowAction;
-  const [isPasswordShown, setIsPasswordShown] = React.useState(false);
+const Input = React.forwardRef(
+  ({ priceLeadingIcon, passwordShowAction, error, inputWidth, ...props }, ref) => {
+    const passedOnlyPasswordShowButtonProps = !priceLeadingIcon && passwordShowAction;
+    const [isPasswordShown, setIsPasswordShown] = React.useState(false);
 
-  const handleClick = () => setIsPasswordShown(!isPasswordShown);
+    const handleClick = () => setIsPasswordShown(!isPasswordShown);
 
-  return (
-    <StyledWrapper
-      priceLeadingIcon={priceLeadingIcon}
-      passwordShowAction={passedOnlyPasswordShowButtonProps}
-    >
-      {passedOnlyPasswordShowButtonProps ? (
-        <>
-          <StyledInput
-            error={error}
-            inputWidth={inputWidth}
-            {...props}
-            type={isPasswordShown ? 'text' : 'password'}
-          />
-          <StyledButton active={isPasswordShown} onClick={handleClick} type="button">
-            {isPasswordShown ? 'Hide' : 'Show'}
-          </StyledButton>
-        </>
-      ) : (
-        <StyledInput error={error} inputWidth={inputWidth} {...props} />
-      )}
-    </StyledWrapper>
-  );
-};
+    return (
+      <StyledWrapper
+        priceLeadingIcon={priceLeadingIcon}
+        passwordShowAction={passedOnlyPasswordShowButtonProps}
+      >
+        {passedOnlyPasswordShowButtonProps ? (
+          <>
+            <StyledInput
+              error={error}
+              inputWidth={inputWidth}
+              ref={ref}
+              {...props}
+              type={isPasswordShown ? 'text' : 'password'}
+            />
+            <StyledButton active={isPasswordShown} onClick={handleClick} type="button">
+              {isPasswordShown ? 'Hide' : 'Show'}
+            </StyledButton>
+          </>
+        ) : (
+          <StyledInput error={error} inputWidth={inputWidth} ref={ref} {...props} />
+        )}
+      </StyledWrapper>
+    );
+  },
+);
 
 Input.propTypes = {
   priceLeadingIcon: PropTypes.bool,

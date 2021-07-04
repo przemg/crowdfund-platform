@@ -12,39 +12,25 @@ export const Playground = Template.bind({});
 
 Playground.args = {
   id: 'playground-input',
-  name: 'playground-input',
   label: 'Example label',
   error: '',
   singleColumn: false,
 };
 
-export const Default = () => (
-  <InputField id="default-input" name="default-input" label="Default input" />
-);
+export const Default = () => <InputField id="default-input" label="Default input" />;
 
 export const Error = () => (
-  <InputField
-    id="error-input"
-    name="error-input"
-    label="Error input"
-    error="Sample error message"
-  />
+  <InputField id="error-input" label="Error input" error="Sample error message" />
 );
 
 export const SingleColumn = () => (
-  <InputField
-    singleColumn
-    id="single-column-input"
-    name="single-column-input"
-    label="Single column input"
-  />
+  <InputField singleColumn id="single-column-input" label="Single column input" />
 );
 
 export const SingleColumnError = () => (
   <InputField
     singleColumn
     id="single-column-input"
-    name="single-column-input"
     label="Single column input"
     error="Sample error message"
   />
