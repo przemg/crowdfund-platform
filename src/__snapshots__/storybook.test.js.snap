@@ -243,6 +243,23 @@ exports[`Storyshots Atoms/Heading Sizes 1`] = `
 </div>
 `;
 
+exports[`Storyshots Atoms/Input Custom Width 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iCoGMd dWAWbQ"
+  >
+    <input
+      className="sc-jSFjdj hyfHIU"
+    />
+  </div>
+</div>
+`;
+
 exports[`Storyshots Atoms/Input Default 1`] = `
 <div
   className="sc-gtsrHT csNdWE"
@@ -254,7 +271,7 @@ exports[`Storyshots Atoms/Input Default 1`] = `
     className="sc-iCoGMd dWAWbQ"
   >
     <input
-      className="sc-jSFjdj cYqVkD"
+      className="sc-jSFjdj fJCzXq"
     />
   </div>
 </div>
@@ -271,7 +288,7 @@ exports[`Storyshots Atoms/Input Error 1`] = `
     className="sc-iCoGMd dWAWbQ"
   >
     <input
-      className="sc-jSFjdj hrHhSL"
+      className="sc-jSFjdj dYtENy"
     />
   </div>
 </div>
@@ -288,7 +305,7 @@ exports[`Storyshots Atoms/Input Password 1`] = `
     className="sc-iCoGMd iIlTrz"
   >
     <input
-      className="sc-jSFjdj cYqVkD"
+      className="sc-jSFjdj fJCzXq"
       type="password"
     />
     <button
@@ -313,7 +330,7 @@ exports[`Storyshots Atoms/Input Playground 1`] = `
     className="sc-iCoGMd dWAWbQ"
   >
     <input
-      className="sc-jSFjdj cYqVkD"
+      className="sc-jSFjdj fJCzXq"
     />
   </div>
 </div>
@@ -330,7 +347,7 @@ exports[`Storyshots Atoms/Input Price 1`] = `
     className="sc-iCoGMd giWxuf"
   >
     <input
-      className="sc-jSFjdj cYqVkD"
+      className="sc-jSFjdj fJCzXq"
       type="number"
     />
   </div>
@@ -925,7 +942,7 @@ exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
             className="sc-iCoGMd giWxuf"
           >
             <input
-              className="sc-jSFjdj cYqVkD"
+              className="sc-jSFjdj fJCzXq"
               id="pledge"
               name="pledge"
               onBlur={[Function]}
@@ -1166,7 +1183,7 @@ exports[`Storyshots Molecules/InputField Default 1`] = `
       className="sc-iCoGMd dWAWbQ"
     >
       <input
-        className="sc-jSFjdj cYqVkD"
+        className="sc-jSFjdj fJCzXq"
         id="default-input"
         name="default-input"
       />
@@ -1195,7 +1212,7 @@ exports[`Storyshots Molecules/InputField Error 1`] = `
       className="sc-iCoGMd dWAWbQ"
     >
       <input
-        className="sc-jSFjdj hrHhSL"
+        className="sc-jSFjdj dYtENy"
         id="error-input"
         name="error-input"
       />
@@ -1230,7 +1247,7 @@ exports[`Storyshots Molecules/InputField Playground 1`] = `
       className="sc-iCoGMd dWAWbQ"
     >
       <input
-        className="sc-jSFjdj cYqVkD"
+        className="sc-jSFjdj fJCzXq"
         id="playground-input"
         name="playground-input"
       />
@@ -1259,7 +1276,7 @@ exports[`Storyshots Molecules/InputField Single Column 1`] = `
       className="sc-iCoGMd dWAWbQ"
     >
       <input
-        className="sc-jSFjdj cYqVkD"
+        className="sc-jSFjdj fJCzXq"
         id="single-column-input"
         name="single-column-input"
       />
@@ -1288,7 +1305,7 @@ exports[`Storyshots Molecules/InputField Single Column Error 1`] = `
       className="sc-iCoGMd dWAWbQ"
     >
       <input
-        className="sc-jSFjdj hrHhSL"
+        className="sc-jSFjdj dYtENy"
         id="single-column-input"
         name="single-column-input"
       />
