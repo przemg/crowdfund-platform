@@ -32,7 +32,7 @@ const StyledWrapper = styled.div`
 const InputField = React.forwardRef(({ singleColumn, id, label, error, ...props }, ref) => (
   <StyledWrapper singleColumn={singleColumn}>
     <StyledLabel htmlFor={id}>{`${label}: `}</StyledLabel>
-    <Input id={id} ref={ref} error={error.length > 0} {...props} />
+    <Input id={id} ref={ref} error={!!error} {...props} />
     {error ? <TextMessage type="error">{error}</TextMessage> : null}
   </StyledWrapper>
 ));

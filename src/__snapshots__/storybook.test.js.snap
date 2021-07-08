@@ -620,7 +620,7 @@ exports[`Storyshots Atoms/TextMessage Error 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <label
-    className="sc-crzoAE jFRMoT"
+    className="sc-crzoAE eIFlbX"
     type="error"
   >
     This is error message
@@ -636,7 +636,7 @@ exports[`Storyshots Atoms/TextMessage Playground 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <label
-    className="sc-crzoAE jFRMoT"
+    className="sc-crzoAE eIFlbX"
     type="error"
   >
     Sample error message
@@ -652,7 +652,7 @@ exports[`Storyshots Atoms/TextMessage Success 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <label
-    className="sc-crzoAE epWgW"
+    className="sc-crzoAE eBhXqi"
     type="success"
   >
     This is success message
@@ -668,10 +668,10 @@ exports[`Storyshots Molecules/Card Default 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <article
-    className="sc-dlnjwi sc-dlMDgC ghTIof eAWumX"
+    className="sc-dlMDgC kXmjgp"
   >
     <header
-      className="sc-dIsUp kjuXaM"
+      className="sc-fFSPTT hlozJR"
     >
       <h3
         className="sc-eCApnc kYLptJ"
@@ -686,7 +686,7 @@ exports[`Storyshots Molecules/Card Default 1`] = `
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
     </p>
     <footer
-      className="sc-bkbkJK jbXWLL"
+      className="sc-ksluID bdwKIX"
     >
       <button
         className="sc-hKFxyN dpeOGK"
@@ -708,10 +708,10 @@ exports[`Storyshots Molecules/Card Playground 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <article
-    className="sc-dlnjwi sc-dlMDgC ghTIof eAWumX"
+    className="sc-dlMDgC kXmjgp"
   >
     <header
-      className="sc-dIsUp kjuXaM"
+      className="sc-fFSPTT hlozJR"
     >
       <h3
         className="sc-eCApnc kYLptJ"
@@ -726,7 +726,7 @@ exports[`Storyshots Molecules/Card Playground 1`] = `
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
     </p>
     <footer
-      className="sc-bkbkJK jbXWLL"
+      className="sc-ksluID bdwKIX"
     >
       <button
         className="sc-hKFxyN dpeOGK"
@@ -748,7 +748,7 @@ exports[`Storyshots Molecules/Card Radio Card 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <article
-    className="sc-dlnjwi sc-dlMDgC ghTIof eAWumX"
+    className="sc-dlMDgC dDlFWq"
   >
     <input
       checked={false}
@@ -761,24 +761,24 @@ exports[`Storyshots Molecules/Card Radio Card 1`] = `
       value="radio-card"
     />
     <header
-      className="sc-dIsUp kjuXaM"
+      className="sc-fFSPTT hlozJR"
     >
       <label
-        className="sc-eCApnc sc-bqGGPW lfCIpU bUXfQc"
+        className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
         htmlFor="radio-card"
         size="XS"
       >
         Title of Radio Card
       </label>
       <p
-        className="sc-jrsJWt sc-ksluID gNpvYE beGNuM"
+        className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
       >
         Pledge 
         $25
          or more
       </p>
       <div
-        className="sc-hBMUJo bEMkAn"
+        className="sc-dIvrsQ fzJffv"
       >
         <strong
           className="sc-eCApnc lfCIpU"
@@ -810,7 +810,7 @@ exports[`Storyshots Molecules/Card Radio Card Out Of Stock 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <article
-    className="sc-dlnjwi sc-dlMDgC ghTIof gJCNNL"
+    className="sc-dlMDgC btLGmW"
   >
     <input
       checked={false}
@@ -823,24 +823,24 @@ exports[`Storyshots Molecules/Card Radio Card Out Of Stock 1`] = `
       value="radio-card"
     />
     <header
-      className="sc-dIsUp kjuXaM"
+      className="sc-fFSPTT hlozJR"
     >
       <label
-        className="sc-eCApnc sc-bqGGPW lfCIpU bUXfQc"
+        className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
         htmlFor="radio-card"
         size="XS"
       >
         Title of Radio Card
       </label>
       <p
-        className="sc-jrsJWt sc-ksluID gNpvYE beGNuM"
+        className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
       >
         Pledge 
         $25
          or more
       </p>
       <div
-        className="sc-hBMUJo bEMkAn"
+        className="sc-dIvrsQ fzJffv"
       >
         <strong
           className="sc-eCApnc lfCIpU"
@@ -872,7 +872,7 @@ exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <article
-    className="sc-dlnjwi sc-dlMDgC ghTIof eAWumX"
+    className="sc-dlMDgC imXuYJ"
   >
     <input
       checked={true}
@@ -885,24 +885,24 @@ exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
       value="radio-card"
     />
     <header
-      className="sc-dIsUp kjuXaM"
+      className="sc-fFSPTT hlozJR"
     >
       <label
-        className="sc-eCApnc sc-bqGGPW lfCIpU bUXfQc"
+        className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
         htmlFor="radio-card"
         size="XS"
       >
         Title of Radio Card
       </label>
       <p
-        className="sc-jrsJWt sc-ksluID gNpvYE beGNuM"
+        className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
       >
         Pledge 
         $25
          or more
       </p>
       <div
-        className="sc-hBMUJo bEMkAn"
+        className="sc-dIvrsQ fzJffv"
       >
         <strong
           className="sc-eCApnc lfCIpU"
@@ -923,17 +923,17 @@ exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
     </p>
     <footer
-      className="sc-bkbkJK eTlLeB"
+      className="sc-ksluID Himgq"
     >
       <form
-        className="sc-iemWCZ jccXPX"
+        className="sc-hBMUJo fvqpjJ"
         onSubmit={[Function]}
       >
         <div
-          className="sc-fFSPTT hzXBOi"
+          className="sc-bqGGPW xQfzz"
         >
           <label
-            className="sc-fujyAs sc-fnVZcZ fWueyT jKhmzT"
+            className="sc-fujyAs sc-dIsUp fWueyT esVFPJ"
             htmlFor="pledge"
           >
             Enter your pledge: 
@@ -973,10 +973,10 @@ exports[`Storyshots Molecules/Card Reward Card 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <article
-    className="sc-dlnjwi sc-dlMDgC ghTIof eAWumX"
+    className="sc-dlMDgC kXmjgp"
   >
     <header
-      className="sc-dIsUp kjuXaM"
+      className="sc-fFSPTT hlozJR"
     >
       <h3
         className="sc-eCApnc kYLptJ"
@@ -985,7 +985,7 @@ exports[`Storyshots Molecules/Card Reward Card 1`] = `
         Title of Reward Card
       </h3>
       <p
-        className="sc-jrsJWt sc-ksluID gNpvYE cwgYSw"
+        className="sc-jrsJWt sc-iemWCZ gNpvYE bIxSqf"
       >
         Pledge 
         $25
@@ -998,10 +998,10 @@ exports[`Storyshots Molecules/Card Reward Card 1`] = `
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
     </p>
     <footer
-      className="sc-bkbkJK jbXWLL"
+      className="sc-ksluID bdwKIX"
     >
       <div
-        className="sc-dIvrsQ hAzeHv"
+        className="sc-fnVZcZ ipDbdt"
       >
         <strong
           className="sc-eCApnc upmsQ"
@@ -1035,10 +1035,10 @@ exports[`Storyshots Molecules/Card Reward Card Out Of Stock 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <article
-    className="sc-dlnjwi sc-dlMDgC ghTIof gJCNNL"
+    className="sc-dlMDgC hSkBgp"
   >
     <header
-      className="sc-dIsUp kjuXaM"
+      className="sc-fFSPTT hlozJR"
     >
       <h3
         className="sc-eCApnc kYLptJ"
@@ -1047,7 +1047,7 @@ exports[`Storyshots Molecules/Card Reward Card Out Of Stock 1`] = `
         Title of Reward Card Out of stock
       </h3>
       <p
-        className="sc-jrsJWt sc-ksluID gNpvYE cwgYSw"
+        className="sc-jrsJWt sc-iemWCZ gNpvYE bIxSqf"
       >
         Pledge 
         $200
@@ -1060,10 +1060,10 @@ exports[`Storyshots Molecules/Card Reward Card Out Of Stock 1`] = `
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
     </p>
     <footer
-      className="sc-bkbkJK jbXWLL"
+      className="sc-ksluID bdwKIX"
     >
       <div
-        className="sc-dIvrsQ hAzeHv"
+        className="sc-fnVZcZ ipDbdt"
       >
         <strong
           className="sc-eCApnc upmsQ"
@@ -1172,10 +1172,10 @@ exports[`Storyshots Molecules/InputField Default 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <div
-    className="sc-fFSPTT euxPzY"
+    className="sc-bqGGPW fhRgKX"
   >
     <label
-      className="sc-fujyAs sc-fnVZcZ fWueyT jKhmzT"
+      className="sc-fujyAs sc-dIsUp fWueyT esVFPJ"
       htmlFor="default-input"
     >
       Default input: 
@@ -1200,10 +1200,10 @@ exports[`Storyshots Molecules/InputField Error 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <div
-    className="sc-fFSPTT euxPzY"
+    className="sc-bqGGPW fhRgKX"
   >
     <label
-      className="sc-fujyAs sc-fnVZcZ fWueyT jKhmzT"
+      className="sc-fujyAs sc-dIsUp fWueyT esVFPJ"
       htmlFor="error-input"
     >
       Error input: 
@@ -1217,7 +1217,7 @@ exports[`Storyshots Molecules/InputField Error 1`] = `
       />
     </div>
     <label
-      className="sc-crzoAE jFRMoT"
+      className="sc-crzoAE eIFlbX"
       type="error"
     >
       Sample error message
@@ -1234,10 +1234,10 @@ exports[`Storyshots Molecules/InputField Playground 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <div
-    className="sc-fFSPTT euxPzY"
+    className="sc-bqGGPW fhRgKX"
   >
     <label
-      className="sc-fujyAs sc-fnVZcZ fWueyT jKhmzT"
+      className="sc-fujyAs sc-dIsUp fWueyT esVFPJ"
       htmlFor="playground-input"
     >
       Example label: 
@@ -1262,10 +1262,10 @@ exports[`Storyshots Molecules/InputField Single Column 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <div
-    className="sc-fFSPTT hzXBOi"
+    className="sc-bqGGPW xQfzz"
   >
     <label
-      className="sc-fujyAs sc-fnVZcZ fWueyT jKhmzT"
+      className="sc-fujyAs sc-dIsUp fWueyT esVFPJ"
       htmlFor="single-column-input"
     >
       Single column input: 
@@ -1290,10 +1290,10 @@ exports[`Storyshots Molecules/InputField Single Column Error 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <div
-    className="sc-fFSPTT hzXBOi"
+    className="sc-bqGGPW xQfzz"
   >
     <label
-      className="sc-fujyAs sc-fnVZcZ fWueyT jKhmzT"
+      className="sc-fujyAs sc-dIsUp fWueyT esVFPJ"
       htmlFor="single-column-input"
     >
       Single column input: 
@@ -1307,7 +1307,7 @@ exports[`Storyshots Molecules/InputField Single Column Error 1`] = `
       />
     </div>
     <label
-      className="sc-crzoAE jFRMoT"
+      className="sc-crzoAE eIFlbX"
       type="error"
     >
       Sample error message
