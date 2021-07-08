@@ -11,7 +11,7 @@ export default {
   },
 };
 
-const Template = (args) => <MenuLink activeClassName="active" {...args} />;
+const Template = (args) => <MenuLink {...args} />;
 
 export const Playground = Template.bind({});
 
@@ -20,8 +20,4 @@ Playground.args = {
   to: '/fancy-url',
 };
 
-export const Default = () => (
-  <MenuLink to="/fancy-url" activeClassName="active">
-    Default menu link
-  </MenuLink>
-);
+export const Default = () => <MenuLink to="/fancy-url">Default menu link</MenuLink>;

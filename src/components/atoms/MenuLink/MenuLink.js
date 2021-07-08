@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
-const MenuLink = styled(NavLink)`
+const MenuLink = styled(NavLink).attrs(() => ({ activeClassName: 'active' }))`
   position: relative;
   font-size: ${({ theme }) => theme.font.bodyTextS};
   font-weight: ${({ theme }) => theme.font.regular};
