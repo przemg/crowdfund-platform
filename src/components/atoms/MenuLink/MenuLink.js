@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 const MenuLink = styled(NavLink).attrs(() => ({ activeClassName: 'active' }))`
   position: relative;
   font-size: ${({ theme }) => theme.font.bodyTextS};
   font-weight: ${({ theme }) => theme.font.regular};
-  color: ${({ theme }) => theme.color.white};
+  color: ${({ theme, $color }) => theme.color[$color]};
   padding: 12px 16px;
   text-decoration: none;
 
@@ -16,7 +17,7 @@ const MenuLink = styled(NavLink).attrs(() => ({ activeClassName: 'active' }))`
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: ${({ theme }) => theme.color.white};
+    background-color: ${({ theme, $color }) => theme.color[$color]};
     transform-origin: left;
     transition: transform 0.3s ease-in;
     border-radius: 2px;
@@ -31,5 +32,9 @@ const MenuLink = styled(NavLink).attrs(() => ({ activeClassName: 'active' }))`
     transform: scaleX(1);
   }
 `;
+
+MenuLink.propTypes = {
+  $color: PropTypes.oneOf(['white', 'black']).isRequired,
+};
 
 export default MenuLink;

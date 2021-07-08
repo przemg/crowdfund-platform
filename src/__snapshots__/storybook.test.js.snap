@@ -441,20 +441,20 @@ exports[`Storyshots Atoms/Logo White 1`] = `
 </div>
 `;
 
-exports[`Storyshots Atoms/MenuLink Default 1`] = `
+exports[`Storyshots Atoms/MenuLink Black 1`] = `
 <div
   className="sc-gtsrHT csNdWE"
 >
   <div
-    className="sc-bdnxRM zrODe"
+    className="sc-bdnxRM liXHHL"
   />
   <a
     aria-current={null}
-    className="sc-pNWdM ckSJig"
+    className="sc-pNWdM gGWouM"
     href="/fancy-url"
     onClick={[Function]}
   >
-    Default menu link
+    Black menu link
   </a>
 </div>
 `;
@@ -473,6 +473,24 @@ exports[`Storyshots Atoms/MenuLink Playground 1`] = `
     onClick={[Function]}
   >
     Menu link
+  </a>
+</div>
+`;
+
+exports[`Storyshots Atoms/MenuLink White 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <a
+    aria-current={null}
+    className="sc-pNWdM ckSJig"
+    href="/fancy-url"
+    onClick={[Function]}
+  >
+    White menu link
   </a>
 </div>
 `;
@@ -1313,5 +1331,238 @@ exports[`Storyshots Molecules/InputField Single Column Error 1`] = `
       Sample error message
     </label>
   </div>
+</div>
+`;
+
+exports[`Storyshots Organisms/NavBar Black 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <header
+    className="sc-iwajpm fbLaXm"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Crowdfund logo"
+        src="logo-black.svg"
+      />
+    </a>
+    <nav>
+      <ul
+        className="sc-cxNHIi iabRcx"
+      >
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM gGWouM"
+            href="/about"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM gGWouM"
+            href="/discover"
+            onClick={[Function]}
+          >
+            Discover
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM gGWouM"
+            href="/get-started"
+            onClick={[Function]}
+          >
+            Get Started
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Organisms/NavBar Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <header
+    className="sc-iwajpm fbLaXm"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Crowdfund logo"
+        src="logo-white.svg"
+      />
+    </a>
+    <nav>
+      <ul
+        className="sc-cxNHIi iabRcx"
+      >
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM ckSJig"
+            href="/about"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM ckSJig"
+            href="/discover"
+            onClick={[Function]}
+          >
+            Discover
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM ckSJig"
+            href="/get-started"
+            onClick={[Function]}
+          >
+            Get Started
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Organisms/NavBar White 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <header
+    className="sc-iwajpm fbLaXm"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Crowdfund logo"
+        src="logo-white.svg"
+      />
+    </a>
+    <nav>
+      <ul
+        className="sc-cxNHIi iabRcx"
+      >
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM ckSJig"
+            href="/about"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM ckSJig"
+            href="/discover"
+            onClick={[Function]}
+          >
+            Discover
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM ckSJig"
+            href="/get-started"
+            onClick={[Function]}
+          >
+            Get Started
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Organisms/NavBar Without Nav Items Black 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <header
+    className="sc-iwajpm gYjWYG"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Crowdfund logo"
+        src="logo-black.svg"
+      />
+    </a>
+    <nav>
+      <ul
+        className="sc-cxNHIi iabRcx"
+      />
+    </nav>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Organisms/NavBar Without Nav Items White 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <header
+    className="sc-iwajpm gYjWYG"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Crowdfund logo"
+        src="logo-white.svg"
+      />
+    </a>
+    <nav>
+      <ul
+        className="sc-cxNHIi iabRcx"
+      />
+    </nav>
+  </header>
 </div>
 `;
