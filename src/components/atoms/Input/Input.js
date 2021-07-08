@@ -101,14 +101,14 @@ Input.propTypes = {
   priceLeadingIcon: PropTypes.bool,
   passwordShowAction: PropTypes.bool,
   error: PropTypes.bool,
-  inputWidth: PropTypes.string,
+  inputWidth: PropTypes.number,
 };
 
 Input.defaultProps = {
   priceLeadingIcon: false,
   passwordShowAction: false,
   error: false,
-  inputWidth: '',
+  inputWidth: null,
 };
 
 export default Input;

@@ -25,4 +25,4 @@ export const Password = () => <Input passwordShowAction />;
 
 export const Error = () => <Input error />;
 
-export const CustomWidth = () => <Input inputWidth="500" />;
+export const CustomWidth = () => <Input inputWidth={500} />;

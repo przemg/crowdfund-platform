@@ -17,7 +17,7 @@ const StyledWrapper = styled.div`
   ${({ singleColumn }) =>
     singleColumn &&
     css`
-      grid-template-columns: auto max-content;
+      grid-template-columns: 1fr min-content;
 
       ${StyledLabel} {
         padding-bottom: 0;
