@@ -13,7 +13,7 @@ export default {
   },
 };
 
-const Template = (args) => <MenuLink {...args} />;
+const Template = (args) => <MenuLink activeClassName="active" {...args} />;
 
 export const Playground = Template.bind({});
 
@@ -34,7 +34,7 @@ Playground.args = {
 };
 
 export const Black = () => (
-  <MenuLink to="/fancy-url" $color="black">
+  <MenuLink to="/fancy-url" activeClassName="active" $color="black">
     Black menu link
   </MenuLink>
 );
@@ -43,7 +43,7 @@ export const Black = () => (
 Black.args = { $color: 'black' };
 
 export const White = () => (
-  <MenuLink to="/fancy-url" $color="white">
+  <MenuLink to="/fancy-url" activeClassName="active" $color="white">
     White menu link
   </MenuLink>
 );

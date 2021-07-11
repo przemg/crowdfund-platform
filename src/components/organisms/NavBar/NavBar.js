@@ -27,7 +27,7 @@ const NavBar = ({ navItems, color }) => (
         {navItems
           ? navItems.map(({ to, label }) => (
               <li key={label}>
-                <MenuLink to={to} $color={color}>
+                <MenuLink to={to} activeClassName="active" $color={color}>
                   {label}
                 </MenuLink>
               </li>
