@@ -108,7 +108,7 @@ Input.defaultProps = {
   priceLeadingIcon: false,
   passwordShowAction: false,
   error: false,
-  inputWidth: null,
+  inputWidth: 0,
 };
 
 export default Input;
