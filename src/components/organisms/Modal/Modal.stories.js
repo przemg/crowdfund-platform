@@ -6,6 +6,9 @@ import Modal from '.';
 export default {
   title: 'Organisms/Modal',
   component: Modal,
+  parameters: {
+    storyPadding: false,
+  },
 };
 
 const Template = (args) => <Modal {...args} />;

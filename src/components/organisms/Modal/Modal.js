@@ -9,9 +9,9 @@ const StyledWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 100vw;
-  min-height: 100vh;
-  padding: 24px;
+  min-width: 100%;
+  min-height: 100%;
+  padding: 48px;
   position: absolute;
   top: 0;
   left: 0;
@@ -31,7 +31,7 @@ const StyledButton = styled.button`
   width: 32px;
   height: 32px;
   padding: 10px;
-  margin-left: auto;
+  margin: 0 -16px 0 auto;
   background-image: url(${CloseModalIcon});
   background-repeat: no-repeat;
   background-size: 12px;
