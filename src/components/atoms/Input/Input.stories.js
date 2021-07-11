@@ -14,7 +14,7 @@ Playground.args = {
   priceLeadingIcon: false,
   passwordShowAction: false,
   error: false,
-  inputWidth: '',
+  inputWidth: 0,
 };
 
 export const Default = () => <Input />;

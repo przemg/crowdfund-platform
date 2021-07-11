@@ -1334,6 +1334,456 @@ exports[`Storyshots Molecules/InputField Single Column Error 1`] = `
 </div>
 `;
 
+exports[`Storyshots Organisms/Footer Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <footer
+    className="sc-iwajpm bVUuRT"
+  >
+    <div
+      className="sc-cxNHIi jgEESE"
+    >
+      <div>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt="Crowdfund logo"
+            src="logo-black.svg"
+          />
+        </a>
+        <p
+          className="sc-jrsJWt sc-giAqHp gNpvYE eLacYh"
+        >
+          Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
+        </p>
+      </div>
+      <nav
+        className="sc-iJCRrE fztKkG"
+      >
+        <div>
+          <h3
+            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+            size="XS"
+          >
+            Help
+          </h3>
+          <ul
+            className="sc-ezzafa dwhydN"
+          >
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/privacy-policy"
+                onClick={[Function]}
+              >
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/regulations"
+                onClick={[Function]}
+              >
+                Regulations
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div
+      className="sc-lmgQwP jyXkfW"
+    >
+      <div
+        className="sc-cxNHIi jgEESE"
+      >
+        <p
+          className="sc-fujyAs fWueyT"
+        >
+          © Copyright 
+          2021
+           by Crowdfund
+        </p>
+        <ul
+          className="sc-ezzafa dOauyC"
+        >
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://facebook.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://instagram.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://twitter.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Twitter
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Storyshots Organisms/Footer Only Copy 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <footer
+    className="sc-iwajpm dZnTQU"
+  >
+    <p
+      className="sc-fujyAs fWueyT"
+    >
+      © Copyright 
+      2021
+       by Crowdfund
+    </p>
+  </footer>
+</div>
+`;
+
+exports[`Storyshots Organisms/Footer Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <footer
+    className="sc-iwajpm bVUuRT"
+  >
+    <div
+      className="sc-cxNHIi jgEESE"
+    >
+      <div>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt="Crowdfund logo"
+            src="logo-black.svg"
+          />
+        </a>
+        <p
+          className="sc-jrsJWt sc-giAqHp gNpvYE eLacYh"
+        >
+          Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
+        </p>
+      </div>
+      <nav
+        className="sc-iJCRrE jqKREm"
+      >
+        <div>
+          <h3
+            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+            size="XS"
+          >
+            Menu
+          </h3>
+          <ul
+            className="sc-ezzafa dwhydN"
+          >
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/about"
+                onClick={[Function]}
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/discover"
+                onClick={[Function]}
+              >
+                Discover
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/get-started"
+                onClick={[Function]}
+              >
+                Get Started
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3
+            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+            size="XS"
+          >
+            Help
+          </h3>
+          <ul
+            className="sc-ezzafa dwhydN"
+          >
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/privacy-policy"
+                onClick={[Function]}
+              >
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/regulations"
+                onClick={[Function]}
+              >
+                Regulations
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div
+      className="sc-lmgQwP jyXkfW"
+    >
+      <div
+        className="sc-cxNHIi jgEESE"
+      >
+        <p
+          className="sc-fujyAs fWueyT"
+        >
+          © Copyright 
+          2021
+           by Crowdfund
+        </p>
+        <ul
+          className="sc-ezzafa dOauyC"
+        >
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://facebook.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://instagram.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://twitter.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Twitter
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Storyshots Organisms/Footer With Nav 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <footer
+    className="sc-iwajpm bVUuRT"
+  >
+    <div
+      className="sc-cxNHIi jgEESE"
+    >
+      <div>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt="Crowdfund logo"
+            src="logo-black.svg"
+          />
+        </a>
+        <p
+          className="sc-jrsJWt sc-giAqHp gNpvYE eLacYh"
+        >
+          Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
+        </p>
+      </div>
+      <nav
+        className="sc-iJCRrE jqKREm"
+      >
+        <div>
+          <h3
+            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+            size="XS"
+          >
+            Menu
+          </h3>
+          <ul
+            className="sc-ezzafa dwhydN"
+          >
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/about"
+                onClick={[Function]}
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/discover"
+                onClick={[Function]}
+              >
+                Discover
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/get-started"
+                onClick={[Function]}
+              >
+                Get Started
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3
+            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+            size="XS"
+          >
+            Help
+          </h3>
+          <ul
+            className="sc-ezzafa dwhydN"
+          >
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/privacy-policy"
+                onClick={[Function]}
+              >
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/regulations"
+                onClick={[Function]}
+              >
+                Regulations
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div
+      className="sc-lmgQwP jyXkfW"
+    >
+      <div
+        className="sc-cxNHIi jgEESE"
+      >
+        <p
+          className="sc-fujyAs fWueyT"
+        >
+          © Copyright 
+          2021
+           by Crowdfund
+        </p>
+        <ul
+          className="sc-ezzafa dOauyC"
+        >
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://facebook.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://instagram.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://twitter.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Twitter
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
 exports[`Storyshots Organisms/NavBar Black 1`] = `
 <div
   className="sc-gtsrHT csNdWE"
@@ -1342,7 +1792,7 @@ exports[`Storyshots Organisms/NavBar Black 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <header
-    className="sc-iwajpm fbLaXm"
+    className="sc-iklJeh dEpumX"
   >
     <a
       href="/"
@@ -1355,7 +1805,7 @@ exports[`Storyshots Organisms/NavBar Black 1`] = `
     </a>
     <nav>
       <ul
-        className="sc-cxNHIi iabRcx"
+        className="sc-jJMGnK fOMyeT"
       >
         <li>
           <a
@@ -1401,7 +1851,7 @@ exports[`Storyshots Organisms/NavBar Playground 1`] = `
     className="sc-bdnxRM zrODe"
   />
   <header
-    className="sc-iwajpm fbLaXm"
+    className="sc-iklJeh dEpumX"
   >
     <a
       href="/"
@@ -1414,7 +1864,7 @@ exports[`Storyshots Organisms/NavBar Playground 1`] = `
     </a>
     <nav>
       <ul
-        className="sc-cxNHIi iabRcx"
+        className="sc-jJMGnK fOMyeT"
       >
         <li>
           <a
@@ -1460,7 +1910,7 @@ exports[`Storyshots Organisms/NavBar White 1`] = `
     className="sc-bdnxRM zrODe"
   />
   <header
-    className="sc-iwajpm fbLaXm"
+    className="sc-iklJeh dEpumX"
   >
     <a
       href="/"
@@ -1473,7 +1923,7 @@ exports[`Storyshots Organisms/NavBar White 1`] = `
     </a>
     <nav>
       <ul
-        className="sc-cxNHIi iabRcx"
+        className="sc-jJMGnK fOMyeT"
       >
         <li>
           <a
@@ -1519,7 +1969,7 @@ exports[`Storyshots Organisms/NavBar Without Nav Items Black 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <header
-    className="sc-iwajpm gYjWYG"
+    className="sc-iklJeh iFXAzv"
   >
     <a
       href="/"
@@ -1532,7 +1982,7 @@ exports[`Storyshots Organisms/NavBar Without Nav Items Black 1`] = `
     </a>
     <nav>
       <ul
-        className="sc-cxNHIi iabRcx"
+        className="sc-jJMGnK fOMyeT"
       />
     </nav>
   </header>
@@ -1547,7 +1997,7 @@ exports[`Storyshots Organisms/NavBar Without Nav Items White 1`] = `
     className="sc-bdnxRM zrODe"
   />
   <header
-    className="sc-iwajpm gYjWYG"
+    className="sc-iklJeh iFXAzv"
   >
     <a
       href="/"
@@ -1560,7 +2010,7 @@ exports[`Storyshots Organisms/NavBar Without Nav Items White 1`] = `
     </a>
     <nav>
       <ul
-        className="sc-cxNHIi iabRcx"
+        className="sc-jJMGnK fOMyeT"
       />
     </nav>
   </header>

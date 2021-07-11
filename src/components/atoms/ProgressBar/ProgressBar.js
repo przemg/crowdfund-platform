@@ -7,7 +7,7 @@ const ProgressBar = styled.progress.attrs(({ max }) => ({ max }))`
     height: 12px;
 
     &::-webkit-progress-bar {
-      background-color: ${({ theme }) => theme.color.gray300};
+      background-color: ${({ theme }) => theme.color.gray200};
       border-radius: 8px;
     }
 
