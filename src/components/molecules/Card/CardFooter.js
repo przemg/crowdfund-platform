@@ -79,11 +79,11 @@ export const RadioCardFooter = () => {
           label="Enter your pledge"
           inputWidth={120}
           error={errors.pledge?.message}
-          defaultValue={minPledge}
+          defaultValue={minPledge || 1}
           {...register('pledge', {
             required: { value: true, message: 'Pledge is required' },
             min: {
-              value: minPledge,
+              value: minPledge || 1,
               message: `Pledge must be greater or equal ${priceFormatter(minPledge)}`,
             },
             valueAsNumber: true,

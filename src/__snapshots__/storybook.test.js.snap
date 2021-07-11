@@ -533,7 +533,7 @@ exports[`Storyshots Atoms/ProgressBar Default 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <progress
-    className="sc-kEqXSa fuVWuZ"
+    className="sc-kEqXSa DWcUv"
     max={100}
     value={50}
   />
@@ -548,7 +548,7 @@ exports[`Storyshots Atoms/ProgressBar Playground 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <progress
-    className="sc-kEqXSa fuVWuZ"
+    className="sc-kEqXSa DWcUv"
     max={100}
     value={30}
   />
@@ -1784,6 +1784,336 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
 </div>
 `;
 
+exports[`Storyshots Organisms/Modal Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iklJeh kEUbKe"
+  >
+    <div
+      className="sc-jJMGnK jujuGI"
+    >
+      <button
+        className="sc-hiKfDv ejANuH"
+        onClick={[Function]}
+      />
+      <p>
+        Content of Default Modal
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms/Modal Described 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iklJeh kEUbKe"
+  >
+    <div
+      className="sc-jJMGnK jujuGI"
+    >
+      <button
+        className="sc-hiKfDv ejANuH"
+        onClick={[Function]}
+      />
+      <h2
+        className="sc-eCApnc sc-gXfVKN kYLptJ HSlND"
+        size="S"
+      >
+        Desscribed Modal Title
+      </h2>
+      <p
+        className="sc-jrsJWt sc-cBoqAE gNpvYE eLgDES"
+      >
+        Sample described modal description
+      </p>
+      <p>
+        Content of Described Modal
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms/Modal Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iklJeh kEUbKe"
+  >
+    <div
+      className="sc-jJMGnK jujuGI"
+    >
+      <button
+        className="sc-hiKfDv ejANuH"
+        onClick={[Function]}
+      />
+      <p>
+        Example content
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iklJeh kEUbKe"
+  >
+    <div
+      className="sc-jJMGnK jujuGI"
+    >
+      <button
+        className="sc-hiKfDv ejANuH"
+        onClick={[Function]}
+      />
+      <h2
+        className="sc-eCApnc sc-gXfVKN kYLptJ HSlND"
+        size="S"
+      >
+        Complex children data
+      </h2>
+      <p
+        className="sc-jrsJWt sc-cBoqAE gNpvYE eLgDES"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere ante quis dui dapibus. eget malesuada orci porta. Ut sed purus eget tellus porta facilisis sed eu risus.
+      </p>
+      <div
+        className="sc-ciSkZP jgFbvp"
+      >
+        <article
+          className="sc-dlMDgC dDlFWq"
+        >
+          <input
+            checked={false}
+            className="sc-iqAclL iqwub"
+            disabled={false}
+            id="no-reward"
+            name="no-reward"
+            onChange={[Function]}
+            type="radio"
+            value="no-reward"
+          />
+          <header
+            className="sc-fFSPTT hlozJR"
+          >
+            <label
+              className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+              htmlFor="no-reward"
+              size="XS"
+            >
+              Pledge with no reward
+            </label>
+          </header>
+          <p
+            className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
+          </p>
+        </article>
+        <article
+          className="sc-dlMDgC dDlFWq"
+        >
+          <input
+            checked={false}
+            className="sc-iqAclL iqwub"
+            disabled={false}
+            id="bamboo"
+            name="bamboo"
+            onChange={[Function]}
+            type="radio"
+            value="bamboo"
+          />
+          <header
+            className="sc-fFSPTT hlozJR"
+          >
+            <label
+              className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+              htmlFor="bamboo"
+              size="XS"
+            >
+              Bamboo Stand
+            </label>
+            <p
+              className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
+            >
+              Pledge 
+              $25
+               or more
+            </p>
+            <div
+              className="sc-dIvrsQ fzJffv"
+            >
+              <strong
+                className="sc-eCApnc lfCIpU"
+                size="XS"
+              >
+                101
+              </strong>
+              <p
+                className="sc-jrsJWt gNpvYE"
+              >
+                left
+              </p>
+            </div>
+          </header>
+          <p
+            className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
+          </p>
+        </article>
+        <article
+          className="sc-dlMDgC dDlFWq"
+        >
+          <input
+            checked={false}
+            className="sc-iqAclL iqwub"
+            disabled={false}
+            id="black-edition"
+            name="black-edition"
+            onChange={[Function]}
+            type="radio"
+            value="black-edition"
+          />
+          <header
+            className="sc-fFSPTT hlozJR"
+          >
+            <label
+              className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+              htmlFor="black-edition"
+              size="XS"
+            >
+              Black Edition Stand
+            </label>
+            <p
+              className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
+            >
+              Pledge 
+              $75
+               or more
+            </p>
+            <div
+              className="sc-dIvrsQ fzJffv"
+            >
+              <strong
+                className="sc-eCApnc lfCIpU"
+                size="XS"
+              >
+                64
+              </strong>
+              <p
+                className="sc-jrsJWt gNpvYE"
+              >
+                left
+              </p>
+            </div>
+          </header>
+          <p
+            className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
+          </p>
+        </article>
+        <article
+          className="sc-dlMDgC btLGmW"
+        >
+          <input
+            checked={false}
+            className="sc-iqAclL iqwub"
+            disabled={true}
+            id="mahogany"
+            name="mahogany"
+            onChange={[Function]}
+            type="radio"
+            value="mahogany"
+          />
+          <header
+            className="sc-fFSPTT hlozJR"
+          >
+            <label
+              className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+              htmlFor="mahogany"
+              size="XS"
+            >
+              Mahogany Special Edition
+            </label>
+            <p
+              className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
+            >
+              Pledge 
+              $200
+               or more
+            </p>
+            <div
+              className="sc-dIvrsQ fzJffv"
+            >
+              <strong
+                className="sc-eCApnc lfCIpU"
+                size="XS"
+              >
+                0
+              </strong>
+              <p
+                className="sc-jrsJWt gNpvYE"
+              >
+                left
+              </p>
+            </div>
+          </header>
+          <p
+            className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
+          </p>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms/Modal Without Close Button 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iklJeh kEUbKe"
+  >
+    <div
+      className="sc-jJMGnK jujuGI"
+    >
+      <p>
+        Content of Without Close Button Modal
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Organisms/NavBar Black 1`] = `
 <div
   className="sc-gtsrHT csNdWE"
@@ -1792,7 +2122,7 @@ exports[`Storyshots Organisms/NavBar Black 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <header
-    className="sc-iklJeh dEpumX"
+    className="sc-jcwpoC fKvHjg"
   >
     <a
       href="/"
@@ -1805,7 +2135,7 @@ exports[`Storyshots Organisms/NavBar Black 1`] = `
     </a>
     <nav>
       <ul
-        className="sc-jJMGnK fOMyeT"
+        className="sc-carFqZ bUNslZ"
       >
         <li>
           <a
@@ -1851,7 +2181,7 @@ exports[`Storyshots Organisms/NavBar Playground 1`] = `
     className="sc-bdnxRM zrODe"
   />
   <header
-    className="sc-iklJeh dEpumX"
+    className="sc-jcwpoC fKvHjg"
   >
     <a
       href="/"
@@ -1864,7 +2194,7 @@ exports[`Storyshots Organisms/NavBar Playground 1`] = `
     </a>
     <nav>
       <ul
-        className="sc-jJMGnK fOMyeT"
+        className="sc-carFqZ bUNslZ"
       >
         <li>
           <a
@@ -1910,7 +2240,7 @@ exports[`Storyshots Organisms/NavBar White 1`] = `
     className="sc-bdnxRM zrODe"
   />
   <header
-    className="sc-iklJeh dEpumX"
+    className="sc-jcwpoC fKvHjg"
   >
     <a
       href="/"
@@ -1923,7 +2253,7 @@ exports[`Storyshots Organisms/NavBar White 1`] = `
     </a>
     <nav>
       <ul
-        className="sc-jJMGnK fOMyeT"
+        className="sc-carFqZ bUNslZ"
       >
         <li>
           <a
@@ -1969,7 +2299,7 @@ exports[`Storyshots Organisms/NavBar Without Nav Items Black 1`] = `
     className="sc-bdnxRM liXHHL"
   />
   <header
-    className="sc-iklJeh iFXAzv"
+    className="sc-jcwpoC ijhA-DE"
   >
     <a
       href="/"
@@ -1982,7 +2312,7 @@ exports[`Storyshots Organisms/NavBar Without Nav Items Black 1`] = `
     </a>
     <nav>
       <ul
-        className="sc-jJMGnK fOMyeT"
+        className="sc-carFqZ bUNslZ"
       />
     </nav>
   </header>
@@ -1997,7 +2327,7 @@ exports[`Storyshots Organisms/NavBar Without Nav Items White 1`] = `
     className="sc-bdnxRM zrODe"
   />
   <header
-    className="sc-iklJeh iFXAzv"
+    className="sc-jcwpoC ijhA-DE"
   >
     <a
       href="/"
@@ -2010,7 +2340,7 @@ exports[`Storyshots Organisms/NavBar Without Nav Items White 1`] = `
     </a>
     <nav>
       <ul
-        className="sc-jJMGnK fOMyeT"
+        className="sc-carFqZ bUNslZ"
       />
     </nav>
   </header>
