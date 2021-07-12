@@ -17,15 +17,15 @@ const Template = (args) => <Logo {...args} />;
 
 export const Playground = Template.bind({});
 
-Playground.args = {
-  color: 'white',
-};
-
 Playground.argTypes = {
   color: {
     options: ['white', 'black'],
     control: { type: 'select' },
   },
+};
+
+Playground.args = {
+  color: 'white',
 };
 
 export const White = () => <Logo color="white" />;
