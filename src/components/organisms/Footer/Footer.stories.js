@@ -5,7 +5,13 @@ export default {
   title: 'Organisms/Footer',
   component: Footer,
   parameters: {
-    storyPadding: false,
+    storyPadding: {
+      customPadding: {
+        paddingTop: '40px',
+        paddingLeft: '0',
+        paddingRight: '0',
+      },
+    },
     storyBackground: {
       defaultValue: 'gray',
     },

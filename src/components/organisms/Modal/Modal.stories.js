@@ -7,7 +7,9 @@ export default {
   title: 'Organisms/Modal',
   component: Modal,
   parameters: {
-    storyPadding: false,
+    storyPadding: {
+      disable: true,
+    },
   },
 };
 

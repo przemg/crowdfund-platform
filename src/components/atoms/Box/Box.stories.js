@@ -14,6 +14,7 @@ export default {
   title: 'Atoms/Box',
   component: Box,
   parameters: {
+    storyPadding: { customPadding: { paddingTop: '40px' } },
     storyBackground: {
       defaultValue: 'gray',
     },
