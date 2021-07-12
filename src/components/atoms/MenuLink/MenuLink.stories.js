@@ -19,10 +19,9 @@ export const Playground = Template.bind({});
 
 Playground.argTypes = {
   $color: {
-    label: 'color',
+    options: ['white', 'black'],
     control: {
       type: 'select',
-      options: ['white', 'black'],
     },
   },
 };

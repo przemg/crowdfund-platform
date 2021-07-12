@@ -2,56 +2,56 @@
 
 exports[`Storyshots Atoms/Box Brand 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM gRPInY"
 >
   <div
-    className="sc-bdnxRM btlxkH"
-  />
-  <div
-    className="sc-dlnjwi bOsBEG"
+    className="sc-gtsrHT gYFURZ"
   >
-    This is brand box
+    <div
+      className="sc-dlnjwi bOsBEG"
+    >
+      This is brand box
+    </div>
   </div>
 </div>
 `;
 
 exports[`Storyshots Atoms/Box Default 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM gRPInY"
 >
   <div
-    className="sc-bdnxRM btlxkH"
-  />
-  <div
-    className="sc-dlnjwi ghTIof"
+    className="sc-gtsrHT gYFURZ"
   >
-    This is default box
+    <div
+      className="sc-dlnjwi ghTIof"
+    >
+      This is default box
+    </div>
   </div>
 </div>
 `;
 
 exports[`Storyshots Atoms/Box Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM gRPInY"
 >
   <div
-    className="sc-bdnxRM btlxkH"
-  />
-  <div
-    className="sc-dlnjwi ghTIof"
+    className="sc-gtsrHT gYFURZ"
   >
-    Example box content
+    <div
+      className="sc-dlnjwi ghTIof"
+    >
+      Example box content
+    </div>
   </div>
 </div>
 `;
 
 exports[`Storyshots Atoms/Button Bookmark 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <button
     className="sc-hKFxyN iBpFtu"
     disabled={false}
@@ -63,11 +63,8 @@ exports[`Storyshots Atoms/Button Bookmark 1`] = `
 
 exports[`Storyshots Atoms/Button Bookmark Active 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <button
     className="sc-hKFxyN caxjwi"
     disabled={false}
@@ -79,11 +76,8 @@ exports[`Storyshots Atoms/Button Bookmark Active 1`] = `
 
 exports[`Storyshots Atoms/Button Default 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <button
     className="sc-hKFxyN dpeOGK"
     disabled={false}
@@ -95,11 +89,8 @@ exports[`Storyshots Atoms/Button Default 1`] = `
 
 exports[`Storyshots Atoms/Button Disabled 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <button
     className="sc-hKFxyN dpeOGK"
     disabled={true}
@@ -111,11 +102,8 @@ exports[`Storyshots Atoms/Button Disabled 1`] = `
 
 exports[`Storyshots Atoms/Button Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <button
     className="sc-hKFxyN dpeOGK"
     disabled={false}
@@ -127,11 +115,8 @@ exports[`Storyshots Atoms/Button Playground 1`] = `
 
 exports[`Storyshots Atoms/Heading Default 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <h1
     className="sc-eCApnc upmsQ"
     size="XL"
@@ -143,11 +128,8 @@ exports[`Storyshots Atoms/Heading Default 1`] = `
 
 exports[`Storyshots Atoms/Heading Levels 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <h1
     className="sc-eCApnc upmsQ"
     size="XL"
@@ -189,11 +171,8 @@ exports[`Storyshots Atoms/Heading Levels 1`] = `
 
 exports[`Storyshots Atoms/Heading Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <h1
     className="sc-eCApnc upmsQ"
     size="XL"
@@ -205,11 +184,8 @@ exports[`Storyshots Atoms/Heading Playground 1`] = `
 
 exports[`Storyshots Atoms/Heading Sizes 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <h1
     className="sc-eCApnc upmsQ"
     size="XL"
@@ -245,11 +221,8 @@ exports[`Storyshots Atoms/Heading Sizes 1`] = `
 
 exports[`Storyshots Atoms/Input Custom Width 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <div
     className="sc-iCoGMd fsusVO"
   >
@@ -262,11 +235,8 @@ exports[`Storyshots Atoms/Input Custom Width 1`] = `
 
 exports[`Storyshots Atoms/Input Default 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <div
     className="sc-iCoGMd fsusVO"
   >
@@ -279,11 +249,8 @@ exports[`Storyshots Atoms/Input Default 1`] = `
 
 exports[`Storyshots Atoms/Input Error 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <div
     className="sc-iCoGMd fsusVO"
   >
@@ -296,11 +263,8 @@ exports[`Storyshots Atoms/Input Error 1`] = `
 
 exports[`Storyshots Atoms/Input Password 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <div
     className="sc-iCoGMd gGschl"
   >
@@ -321,11 +285,8 @@ exports[`Storyshots Atoms/Input Password 1`] = `
 
 exports[`Storyshots Atoms/Input Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <div
     className="sc-iCoGMd fsusVO"
   >
@@ -338,11 +299,8 @@ exports[`Storyshots Atoms/Input Playground 1`] = `
 
 exports[`Storyshots Atoms/Input Price 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <div
     className="sc-iCoGMd AqkNJ"
   >
@@ -356,11 +314,8 @@ exports[`Storyshots Atoms/Input Price 1`] = `
 
 exports[`Storyshots Atoms/Label Defaul 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <label
     className="sc-fujyAs fWueyT"
   >
@@ -371,11 +326,8 @@ exports[`Storyshots Atoms/Label Defaul 1`] = `
 
 exports[`Storyshots Atoms/Label Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <label
     className="sc-fujyAs fWueyT"
   >
@@ -386,122 +338,125 @@ exports[`Storyshots Atoms/Label Playground 1`] = `
 
 exports[`Storyshots Atoms/Logo Black 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM iMHPHc"
 >
   <div
-    className="sc-bdnxRM liXHHL"
-  />
-  <a
-    href="/"
-    onClick={[Function]}
+    className="sc-gtsrHT gAAakf"
   >
-    <img
-      alt="Crowdfund logo"
-      src="logo-black.svg"
-    />
-  </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Crowdfund logo"
+        src="logo-black.svg"
+      />
+    </a>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Atoms/Logo Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM TXFbJ"
 >
   <div
-    className="sc-bdnxRM zrODe"
-  />
-  <a
-    href="/"
-    onClick={[Function]}
+    className="sc-gtsrHT gAAakf"
   >
-    <img
-      alt="Crowdfund logo"
-      src="logo-white.svg"
-    />
-  </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Crowdfund logo"
+        src="logo-white.svg"
+      />
+    </a>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Atoms/Logo White 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM TXFbJ"
 >
   <div
-    className="sc-bdnxRM zrODe"
-  />
-  <a
-    href="/"
-    onClick={[Function]}
+    className="sc-gtsrHT gAAakf"
   >
-    <img
-      alt="Crowdfund logo"
-      src="logo-white.svg"
-    />
-  </a>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Crowdfund logo"
+        src="logo-white.svg"
+      />
+    </a>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Atoms/MenuLink Black 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM iMHPHc"
 >
   <div
-    className="sc-bdnxRM liXHHL"
-  />
-  <a
-    aria-current={null}
-    className="sc-pNWdM gGWouM"
-    href="/fancy-url"
-    onClick={[Function]}
+    className="sc-gtsrHT gAAakf"
   >
-    Black menu link
-  </a>
+    <a
+      aria-current={null}
+      className="sc-pNWdM gGWouM"
+      href="/fancy-url"
+      onClick={[Function]}
+    >
+      Black menu link
+    </a>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Atoms/MenuLink Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM TXFbJ"
 >
   <div
-    className="sc-bdnxRM zrODe"
-  />
-  <a
-    aria-current={null}
-    className="sc-pNWdM ckSJig"
-    href="/fancy-url"
-    onClick={[Function]}
+    className="sc-gtsrHT gAAakf"
   >
-    Menu link
-  </a>
+    <a
+      aria-current={null}
+      className="sc-pNWdM ckSJig"
+      href="/fancy-url"
+      onClick={[Function]}
+    >
+      Menu link
+    </a>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Atoms/MenuLink White 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM TXFbJ"
 >
   <div
-    className="sc-bdnxRM zrODe"
-  />
-  <a
-    aria-current={null}
-    className="sc-pNWdM ckSJig"
-    href="/fancy-url"
-    onClick={[Function]}
+    className="sc-gtsrHT gAAakf"
   >
-    White menu link
-  </a>
+    <a
+      aria-current={null}
+      className="sc-pNWdM ckSJig"
+      href="/fancy-url"
+      onClick={[Function]}
+    >
+      White menu link
+    </a>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Atoms/Paragraph Default 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <p
     className="sc-jrsJWt gNpvYE"
   >
@@ -512,11 +467,8 @@ exports[`Storyshots Atoms/Paragraph Default 1`] = `
 
 exports[`Storyshots Atoms/Paragraph Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <p
     className="sc-jrsJWt gNpvYE"
   >
@@ -527,11 +479,8 @@ exports[`Storyshots Atoms/Paragraph Playground 1`] = `
 
 exports[`Storyshots Atoms/ProgressBar Default 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <progress
     className="sc-kEqXSa DWcUv"
     max={100}
@@ -542,11 +491,8 @@ exports[`Storyshots Atoms/ProgressBar Default 1`] = `
 
 exports[`Storyshots Atoms/ProgressBar Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <progress
     className="sc-kEqXSa DWcUv"
     max={100}
@@ -557,11 +503,8 @@ exports[`Storyshots Atoms/ProgressBar Playground 1`] = `
 
 exports[`Storyshots Atoms/Radio Checked 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <input
     checked={true}
     className="sc-iqAclL iqwub"
@@ -574,11 +517,8 @@ exports[`Storyshots Atoms/Radio Checked 1`] = `
 
 exports[`Storyshots Atoms/Radio Default 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <input
     checked={false}
     className="sc-iqAclL iqwub"
@@ -591,11 +531,8 @@ exports[`Storyshots Atoms/Radio Default 1`] = `
 
 exports[`Storyshots Atoms/Radio Disabled 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <input
     checked={false}
     className="sc-iqAclL iqwub"
@@ -615,11 +552,8 @@ exports[`Storyshots Atoms/Radio Disabled 1`] = `
 
 exports[`Storyshots Atoms/Radio Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <input
     checked={false}
     className="sc-iqAclL iqwub"
@@ -632,11 +566,8 @@ exports[`Storyshots Atoms/Radio Playground 1`] = `
 
 exports[`Storyshots Atoms/TextMessage Error 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <label
     className="sc-crzoAE eIFlbX"
     type="error"
@@ -648,11 +579,8 @@ exports[`Storyshots Atoms/TextMessage Error 1`] = `
 
 exports[`Storyshots Atoms/TextMessage Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <label
     className="sc-crzoAE eIFlbX"
     type="error"
@@ -664,11 +592,8 @@ exports[`Storyshots Atoms/TextMessage Playground 1`] = `
 
 exports[`Storyshots Atoms/TextMessage Success 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <label
     className="sc-crzoAE eBhXqi"
     type="success"
@@ -680,11 +605,8 @@ exports[`Storyshots Atoms/TextMessage Success 1`] = `
 
 exports[`Storyshots Molecules/Card Default 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <article
     className="sc-dlMDgC kXmjgp"
   >
@@ -720,11 +642,8 @@ exports[`Storyshots Molecules/Card Default 1`] = `
 
 exports[`Storyshots Molecules/Card Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <article
     className="sc-dlMDgC kXmjgp"
   >
@@ -760,11 +679,8 @@ exports[`Storyshots Molecules/Card Playground 1`] = `
 
 exports[`Storyshots Molecules/Card Radio Card 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <article
     className="sc-dlMDgC dDlFWq"
   >
@@ -822,11 +738,8 @@ exports[`Storyshots Molecules/Card Radio Card 1`] = `
 
 exports[`Storyshots Molecules/Card Radio Card Out Of Stock 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <article
     className="sc-dlMDgC btLGmW"
   >
@@ -884,11 +797,8 @@ exports[`Storyshots Molecules/Card Radio Card Out Of Stock 1`] = `
 
 exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <article
     className="sc-dlMDgC imXuYJ"
   >
@@ -985,11 +895,8 @@ exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
 
 exports[`Storyshots Molecules/Card Reward Card 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <article
     className="sc-dlMDgC kXmjgp"
   >
@@ -1047,11 +954,8 @@ exports[`Storyshots Molecules/Card Reward Card 1`] = `
 
 exports[`Storyshots Molecules/Card Reward Card Out Of Stock 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <article
     className="sc-dlMDgC hSkBgp"
   >
@@ -1109,11 +1013,8 @@ exports[`Storyshots Molecules/Card Reward Card Out Of Stock 1`] = `
 
 exports[`Storyshots Molecules/Cardinal Default 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <div
     className="sc-kfYoZR iVcYaP"
   >
@@ -1134,11 +1035,8 @@ exports[`Storyshots Molecules/Cardinal Default 1`] = `
 
 exports[`Storyshots Molecules/Cardinal Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <div
     className="sc-kfYoZR iVcYaP"
   >
@@ -1159,11 +1057,8 @@ exports[`Storyshots Molecules/Cardinal Playground 1`] = `
 
 exports[`Storyshots Molecules/Cardinal Price Format 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <div
     className="sc-kfYoZR iVcYaP"
   >
@@ -1184,11 +1079,8 @@ exports[`Storyshots Molecules/Cardinal Price Format 1`] = `
 
 exports[`Storyshots Molecules/InputField Default 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <div
     className="sc-bqGGPW fhRgKX"
   >
@@ -1212,11 +1104,8 @@ exports[`Storyshots Molecules/InputField Default 1`] = `
 
 exports[`Storyshots Molecules/InputField Error 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <div
     className="sc-bqGGPW fhRgKX"
   >
@@ -1246,11 +1135,8 @@ exports[`Storyshots Molecules/InputField Error 1`] = `
 
 exports[`Storyshots Molecules/InputField Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <div
     className="sc-bqGGPW fhRgKX"
   >
@@ -1274,11 +1160,8 @@ exports[`Storyshots Molecules/InputField Playground 1`] = `
 
 exports[`Storyshots Molecules/InputField Single Column 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <div
     className="sc-bqGGPW xQfzz"
   >
@@ -1302,11 +1185,8 @@ exports[`Storyshots Molecules/InputField Single Column 1`] = `
 
 exports[`Storyshots Molecules/InputField Single Column Error 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-gtsrHT gAAakf"
 >
-  <div
-    className="sc-bdnxRM liXHHL"
-  />
   <div
     className="sc-bqGGPW xQfzz"
   >
@@ -1336,758 +1216,734 @@ exports[`Storyshots Molecules/InputField Single Column Error 1`] = `
 
 exports[`Storyshots Organisms/Footer Default 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM gRPInY"
 >
   <div
-    className="sc-bdnxRM liXHHL"
-  />
-  <footer
-    className="sc-iwajpm bVUuRT"
+    className="sc-gtsrHT kLUjht"
   >
-    <div
-      className="sc-cxNHIi jgEESE"
-    >
-      <div>
-        <a
-          href="/"
-          onClick={[Function]}
-        >
-          <img
-            alt="Crowdfund logo"
-            src="logo-black.svg"
-          />
-        </a>
-        <p
-          className="sc-jrsJWt sc-giAqHp gNpvYE eLacYh"
-        >
-          Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
-        </p>
-      </div>
-      <nav
-        className="sc-iJCRrE fztKkG"
-      >
-        <div>
-          <h3
-            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
-            size="XS"
-          >
-            Help
-          </h3>
-          <ul
-            className="sc-ezzafa dwhydN"
-          >
-            <li>
-              <a
-                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-                href="/privacy-policy"
-                onClick={[Function]}
-              >
-                Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a
-                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-                href="/regulations"
-                onClick={[Function]}
-              >
-                Regulations
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <div
-      className="sc-lmgQwP jyXkfW"
+    <footer
+      className="sc-iwajpm bVUuRT"
     >
       <div
         className="sc-cxNHIi jgEESE"
       >
-        <p
-          className="sc-fujyAs fWueyT"
+        <div>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            <img
+              alt="Crowdfund logo"
+              src="logo-black.svg"
+            />
+          </a>
+          <p
+            className="sc-jrsJWt sc-giAqHp gNpvYE eLacYh"
+          >
+            Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
+          </p>
+        </div>
+        <nav
+          className="sc-iJCRrE fztKkG"
         >
-          © Copyright 
-          2021
-           by Crowdfund
-        </p>
-        <ul
-          className="sc-ezzafa dOauyC"
-        >
-          <li>
-            <a
-              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-              href="https://facebook.com"
-              rel="nofollow noreferrer"
-              target="_blank"
+          <div>
+            <h3
+              className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+              size="XS"
             >
-              Facebook
-            </a>
-          </li>
-          <li>
-            <a
-              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-              href="https://instagram.com"
-              rel="nofollow noreferrer"
-              target="_blank"
+              Help
+            </h3>
+            <ul
+              className="sc-ezzafa dwhydN"
             >
-              Instagram
-            </a>
-          </li>
-          <li>
-            <a
-              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-              href="https://twitter.com"
-              rel="nofollow noreferrer"
-              target="_blank"
-            >
-              Twitter
-            </a>
-          </li>
-        </ul>
+              <li>
+                <a
+                  className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                  href="/privacy-policy"
+                  onClick={[Function]}
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                  href="/regulations"
+                  onClick={[Function]}
+                >
+                  Regulations
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </div>
-  </footer>
+      <div
+        className="sc-lmgQwP jyXkfW"
+      >
+        <div
+          className="sc-cxNHIi jgEESE"
+        >
+          <p
+            className="sc-fujyAs fWueyT"
+          >
+            © Copyright 
+            2021
+             by Crowdfund
+          </p>
+          <ul
+            className="sc-ezzafa dOauyC"
+          >
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="https://facebook.com"
+                rel="nofollow noreferrer"
+                target="_blank"
+              >
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="https://instagram.com"
+                rel="nofollow noreferrer"
+                target="_blank"
+              >
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="https://twitter.com"
+                rel="nofollow noreferrer"
+                target="_blank"
+              >
+                Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Organisms/Footer Only Copy 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM gRPInY"
 >
   <div
-    className="sc-bdnxRM liXHHL"
-  />
-  <footer
-    className="sc-iwajpm dZnTQU"
+    className="sc-gtsrHT kLUjht"
   >
-    <p
-      className="sc-fujyAs fWueyT"
+    <footer
+      className="sc-iwajpm dZnTQU"
     >
-      © Copyright 
-      2021
-       by Crowdfund
-    </p>
-  </footer>
+      <p
+        className="sc-fujyAs fWueyT"
+      >
+        © Copyright 
+        2021
+         by Crowdfund
+      </p>
+    </footer>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Organisms/Footer Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM gRPInY"
 >
   <div
-    className="sc-bdnxRM liXHHL"
-  />
-  <footer
-    className="sc-iwajpm bVUuRT"
+    className="sc-gtsrHT kLUjht"
   >
-    <div
-      className="sc-cxNHIi jgEESE"
-    >
-      <div>
-        <a
-          href="/"
-          onClick={[Function]}
-        >
-          <img
-            alt="Crowdfund logo"
-            src="logo-black.svg"
-          />
-        </a>
-        <p
-          className="sc-jrsJWt sc-giAqHp gNpvYE eLacYh"
-        >
-          Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
-        </p>
-      </div>
-      <nav
-        className="sc-iJCRrE jqKREm"
-      >
-        <div>
-          <h3
-            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
-            size="XS"
-          >
-            Menu
-          </h3>
-          <ul
-            className="sc-ezzafa dwhydN"
-          >
-            <li>
-              <a
-                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-                href="/about"
-                onClick={[Function]}
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-                href="/discover"
-                onClick={[Function]}
-              >
-                Discover
-              </a>
-            </li>
-            <li>
-              <a
-                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-                href="/get-started"
-                onClick={[Function]}
-              >
-                Get Started
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3
-            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
-            size="XS"
-          >
-            Help
-          </h3>
-          <ul
-            className="sc-ezzafa dwhydN"
-          >
-            <li>
-              <a
-                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-                href="/privacy-policy"
-                onClick={[Function]}
-              >
-                Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a
-                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-                href="/regulations"
-                onClick={[Function]}
-              >
-                Regulations
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <div
-      className="sc-lmgQwP jyXkfW"
+    <footer
+      className="sc-iwajpm bVUuRT"
     >
       <div
         className="sc-cxNHIi jgEESE"
       >
-        <p
-          className="sc-fujyAs fWueyT"
+        <div>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            <img
+              alt="Crowdfund logo"
+              src="logo-black.svg"
+            />
+          </a>
+          <p
+            className="sc-jrsJWt sc-giAqHp gNpvYE eLacYh"
+          >
+            Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
+          </p>
+        </div>
+        <nav
+          className="sc-iJCRrE jqKREm"
         >
-          © Copyright 
-          2021
-           by Crowdfund
-        </p>
-        <ul
-          className="sc-ezzafa dOauyC"
-        >
-          <li>
-            <a
-              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-              href="https://facebook.com"
-              rel="nofollow noreferrer"
-              target="_blank"
+          <div>
+            <h3
+              className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+              size="XS"
             >
-              Facebook
-            </a>
-          </li>
-          <li>
-            <a
-              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-              href="https://instagram.com"
-              rel="nofollow noreferrer"
-              target="_blank"
+              Menu
+            </h3>
+            <ul
+              className="sc-ezzafa dwhydN"
             >
-              Instagram
-            </a>
-          </li>
-          <li>
-            <a
-              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-              href="https://twitter.com"
-              rel="nofollow noreferrer"
-              target="_blank"
+              <li>
+                <a
+                  className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                  href="/about"
+                  onClick={[Function]}
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                  href="/discover"
+                  onClick={[Function]}
+                >
+                  Discover
+                </a>
+              </li>
+              <li>
+                <a
+                  className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                  href="/get-started"
+                  onClick={[Function]}
+                >
+                  Get Started
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3
+              className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+              size="XS"
             >
-              Twitter
-            </a>
-          </li>
-        </ul>
+              Help
+            </h3>
+            <ul
+              className="sc-ezzafa dwhydN"
+            >
+              <li>
+                <a
+                  className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                  href="/privacy-policy"
+                  onClick={[Function]}
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                  href="/regulations"
+                  onClick={[Function]}
+                >
+                  Regulations
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </div>
-  </footer>
+      <div
+        className="sc-lmgQwP jyXkfW"
+      >
+        <div
+          className="sc-cxNHIi jgEESE"
+        >
+          <p
+            className="sc-fujyAs fWueyT"
+          >
+            © Copyright 
+            2021
+             by Crowdfund
+          </p>
+          <ul
+            className="sc-ezzafa dOauyC"
+          >
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="https://facebook.com"
+                rel="nofollow noreferrer"
+                target="_blank"
+              >
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="https://instagram.com"
+                rel="nofollow noreferrer"
+                target="_blank"
+              >
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="https://twitter.com"
+                rel="nofollow noreferrer"
+                target="_blank"
+              >
+                Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Organisms/Footer With Nav 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM gRPInY"
 >
   <div
-    className="sc-bdnxRM liXHHL"
-  />
-  <footer
-    className="sc-iwajpm bVUuRT"
+    className="sc-gtsrHT kLUjht"
   >
-    <div
-      className="sc-cxNHIi jgEESE"
-    >
-      <div>
-        <a
-          href="/"
-          onClick={[Function]}
-        >
-          <img
-            alt="Crowdfund logo"
-            src="logo-black.svg"
-          />
-        </a>
-        <p
-          className="sc-jrsJWt sc-giAqHp gNpvYE eLacYh"
-        >
-          Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
-        </p>
-      </div>
-      <nav
-        className="sc-iJCRrE jqKREm"
-      >
-        <div>
-          <h3
-            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
-            size="XS"
-          >
-            Menu
-          </h3>
-          <ul
-            className="sc-ezzafa dwhydN"
-          >
-            <li>
-              <a
-                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-                href="/about"
-                onClick={[Function]}
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-                href="/discover"
-                onClick={[Function]}
-              >
-                Discover
-              </a>
-            </li>
-            <li>
-              <a
-                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-                href="/get-started"
-                onClick={[Function]}
-              >
-                Get Started
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3
-            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
-            size="XS"
-          >
-            Help
-          </h3>
-          <ul
-            className="sc-ezzafa dwhydN"
-          >
-            <li>
-              <a
-                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-                href="/privacy-policy"
-                onClick={[Function]}
-              >
-                Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a
-                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-                href="/regulations"
-                onClick={[Function]}
-              >
-                Regulations
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <div
-      className="sc-lmgQwP jyXkfW"
+    <footer
+      className="sc-iwajpm bVUuRT"
     >
       <div
         className="sc-cxNHIi jgEESE"
       >
-        <p
-          className="sc-fujyAs fWueyT"
+        <div>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            <img
+              alt="Crowdfund logo"
+              src="logo-black.svg"
+            />
+          </a>
+          <p
+            className="sc-jrsJWt sc-giAqHp gNpvYE eLacYh"
+          >
+            Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
+          </p>
+        </div>
+        <nav
+          className="sc-iJCRrE jqKREm"
         >
-          © Copyright 
-          2021
-           by Crowdfund
-        </p>
-        <ul
-          className="sc-ezzafa dOauyC"
-        >
-          <li>
-            <a
-              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-              href="https://facebook.com"
-              rel="nofollow noreferrer"
-              target="_blank"
+          <div>
+            <h3
+              className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+              size="XS"
             >
-              Facebook
-            </a>
-          </li>
-          <li>
-            <a
-              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-              href="https://instagram.com"
-              rel="nofollow noreferrer"
-              target="_blank"
+              Menu
+            </h3>
+            <ul
+              className="sc-ezzafa dwhydN"
             >
-              Instagram
-            </a>
-          </li>
-          <li>
-            <a
-              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
-              href="https://twitter.com"
-              rel="nofollow noreferrer"
-              target="_blank"
+              <li>
+                <a
+                  className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                  href="/about"
+                  onClick={[Function]}
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                  href="/discover"
+                  onClick={[Function]}
+                >
+                  Discover
+                </a>
+              </li>
+              <li>
+                <a
+                  className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                  href="/get-started"
+                  onClick={[Function]}
+                >
+                  Get Started
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3
+              className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+              size="XS"
             >
-              Twitter
-            </a>
-          </li>
-        </ul>
+              Help
+            </h3>
+            <ul
+              className="sc-ezzafa dwhydN"
+            >
+              <li>
+                <a
+                  className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                  href="/privacy-policy"
+                  onClick={[Function]}
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                  href="/regulations"
+                  onClick={[Function]}
+                >
+                  Regulations
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </div>
-  </footer>
+      <div
+        className="sc-lmgQwP jyXkfW"
+      >
+        <div
+          className="sc-cxNHIi jgEESE"
+        >
+          <p
+            className="sc-fujyAs fWueyT"
+          >
+            © Copyright 
+            2021
+             by Crowdfund
+          </p>
+          <ul
+            className="sc-ezzafa dOauyC"
+          >
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="https://facebook.com"
+                rel="nofollow noreferrer"
+                target="_blank"
+              >
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="https://instagram.com"
+                rel="nofollow noreferrer"
+                target="_blank"
+              >
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="https://twitter.com"
+                rel="nofollow noreferrer"
+                target="_blank"
+              >
+                Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Organisms/Modal Default 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-iklJeh jQZMTn"
 >
   <div
-    className="sc-bdnxRM liXHHL"
-  />
-  <div
-    className="sc-iklJeh kEUbKe"
+    className="sc-jJMGnK jujuGI"
   >
-    <div
-      className="sc-jJMGnK jujuGI"
-    >
-      <button
-        className="sc-hiKfDv ejANuH"
-        onClick={[Function]}
-      />
-      <p>
-        Content of Default Modal
-      </p>
-    </div>
+    <button
+      className="sc-hiKfDv dFXkhj"
+      onClick={[Function]}
+    />
+    <p>
+      Content of Default Modal
+    </p>
   </div>
 </div>
 `;
 
 exports[`Storyshots Organisms/Modal Described 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-iklJeh jQZMTn"
 >
   <div
-    className="sc-bdnxRM liXHHL"
-  />
-  <div
-    className="sc-iklJeh kEUbKe"
+    className="sc-jJMGnK jujuGI"
   >
-    <div
-      className="sc-jJMGnK jujuGI"
+    <button
+      className="sc-hiKfDv dFXkhj"
+      onClick={[Function]}
+    />
+    <h2
+      className="sc-eCApnc sc-gXfVKN kYLptJ HSlND"
+      size="S"
     >
-      <button
-        className="sc-hiKfDv ejANuH"
-        onClick={[Function]}
-      />
-      <h2
-        className="sc-eCApnc sc-gXfVKN kYLptJ HSlND"
-        size="S"
-      >
-        Desscribed Modal Title
-      </h2>
-      <p
-        className="sc-jrsJWt sc-cBoqAE gNpvYE eLgDES"
-      >
-        Sample described modal description
-      </p>
-      <p>
-        Content of Described Modal
-      </p>
-    </div>
+      Desscribed Modal Title
+    </h2>
+    <p
+      className="sc-jrsJWt sc-cBoqAE gNpvYE eLgDES"
+    >
+      Sample described modal description
+    </p>
+    <p>
+      Content of Described Modal
+    </p>
   </div>
 </div>
 `;
 
 exports[`Storyshots Organisms/Modal Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-iklJeh jQZMTn"
 >
   <div
-    className="sc-bdnxRM liXHHL"
-  />
-  <div
-    className="sc-iklJeh kEUbKe"
+    className="sc-jJMGnK jujuGI"
   >
-    <div
-      className="sc-jJMGnK jujuGI"
-    >
-      <button
-        className="sc-hiKfDv ejANuH"
-        onClick={[Function]}
-      />
-      <p>
-        Example content
-      </p>
-    </div>
+    <button
+      className="sc-hiKfDv dFXkhj"
+      onClick={[Function]}
+    />
+    <p>
+      Example content
+    </p>
   </div>
 </div>
 `;
 
 exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-iklJeh jQZMTn"
 >
   <div
-    className="sc-bdnxRM liXHHL"
-  />
-  <div
-    className="sc-iklJeh kEUbKe"
+    className="sc-jJMGnK jujuGI"
   >
-    <div
-      className="sc-jJMGnK jujuGI"
+    <button
+      className="sc-hiKfDv dFXkhj"
+      onClick={[Function]}
+    />
+    <h2
+      className="sc-eCApnc sc-gXfVKN kYLptJ HSlND"
+      size="S"
     >
-      <button
-        className="sc-hiKfDv ejANuH"
-        onClick={[Function]}
-      />
-      <h2
-        className="sc-eCApnc sc-gXfVKN kYLptJ HSlND"
-        size="S"
+      Complex children data
+    </h2>
+    <p
+      className="sc-jrsJWt sc-cBoqAE gNpvYE eLgDES"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere ante quis dui dapibus. eget malesuada orci porta. Ut sed purus eget tellus porta facilisis sed eu risus.
+    </p>
+    <div
+      className="sc-ciSkZP jgFbvp"
+    >
+      <article
+        className="sc-dlMDgC dDlFWq"
       >
-        Complex children data
-      </h2>
-      <p
-        className="sc-jrsJWt sc-cBoqAE gNpvYE eLgDES"
+        <input
+          checked={false}
+          className="sc-iqAclL iqwub"
+          disabled={false}
+          id="no-reward"
+          name="no-reward"
+          onChange={[Function]}
+          type="radio"
+          value="no-reward"
+        />
+        <header
+          className="sc-fFSPTT hlozJR"
+        >
+          <label
+            className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+            htmlFor="no-reward"
+            size="XS"
+          >
+            Pledge with no reward
+          </label>
+        </header>
+        <p
+          className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
+        </p>
+      </article>
+      <article
+        className="sc-dlMDgC dDlFWq"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere ante quis dui dapibus. eget malesuada orci porta. Ut sed purus eget tellus porta facilisis sed eu risus.
-      </p>
-      <div
-        className="sc-ciSkZP jgFbvp"
+        <input
+          checked={false}
+          className="sc-iqAclL iqwub"
+          disabled={false}
+          id="bamboo"
+          name="bamboo"
+          onChange={[Function]}
+          type="radio"
+          value="bamboo"
+        />
+        <header
+          className="sc-fFSPTT hlozJR"
+        >
+          <label
+            className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+            htmlFor="bamboo"
+            size="XS"
+          >
+            Bamboo Stand
+          </label>
+          <p
+            className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
+          >
+            Pledge 
+            $25
+             or more
+          </p>
+          <div
+            className="sc-dIvrsQ fzJffv"
+          >
+            <strong
+              className="sc-eCApnc lfCIpU"
+              size="XS"
+            >
+              101
+            </strong>
+            <p
+              className="sc-jrsJWt gNpvYE"
+            >
+              left
+            </p>
+          </div>
+        </header>
+        <p
+          className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
+        </p>
+      </article>
+      <article
+        className="sc-dlMDgC dDlFWq"
       >
-        <article
-          className="sc-dlMDgC dDlFWq"
+        <input
+          checked={false}
+          className="sc-iqAclL iqwub"
+          disabled={false}
+          id="black-edition"
+          name="black-edition"
+          onChange={[Function]}
+          type="radio"
+          value="black-edition"
+        />
+        <header
+          className="sc-fFSPTT hlozJR"
         >
-          <input
-            checked={false}
-            className="sc-iqAclL iqwub"
-            disabled={false}
-            id="no-reward"
-            name="no-reward"
-            onChange={[Function]}
-            type="radio"
-            value="no-reward"
-          />
-          <header
-            className="sc-fFSPTT hlozJR"
+          <label
+            className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+            htmlFor="black-edition"
+            size="XS"
           >
-            <label
-              className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
-              htmlFor="no-reward"
-              size="XS"
-            >
-              Pledge with no reward
-            </label>
-          </header>
+            Black Edition Stand
+          </label>
           <p
-            className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+            className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
+            Pledge 
+            $75
+             or more
           </p>
-        </article>
-        <article
-          className="sc-dlMDgC dDlFWq"
-        >
-          <input
-            checked={false}
-            className="sc-iqAclL iqwub"
-            disabled={false}
-            id="bamboo"
-            name="bamboo"
-            onChange={[Function]}
-            type="radio"
-            value="bamboo"
-          />
-          <header
-            className="sc-fFSPTT hlozJR"
+          <div
+            className="sc-dIvrsQ fzJffv"
           >
-            <label
-              className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
-              htmlFor="bamboo"
+            <strong
+              className="sc-eCApnc lfCIpU"
               size="XS"
             >
-              Bamboo Stand
-            </label>
+              64
+            </strong>
             <p
-              className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
+              className="sc-jrsJWt gNpvYE"
             >
-              Pledge 
-              $25
-               or more
+              left
             </p>
-            <div
-              className="sc-dIvrsQ fzJffv"
-            >
-              <strong
-                className="sc-eCApnc lfCIpU"
-                size="XS"
-              >
-                101
-              </strong>
-              <p
-                className="sc-jrsJWt gNpvYE"
-              >
-                left
-              </p>
-            </div>
-          </header>
-          <p
-            className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
-          </p>
-        </article>
-        <article
-          className="sc-dlMDgC dDlFWq"
+          </div>
+        </header>
+        <p
+          className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
         >
-          <input
-            checked={false}
-            className="sc-iqAclL iqwub"
-            disabled={false}
-            id="black-edition"
-            name="black-edition"
-            onChange={[Function]}
-            type="radio"
-            value="black-edition"
-          />
-          <header
-            className="sc-fFSPTT hlozJR"
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
+        </p>
+      </article>
+      <article
+        className="sc-dlMDgC btLGmW"
+      >
+        <input
+          checked={false}
+          className="sc-iqAclL iqwub"
+          disabled={true}
+          id="mahogany"
+          name="mahogany"
+          onChange={[Function]}
+          type="radio"
+          value="mahogany"
+        />
+        <header
+          className="sc-fFSPTT hlozJR"
+        >
+          <label
+            className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+            htmlFor="mahogany"
+            size="XS"
           >
-            <label
-              className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
-              htmlFor="black-edition"
+            Mahogany Special Edition
+          </label>
+          <p
+            className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
+          >
+            Pledge 
+            $200
+             or more
+          </p>
+          <div
+            className="sc-dIvrsQ fzJffv"
+          >
+            <strong
+              className="sc-eCApnc lfCIpU"
               size="XS"
             >
-              Black Edition Stand
-            </label>
+              0
+            </strong>
             <p
-              className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
+              className="sc-jrsJWt gNpvYE"
             >
-              Pledge 
-              $75
-               or more
+              left
             </p>
-            <div
-              className="sc-dIvrsQ fzJffv"
-            >
-              <strong
-                className="sc-eCApnc lfCIpU"
-                size="XS"
-              >
-                64
-              </strong>
-              <p
-                className="sc-jrsJWt gNpvYE"
-              >
-                left
-              </p>
-            </div>
-          </header>
-          <p
-            className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
-          </p>
-        </article>
-        <article
-          className="sc-dlMDgC btLGmW"
+          </div>
+        </header>
+        <p
+          className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
         >
-          <input
-            checked={false}
-            className="sc-iqAclL iqwub"
-            disabled={true}
-            id="mahogany"
-            name="mahogany"
-            onChange={[Function]}
-            type="radio"
-            value="mahogany"
-          />
-          <header
-            className="sc-fFSPTT hlozJR"
-          >
-            <label
-              className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
-              htmlFor="mahogany"
-              size="XS"
-            >
-              Mahogany Special Edition
-            </label>
-            <p
-              className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
-            >
-              Pledge 
-              $200
-               or more
-            </p>
-            <div
-              className="sc-dIvrsQ fzJffv"
-            >
-              <strong
-                className="sc-eCApnc lfCIpU"
-                size="XS"
-              >
-                0
-              </strong>
-              <p
-                className="sc-jrsJWt gNpvYE"
-              >
-                left
-              </p>
-            </div>
-          </header>
-          <p
-            className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
-          </p>
-        </article>
-      </div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
+        </p>
+      </article>
     </div>
   </div>
 </div>
@@ -2095,254 +1951,252 @@ exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
 
 exports[`Storyshots Organisms/Modal Without Close Button 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-iklJeh jQZMTn"
 >
   <div
-    className="sc-bdnxRM liXHHL"
-  />
-  <div
-    className="sc-iklJeh kEUbKe"
+    className="sc-jJMGnK jujuGI"
   >
-    <div
-      className="sc-jJMGnK jujuGI"
-    >
-      <p>
-        Content of Without Close Button Modal
-      </p>
-    </div>
+    <p>
+      Content of Without Close Button Modal
+    </p>
   </div>
 </div>
 `;
 
 exports[`Storyshots Organisms/NavBar Black 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM iMHPHc"
 >
   <div
-    className="sc-bdnxRM liXHHL"
-  />
-  <header
-    className="sc-jcwpoC fKvHjg"
+    className="sc-gtsrHT gAAakf"
   >
-    <a
-      href="/"
-      onClick={[Function]}
+    <header
+      className="sc-jcwpoC fKvHjg"
     >
-      <img
-        alt="Crowdfund logo"
-        src="logo-black.svg"
-      />
-    </a>
-    <nav>
-      <ul
-        className="sc-carFqZ bUNslZ"
+      <a
+        href="/"
+        onClick={[Function]}
       >
-        <li>
-          <a
-            aria-current={null}
-            className="sc-pNWdM gGWouM"
-            href="/about"
-            onClick={[Function]}
-          >
-            About
-          </a>
-        </li>
-        <li>
-          <a
-            aria-current={null}
-            className="sc-pNWdM gGWouM"
-            href="/discover"
-            onClick={[Function]}
-          >
-            Discover
-          </a>
-        </li>
-        <li>
-          <a
-            aria-current={null}
-            className="sc-pNWdM gGWouM"
-            href="/get-started"
-            onClick={[Function]}
-          >
-            Get Started
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+        <img
+          alt="Crowdfund logo"
+          src="logo-black.svg"
+        />
+      </a>
+      <nav>
+        <ul
+          className="sc-carFqZ bUNslZ"
+        >
+          <li>
+            <a
+              aria-current={null}
+              className="sc-pNWdM gGWouM"
+              href="/about"
+              onClick={[Function]}
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current={null}
+              className="sc-pNWdM gGWouM"
+              href="/discover"
+              onClick={[Function]}
+            >
+              Discover
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current={null}
+              className="sc-pNWdM gGWouM"
+              href="/get-started"
+              onClick={[Function]}
+            >
+              Get Started
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Organisms/NavBar Playground 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM TXFbJ"
 >
   <div
-    className="sc-bdnxRM zrODe"
-  />
-  <header
-    className="sc-jcwpoC fKvHjg"
+    className="sc-gtsrHT gAAakf"
   >
-    <a
-      href="/"
-      onClick={[Function]}
+    <header
+      className="sc-jcwpoC fKvHjg"
     >
-      <img
-        alt="Crowdfund logo"
-        src="logo-white.svg"
-      />
-    </a>
-    <nav>
-      <ul
-        className="sc-carFqZ bUNslZ"
+      <a
+        href="/"
+        onClick={[Function]}
       >
-        <li>
-          <a
-            aria-current={null}
-            className="sc-pNWdM ckSJig"
-            href="/about"
-            onClick={[Function]}
-          >
-            About
-          </a>
-        </li>
-        <li>
-          <a
-            aria-current={null}
-            className="sc-pNWdM ckSJig"
-            href="/discover"
-            onClick={[Function]}
-          >
-            Discover
-          </a>
-        </li>
-        <li>
-          <a
-            aria-current={null}
-            className="sc-pNWdM ckSJig"
-            href="/get-started"
-            onClick={[Function]}
-          >
-            Get Started
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+        <img
+          alt="Crowdfund logo"
+          src="logo-white.svg"
+        />
+      </a>
+      <nav>
+        <ul
+          className="sc-carFqZ bUNslZ"
+        >
+          <li>
+            <a
+              aria-current={null}
+              className="sc-pNWdM ckSJig"
+              href="/about"
+              onClick={[Function]}
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current={null}
+              className="sc-pNWdM ckSJig"
+              href="/discover"
+              onClick={[Function]}
+            >
+              Discover
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current={null}
+              className="sc-pNWdM ckSJig"
+              href="/get-started"
+              onClick={[Function]}
+            >
+              Get Started
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Organisms/NavBar White 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM TXFbJ"
 >
   <div
-    className="sc-bdnxRM zrODe"
-  />
-  <header
-    className="sc-jcwpoC fKvHjg"
+    className="sc-gtsrHT gAAakf"
   >
-    <a
-      href="/"
-      onClick={[Function]}
+    <header
+      className="sc-jcwpoC fKvHjg"
     >
-      <img
-        alt="Crowdfund logo"
-        src="logo-white.svg"
-      />
-    </a>
-    <nav>
-      <ul
-        className="sc-carFqZ bUNslZ"
+      <a
+        href="/"
+        onClick={[Function]}
       >
-        <li>
-          <a
-            aria-current={null}
-            className="sc-pNWdM ckSJig"
-            href="/about"
-            onClick={[Function]}
-          >
-            About
-          </a>
-        </li>
-        <li>
-          <a
-            aria-current={null}
-            className="sc-pNWdM ckSJig"
-            href="/discover"
-            onClick={[Function]}
-          >
-            Discover
-          </a>
-        </li>
-        <li>
-          <a
-            aria-current={null}
-            className="sc-pNWdM ckSJig"
-            href="/get-started"
-            onClick={[Function]}
-          >
-            Get Started
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+        <img
+          alt="Crowdfund logo"
+          src="logo-white.svg"
+        />
+      </a>
+      <nav>
+        <ul
+          className="sc-carFqZ bUNslZ"
+        >
+          <li>
+            <a
+              aria-current={null}
+              className="sc-pNWdM ckSJig"
+              href="/about"
+              onClick={[Function]}
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current={null}
+              className="sc-pNWdM ckSJig"
+              href="/discover"
+              onClick={[Function]}
+            >
+              Discover
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current={null}
+              className="sc-pNWdM ckSJig"
+              href="/get-started"
+              onClick={[Function]}
+            >
+              Get Started
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Organisms/NavBar Without Nav Items Black 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM iMHPHc"
 >
   <div
-    className="sc-bdnxRM liXHHL"
-  />
-  <header
-    className="sc-jcwpoC ijhA-DE"
+    className="sc-gtsrHT gAAakf"
   >
-    <a
-      href="/"
-      onClick={[Function]}
+    <header
+      className="sc-jcwpoC ijhA-DE"
     >
-      <img
-        alt="Crowdfund logo"
-        src="logo-black.svg"
-      />
-    </a>
-    <nav>
-      <ul
-        className="sc-carFqZ bUNslZ"
-      />
-    </nav>
-  </header>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="Crowdfund logo"
+          src="logo-black.svg"
+        />
+      </a>
+      <nav>
+        <ul
+          className="sc-carFqZ bUNslZ"
+        />
+      </nav>
+    </header>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Organisms/NavBar Without Nav Items White 1`] = `
 <div
-  className="sc-gtsrHT csNdWE"
+  className="sc-bdnxRM TXFbJ"
 >
   <div
-    className="sc-bdnxRM zrODe"
-  />
-  <header
-    className="sc-jcwpoC ijhA-DE"
+    className="sc-gtsrHT gAAakf"
   >
-    <a
-      href="/"
-      onClick={[Function]}
+    <header
+      className="sc-jcwpoC ijhA-DE"
     >
-      <img
-        alt="Crowdfund logo"
-        src="logo-white.svg"
-      />
-    </a>
-    <nav>
-      <ul
-        className="sc-carFqZ bUNslZ"
-      />
-    </nav>
-  </header>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="Crowdfund logo"
+          src="logo-white.svg"
+        />
+      </a>
+      <nav>
+        <ul
+          className="sc-carFqZ bUNslZ"
+        />
+      </nav>
+    </header>
+  </div>
 </div>
 `;
