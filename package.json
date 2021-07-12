@@ -9,6 +9,7 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.10.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "styled-components": "^5.3.0",
@@ -21,7 +22,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "browserslist": {
     "production": [
@@ -36,6 +39,15 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^6.3.4",
+    "@storybook/addon-actions": "^6.3.4",
+    "@storybook/addon-essentials": "^6.3.4",
+    "@storybook/addon-links": "^6.3.4",
+    "@storybook/addon-storyshots": "^6.3.4",
+    "@storybook/node-logger": "^6.3.4",
+    "@storybook/preset-create-react-app": "^3.2.0",
+    "@storybook/react": "^6.3.4",
+    "cross-env": "^7.0.3",
     "eslint": "^7.28.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
@@ -45,12 +57,17 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
-    "prettier": "^2.3.1"
+    "prettier": "^2.3.1",
+    "react-test-renderer": "^17.0.2",
+    "storybook-react-router": "^1.0.8"
   },
   "lint-staged": {
     "*.js": [
       "prettier --config .prettierrc --write",
       "eslint --fix"
     ]
+  },
+  "resolutions": {
+    "babel-loader": "8.1.0"
   }
 }

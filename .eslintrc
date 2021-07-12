@@ -1,11 +1,24 @@
 {
   "extends": ["airbnb", "airbnb/hooks", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
   "globals": {
     "document": true
   },
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "react/jsx-props-no-spreading": [
+      2,
+      {
+        "custom": "ignore"
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": [".storybook/**", "src/**/*.stories.js", "src/**/*.test.js"] }
+    ]
   },
   "settings": {
     "import/resolver": {

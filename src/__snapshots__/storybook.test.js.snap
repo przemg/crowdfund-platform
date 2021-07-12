@@ -1,0 +1,2348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Box Brand 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM btlxkH"
+  />
+  <div
+    className="sc-dlnjwi bOsBEG"
+  >
+    This is brand box
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Box Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM btlxkH"
+  />
+  <div
+    className="sc-dlnjwi ghTIof"
+  >
+    This is default box
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Box Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM btlxkH"
+  />
+  <div
+    className="sc-dlnjwi ghTIof"
+  >
+    Example box content
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Bookmark 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <button
+    className="sc-hKFxyN iBpFtu"
+    disabled={false}
+  >
+    Bookmark button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Bookmark Active 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <button
+    className="sc-hKFxyN caxjwi"
+    disabled={false}
+  >
+    Bookmark active button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <button
+    className="sc-hKFxyN dpeOGK"
+    disabled={false}
+  >
+    Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Disabled 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <button
+    className="sc-hKFxyN dpeOGK"
+    disabled={true}
+  >
+    This is disabled button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <button
+    className="sc-hKFxyN dpeOGK"
+    disabled={false}
+  >
+    This is sample button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <h1
+    className="sc-eCApnc upmsQ"
+    size="XL"
+  >
+    This is default heading
+  </h1>
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Levels 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <h1
+    className="sc-eCApnc upmsQ"
+    size="XL"
+  >
+    This is level 1 heading
+  </h1>
+  <h2
+    className="sc-eCApnc lfCuoH"
+    size="L"
+  >
+    This is level 2 heading
+  </h2>
+  <h3
+    className="sc-eCApnc Yyqdz"
+    size="M"
+  >
+    This is level 3 heading
+  </h3>
+  <h4
+    className="sc-eCApnc kYLptJ"
+    size="S"
+  >
+    This is level 4 heading
+  </h4>
+  <h5
+    className="sc-eCApnc lfCIpU"
+    size="XS"
+  >
+    This is level 5 heading
+  </h5>
+  <h6
+    className="sc-eCApnc lfCIpU"
+    size="XS"
+  >
+    This is level 6 heading
+  </h6>
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <h1
+    className="sc-eCApnc upmsQ"
+    size="XL"
+  >
+    This sample content
+  </h1>
+</div>
+`;
+
+exports[`Storyshots Atoms/Heading Sizes 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <h1
+    className="sc-eCApnc upmsQ"
+    size="XL"
+  >
+    This is extra large heading
+  </h1>
+  <h1
+    className="sc-eCApnc lfCuoH"
+    size="L"
+  >
+    This is large heading
+  </h1>
+  <h1
+    className="sc-eCApnc Yyqdz"
+    size="M"
+  >
+    This is medium heading
+  </h1>
+  <h1
+    className="sc-eCApnc kYLptJ"
+    size="S"
+  >
+    This is small heading
+  </h1>
+  <h1
+    className="sc-eCApnc lfCIpU"
+    size="XS"
+  >
+    This is extra small heading
+  </h1>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Custom Width 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iCoGMd fsusVO"
+  >
+    <input
+      className="sc-jSFjdj hyfHIU"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iCoGMd fsusVO"
+  >
+    <input
+      className="sc-jSFjdj fJCzXq"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Error 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iCoGMd fsusVO"
+  >
+    <input
+      className="sc-jSFjdj dYtENy"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Password 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iCoGMd gGschl"
+  >
+    <input
+      className="sc-jSFjdj fJCzXq"
+      type="password"
+    />
+    <button
+      className="sc-gKAaRy FQBZU"
+      onClick={[Function]}
+      type="button"
+    >
+      Show
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iCoGMd fsusVO"
+  >
+    <input
+      className="sc-jSFjdj fJCzXq"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Price 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iCoGMd AqkNJ"
+  >
+    <input
+      className="sc-jSFjdj fJCzXq"
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Label Defaul 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <label
+    className="sc-fujyAs fWueyT"
+  >
+    This is default label
+  </label>
+</div>
+`;
+
+exports[`Storyshots Atoms/Label Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <label
+    className="sc-fujyAs fWueyT"
+  >
+    Label 
+  </label>
+</div>
+`;
+
+exports[`Storyshots Atoms/Logo Black 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="Crowdfund logo"
+      src="logo-black.svg"
+    />
+  </a>
+</div>
+`;
+
+exports[`Storyshots Atoms/Logo Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="Crowdfund logo"
+      src="logo-white.svg"
+    />
+  </a>
+</div>
+`;
+
+exports[`Storyshots Atoms/Logo White 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="Crowdfund logo"
+      src="logo-white.svg"
+    />
+  </a>
+</div>
+`;
+
+exports[`Storyshots Atoms/MenuLink Black 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <a
+    aria-current={null}
+    className="sc-pNWdM gGWouM"
+    href="/fancy-url"
+    onClick={[Function]}
+  >
+    Black menu link
+  </a>
+</div>
+`;
+
+exports[`Storyshots Atoms/MenuLink Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <a
+    aria-current={null}
+    className="sc-pNWdM ckSJig"
+    href="/fancy-url"
+    onClick={[Function]}
+  >
+    Menu link
+  </a>
+</div>
+`;
+
+exports[`Storyshots Atoms/MenuLink White 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <a
+    aria-current={null}
+    className="sc-pNWdM ckSJig"
+    href="/fancy-url"
+    onClick={[Function]}
+  >
+    White menu link
+  </a>
+</div>
+`;
+
+exports[`Storyshots Atoms/Paragraph Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <p
+    className="sc-jrsJWt gNpvYE"
+  >
+    Fusce pellentesque quam semper nulla placerat vehicula. Donec et nibh tortor. Nulla ut felis in neque tempus volutpat ac et justo. Nulla elementum posuere lectus id tincidunt. Phasellus elementum metus arcu, non ultrices odio efficitur ut. Cras tellus quam, vestibulum vel porttitor a, dignissim sit amet dui. Vestibulum varius neque at lacus consequat, nec eleifend orci rhoncus. Praesent viverra non sapien vel blandit. Nulla sollicitudin mauris nisl, id elementum ante blandit in. Praesent interdum elit lorem, ac malesuada purus sollicitudin quis. Nulla condimentum tortor tortor, ac imperdiet tortor faucibus sit amet. Aliquam nibh velit, finibus vel diam sit amet, semper pellentesque libero. Nulla felis nisl, convallis ac molestie eu, pulvinar sit amet libero. Nam nisl arcu, fermentum tristique dui at, tincidunt maximus sem. Phasellus aliquet vestibulum urna eu facilisis. Pellentesque aliquam interdum tortor eu maximus.
+  </p>
+</div>
+`;
+
+exports[`Storyshots Atoms/Paragraph Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <p
+    className="sc-jrsJWt gNpvYE"
+  >
+    This is sample paragraph content
+  </p>
+</div>
+`;
+
+exports[`Storyshots Atoms/ProgressBar Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <progress
+    className="sc-kEqXSa DWcUv"
+    max={100}
+    value={50}
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/ProgressBar Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <progress
+    className="sc-kEqXSa DWcUv"
+    max={100}
+    value={30}
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Radio Checked 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <input
+    checked={true}
+    className="sc-iqAclL iqwub"
+    disabled={false}
+    readOnly={true}
+    type="radio"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Radio Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <input
+    checked={false}
+    className="sc-iqAclL iqwub"
+    disabled={false}
+    readOnly={true}
+    type="radio"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Radio Disabled 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <input
+    checked={false}
+    className="sc-iqAclL iqwub"
+    disabled={true}
+    readOnly={true}
+    type="radio"
+  />
+  <input
+    checked={true}
+    className="sc-iqAclL iqwub"
+    disabled={true}
+    readOnly={true}
+    type="radio"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Radio Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <input
+    checked={false}
+    className="sc-iqAclL iqwub"
+    disabled={false}
+    readOnly={true}
+    type="radio"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/TextMessage Error 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <label
+    className="sc-crzoAE eIFlbX"
+    type="error"
+  >
+    This is error message
+  </label>
+</div>
+`;
+
+exports[`Storyshots Atoms/TextMessage Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <label
+    className="sc-crzoAE eIFlbX"
+    type="error"
+  >
+    Sample error message
+  </label>
+</div>
+`;
+
+exports[`Storyshots Atoms/TextMessage Success 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <label
+    className="sc-crzoAE eBhXqi"
+    type="success"
+  >
+    This is success message
+  </label>
+</div>
+`;
+
+exports[`Storyshots Molecules/Card Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <article
+    className="sc-dlMDgC kXmjgp"
+  >
+    <header
+      className="sc-fFSPTT hlozJR"
+    >
+      <h3
+        className="sc-eCApnc kYLptJ"
+        size="S"
+      >
+        Title of default card
+      </h3>
+    </header>
+    <p
+      className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
+    </p>
+    <footer
+      className="sc-ksluID bdwKIX"
+    >
+      <button
+        className="sc-hKFxyN dpeOGK"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Default action
+      </button>
+    </footer>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Molecules/Card Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <article
+    className="sc-dlMDgC kXmjgp"
+  >
+    <header
+      className="sc-fFSPTT hlozJR"
+    >
+      <h3
+        className="sc-eCApnc kYLptJ"
+        size="S"
+      >
+        Example card title
+      </h3>
+    </header>
+    <p
+      className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
+    </p>
+    <footer
+      className="sc-ksluID bdwKIX"
+    >
+      <button
+        className="sc-hKFxyN dpeOGK"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Action button
+      </button>
+    </footer>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Molecules/Card Radio Card 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <article
+    className="sc-dlMDgC dDlFWq"
+  >
+    <input
+      checked={false}
+      className="sc-iqAclL iqwub"
+      disabled={false}
+      id="radio-card"
+      name="radio-card"
+      onChange={[Function]}
+      type="radio"
+      value="radio-card"
+    />
+    <header
+      className="sc-fFSPTT hlozJR"
+    >
+      <label
+        className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+        htmlFor="radio-card"
+        size="XS"
+      >
+        Title of Radio Card
+      </label>
+      <p
+        className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
+      >
+        Pledge 
+        $25
+         or more
+      </p>
+      <div
+        className="sc-dIvrsQ fzJffv"
+      >
+        <strong
+          className="sc-eCApnc lfCIpU"
+          size="XS"
+        >
+          60
+        </strong>
+        <p
+          className="sc-jrsJWt gNpvYE"
+        >
+          left
+        </p>
+      </div>
+    </header>
+    <p
+      className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
+    </p>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Molecules/Card Radio Card Out Of Stock 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <article
+    className="sc-dlMDgC btLGmW"
+  >
+    <input
+      checked={false}
+      className="sc-iqAclL iqwub"
+      disabled={true}
+      id="radio-card"
+      name="radio-card-out-of-stock"
+      onChange={[Function]}
+      type="radio"
+      value="radio-card"
+    />
+    <header
+      className="sc-fFSPTT hlozJR"
+    >
+      <label
+        className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+        htmlFor="radio-card"
+        size="XS"
+      >
+        Title of Radio Card
+      </label>
+      <p
+        className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
+      >
+        Pledge 
+        $25
+         or more
+      </p>
+      <div
+        className="sc-dIvrsQ fzJffv"
+      >
+        <strong
+          className="sc-eCApnc lfCIpU"
+          size="XS"
+        >
+          0
+        </strong>
+        <p
+          className="sc-jrsJWt gNpvYE"
+        >
+          left
+        </p>
+      </div>
+    </header>
+    <p
+      className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
+    </p>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <article
+    className="sc-dlMDgC imXuYJ"
+  >
+    <input
+      checked={true}
+      className="sc-iqAclL iqwub"
+      disabled={false}
+      id="radio-card"
+      name="radio-selected"
+      onChange={[Function]}
+      type="radio"
+      value="radio-card"
+    />
+    <header
+      className="sc-fFSPTT hlozJR"
+    >
+      <label
+        className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+        htmlFor="radio-card"
+        size="XS"
+      >
+        Title of Radio Card
+      </label>
+      <p
+        className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
+      >
+        Pledge 
+        $25
+         or more
+      </p>
+      <div
+        className="sc-dIvrsQ fzJffv"
+      >
+        <strong
+          className="sc-eCApnc lfCIpU"
+          size="XS"
+        >
+          10
+        </strong>
+        <p
+          className="sc-jrsJWt gNpvYE"
+        >
+          left
+        </p>
+      </div>
+    </header>
+    <p
+      className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
+    </p>
+    <footer
+      className="sc-ksluID Himgq"
+    >
+      <form
+        className="sc-hBMUJo fvqpjJ"
+        onSubmit={[Function]}
+      >
+        <div
+          className="sc-bqGGPW xQfzz"
+        >
+          <label
+            className="sc-fujyAs sc-dIsUp fWueyT esVFPJ"
+            htmlFor="pledge"
+          >
+            Enter your pledge: 
+          </label>
+          <div
+            className="sc-iCoGMd AqkNJ"
+          >
+            <input
+              className="sc-jSFjdj lfTYEO"
+              defaultValue={25}
+              id="pledge"
+              name="pledge"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="number"
+            />
+          </div>
+        </div>
+        <button
+          className="sc-hKFxyN dpeOGK"
+          disabled={false}
+          type="submit"
+        >
+          Continue
+        </button>
+      </form>
+    </footer>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Molecules/Card Reward Card 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <article
+    className="sc-dlMDgC kXmjgp"
+  >
+    <header
+      className="sc-fFSPTT hlozJR"
+    >
+      <h3
+        className="sc-eCApnc kYLptJ"
+        size="S"
+      >
+        Title of Reward Card
+      </h3>
+      <p
+        className="sc-jrsJWt sc-iemWCZ gNpvYE bIxSqf"
+      >
+        Pledge 
+        $25
+         or more
+      </p>
+    </header>
+    <p
+      className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
+    </p>
+    <footer
+      className="sc-ksluID bdwKIX"
+    >
+      <div
+        className="sc-fnVZcZ ipDbdt"
+      >
+        <strong
+          className="sc-eCApnc upmsQ"
+          size="XL"
+        >
+          60
+        </strong>
+        <p
+          className="sc-jrsJWt gNpvYE"
+        >
+          left
+        </p>
+      </div>
+      <button
+        className="sc-hKFxyN dpeOGK"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Select Reward
+      </button>
+    </footer>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Molecules/Card Reward Card Out Of Stock 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <article
+    className="sc-dlMDgC hSkBgp"
+  >
+    <header
+      className="sc-fFSPTT hlozJR"
+    >
+      <h3
+        className="sc-eCApnc kYLptJ"
+        size="S"
+      >
+        Title of Reward Card Out of stock
+      </h3>
+      <p
+        className="sc-jrsJWt sc-iemWCZ gNpvYE bIxSqf"
+      >
+        Pledge 
+        $200
+         or more
+      </p>
+    </header>
+    <p
+      className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
+    </p>
+    <footer
+      className="sc-ksluID bdwKIX"
+    >
+      <div
+        className="sc-fnVZcZ ipDbdt"
+      >
+        <strong
+          className="sc-eCApnc upmsQ"
+          size="XL"
+        >
+          0
+        </strong>
+        <p
+          className="sc-jrsJWt gNpvYE"
+        >
+          left
+        </p>
+      </div>
+      <button
+        className="sc-hKFxyN dpeOGK"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Out of stock
+      </button>
+    </footer>
+  </article>
+</div>
+`;
+
+exports[`Storyshots Molecules/Cardinal Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-kfYoZR iVcYaP"
+  >
+    <h3
+      className="sc-eCApnc sc-fKgJPI upmsQ cDdjSl"
+      size="XL"
+    >
+      56
+    </h3>
+    <p
+      className="sc-jrsJWt sc-bCwfaz gNpvYE YqDmz"
+    >
+      days left
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Cardinal Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-kfYoZR iVcYaP"
+  >
+    <h3
+      className="sc-eCApnc sc-fKgJPI upmsQ cDdjSl"
+      size="XL"
+    >
+      5,007
+    </h3>
+    <p
+      className="sc-jrsJWt sc-bCwfaz gNpvYE YqDmz"
+    >
+      total backers
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Cardinal Price Format 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-kfYoZR iVcYaP"
+  >
+    <h3
+      className="sc-eCApnc sc-fKgJPI upmsQ cDdjSl"
+      size="XL"
+    >
+      $78,000
+    </h3>
+    <p
+      className="sc-jrsJWt sc-bCwfaz gNpvYE YqDmz"
+    >
+      of $100,000 backed
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/InputField Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-bqGGPW fhRgKX"
+  >
+    <label
+      className="sc-fujyAs sc-dIsUp fWueyT esVFPJ"
+      htmlFor="default-input"
+    >
+      Default input: 
+    </label>
+    <div
+      className="sc-iCoGMd fsusVO"
+    >
+      <input
+        className="sc-jSFjdj fJCzXq"
+        id="default-input"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/InputField Error 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-bqGGPW fhRgKX"
+  >
+    <label
+      className="sc-fujyAs sc-dIsUp fWueyT esVFPJ"
+      htmlFor="error-input"
+    >
+      Error input: 
+    </label>
+    <div
+      className="sc-iCoGMd fsusVO"
+    >
+      <input
+        className="sc-jSFjdj dYtENy"
+        id="error-input"
+      />
+    </div>
+    <label
+      className="sc-crzoAE eIFlbX"
+      type="error"
+    >
+      Sample error message
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/InputField Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-bqGGPW fhRgKX"
+  >
+    <label
+      className="sc-fujyAs sc-dIsUp fWueyT esVFPJ"
+      htmlFor="playground-input"
+    >
+      Example label: 
+    </label>
+    <div
+      className="sc-iCoGMd fsusVO"
+    >
+      <input
+        className="sc-jSFjdj fJCzXq"
+        id="playground-input"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/InputField Single Column 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-bqGGPW xQfzz"
+  >
+    <label
+      className="sc-fujyAs sc-dIsUp fWueyT esVFPJ"
+      htmlFor="single-column-input"
+    >
+      Single column input: 
+    </label>
+    <div
+      className="sc-iCoGMd fsusVO"
+    >
+      <input
+        className="sc-jSFjdj fJCzXq"
+        id="single-column-input"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/InputField Single Column Error 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-bqGGPW xQfzz"
+  >
+    <label
+      className="sc-fujyAs sc-dIsUp fWueyT esVFPJ"
+      htmlFor="single-column-input"
+    >
+      Single column input: 
+    </label>
+    <div
+      className="sc-iCoGMd fsusVO"
+    >
+      <input
+        className="sc-jSFjdj dYtENy"
+        id="single-column-input"
+      />
+    </div>
+    <label
+      className="sc-crzoAE eIFlbX"
+      type="error"
+    >
+      Sample error message
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms/Footer Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <footer
+    className="sc-iwajpm bVUuRT"
+  >
+    <div
+      className="sc-cxNHIi jgEESE"
+    >
+      <div>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt="Crowdfund logo"
+            src="logo-black.svg"
+          />
+        </a>
+        <p
+          className="sc-jrsJWt sc-giAqHp gNpvYE eLacYh"
+        >
+          Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
+        </p>
+      </div>
+      <nav
+        className="sc-iJCRrE fztKkG"
+      >
+        <div>
+          <h3
+            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+            size="XS"
+          >
+            Help
+          </h3>
+          <ul
+            className="sc-ezzafa dwhydN"
+          >
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/privacy-policy"
+                onClick={[Function]}
+              >
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/regulations"
+                onClick={[Function]}
+              >
+                Regulations
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div
+      className="sc-lmgQwP jyXkfW"
+    >
+      <div
+        className="sc-cxNHIi jgEESE"
+      >
+        <p
+          className="sc-fujyAs fWueyT"
+        >
+          © Copyright 
+          2021
+           by Crowdfund
+        </p>
+        <ul
+          className="sc-ezzafa dOauyC"
+        >
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://facebook.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://instagram.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://twitter.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Twitter
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Storyshots Organisms/Footer Only Copy 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <footer
+    className="sc-iwajpm dZnTQU"
+  >
+    <p
+      className="sc-fujyAs fWueyT"
+    >
+      © Copyright 
+      2021
+       by Crowdfund
+    </p>
+  </footer>
+</div>
+`;
+
+exports[`Storyshots Organisms/Footer Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <footer
+    className="sc-iwajpm bVUuRT"
+  >
+    <div
+      className="sc-cxNHIi jgEESE"
+    >
+      <div>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt="Crowdfund logo"
+            src="logo-black.svg"
+          />
+        </a>
+        <p
+          className="sc-jrsJWt sc-giAqHp gNpvYE eLacYh"
+        >
+          Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
+        </p>
+      </div>
+      <nav
+        className="sc-iJCRrE jqKREm"
+      >
+        <div>
+          <h3
+            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+            size="XS"
+          >
+            Menu
+          </h3>
+          <ul
+            className="sc-ezzafa dwhydN"
+          >
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/about"
+                onClick={[Function]}
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/discover"
+                onClick={[Function]}
+              >
+                Discover
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/get-started"
+                onClick={[Function]}
+              >
+                Get Started
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3
+            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+            size="XS"
+          >
+            Help
+          </h3>
+          <ul
+            className="sc-ezzafa dwhydN"
+          >
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/privacy-policy"
+                onClick={[Function]}
+              >
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/regulations"
+                onClick={[Function]}
+              >
+                Regulations
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div
+      className="sc-lmgQwP jyXkfW"
+    >
+      <div
+        className="sc-cxNHIi jgEESE"
+      >
+        <p
+          className="sc-fujyAs fWueyT"
+        >
+          © Copyright 
+          2021
+           by Crowdfund
+        </p>
+        <ul
+          className="sc-ezzafa dOauyC"
+        >
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://facebook.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://instagram.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://twitter.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Twitter
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Storyshots Organisms/Footer With Nav 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <footer
+    className="sc-iwajpm bVUuRT"
+  >
+    <div
+      className="sc-cxNHIi jgEESE"
+    >
+      <div>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt="Crowdfund logo"
+            src="logo-black.svg"
+          />
+        </a>
+        <p
+          className="sc-jrsJWt sc-giAqHp gNpvYE eLacYh"
+        >
+          Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
+        </p>
+      </div>
+      <nav
+        className="sc-iJCRrE jqKREm"
+      >
+        <div>
+          <h3
+            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+            size="XS"
+          >
+            Menu
+          </h3>
+          <ul
+            className="sc-ezzafa dwhydN"
+          >
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/about"
+                onClick={[Function]}
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/discover"
+                onClick={[Function]}
+              >
+                Discover
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/get-started"
+                onClick={[Function]}
+              >
+                Get Started
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3
+            className="sc-eCApnc sc-bYwzuL lfCIpU iVREvF"
+            size="XS"
+          >
+            Help
+          </h3>
+          <ul
+            className="sc-ezzafa dwhydN"
+          >
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/privacy-policy"
+                onClick={[Function]}
+              >
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a
+                className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+                href="/regulations"
+                onClick={[Function]}
+              >
+                Regulations
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div
+      className="sc-lmgQwP jyXkfW"
+    >
+      <div
+        className="sc-cxNHIi jgEESE"
+      >
+        <p
+          className="sc-fujyAs fWueyT"
+        >
+          © Copyright 
+          2021
+           by Crowdfund
+        </p>
+        <ul
+          className="sc-ezzafa dOauyC"
+        >
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://facebook.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://instagram.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a
+              className="sc-pNWdM sc-kLojOw gGWouM kioEBm"
+              href="https://twitter.com"
+              rel="nofollow noreferrer"
+              target="_blank"
+            >
+              Twitter
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Storyshots Organisms/Modal Default 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iklJeh kEUbKe"
+  >
+    <div
+      className="sc-jJMGnK jujuGI"
+    >
+      <button
+        className="sc-hiKfDv ejANuH"
+        onClick={[Function]}
+      />
+      <p>
+        Content of Default Modal
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms/Modal Described 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iklJeh kEUbKe"
+  >
+    <div
+      className="sc-jJMGnK jujuGI"
+    >
+      <button
+        className="sc-hiKfDv ejANuH"
+        onClick={[Function]}
+      />
+      <h2
+        className="sc-eCApnc sc-gXfVKN kYLptJ HSlND"
+        size="S"
+      >
+        Desscribed Modal Title
+      </h2>
+      <p
+        className="sc-jrsJWt sc-cBoqAE gNpvYE eLgDES"
+      >
+        Sample described modal description
+      </p>
+      <p>
+        Content of Described Modal
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms/Modal Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iklJeh kEUbKe"
+  >
+    <div
+      className="sc-jJMGnK jujuGI"
+    >
+      <button
+        className="sc-hiKfDv ejANuH"
+        onClick={[Function]}
+      />
+      <p>
+        Example content
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iklJeh kEUbKe"
+  >
+    <div
+      className="sc-jJMGnK jujuGI"
+    >
+      <button
+        className="sc-hiKfDv ejANuH"
+        onClick={[Function]}
+      />
+      <h2
+        className="sc-eCApnc sc-gXfVKN kYLptJ HSlND"
+        size="S"
+      >
+        Complex children data
+      </h2>
+      <p
+        className="sc-jrsJWt sc-cBoqAE gNpvYE eLgDES"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere ante quis dui dapibus. eget malesuada orci porta. Ut sed purus eget tellus porta facilisis sed eu risus.
+      </p>
+      <div
+        className="sc-ciSkZP jgFbvp"
+      >
+        <article
+          className="sc-dlMDgC dDlFWq"
+        >
+          <input
+            checked={false}
+            className="sc-iqAclL iqwub"
+            disabled={false}
+            id="no-reward"
+            name="no-reward"
+            onChange={[Function]}
+            type="radio"
+            value="no-reward"
+          />
+          <header
+            className="sc-fFSPTT hlozJR"
+          >
+            <label
+              className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+              htmlFor="no-reward"
+              size="XS"
+            >
+              Pledge with no reward
+            </label>
+          </header>
+          <p
+            className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
+          </p>
+        </article>
+        <article
+          className="sc-dlMDgC dDlFWq"
+        >
+          <input
+            checked={false}
+            className="sc-iqAclL iqwub"
+            disabled={false}
+            id="bamboo"
+            name="bamboo"
+            onChange={[Function]}
+            type="radio"
+            value="bamboo"
+          />
+          <header
+            className="sc-fFSPTT hlozJR"
+          >
+            <label
+              className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+              htmlFor="bamboo"
+              size="XS"
+            >
+              Bamboo Stand
+            </label>
+            <p
+              className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
+            >
+              Pledge 
+              $25
+               or more
+            </p>
+            <div
+              className="sc-dIvrsQ fzJffv"
+            >
+              <strong
+                className="sc-eCApnc lfCIpU"
+                size="XS"
+              >
+                101
+              </strong>
+              <p
+                className="sc-jrsJWt gNpvYE"
+              >
+                left
+              </p>
+            </div>
+          </header>
+          <p
+            className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
+          </p>
+        </article>
+        <article
+          className="sc-dlMDgC dDlFWq"
+        >
+          <input
+            checked={false}
+            className="sc-iqAclL iqwub"
+            disabled={false}
+            id="black-edition"
+            name="black-edition"
+            onChange={[Function]}
+            type="radio"
+            value="black-edition"
+          />
+          <header
+            className="sc-fFSPTT hlozJR"
+          >
+            <label
+              className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+              htmlFor="black-edition"
+              size="XS"
+            >
+              Black Edition Stand
+            </label>
+            <p
+              className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
+            >
+              Pledge 
+              $75
+               or more
+            </p>
+            <div
+              className="sc-dIvrsQ fzJffv"
+            >
+              <strong
+                className="sc-eCApnc lfCIpU"
+                size="XS"
+              >
+                64
+              </strong>
+              <p
+                className="sc-jrsJWt gNpvYE"
+              >
+                left
+              </p>
+            </div>
+          </header>
+          <p
+            className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
+          </p>
+        </article>
+        <article
+          className="sc-dlMDgC btLGmW"
+        >
+          <input
+            checked={false}
+            className="sc-iqAclL iqwub"
+            disabled={true}
+            id="mahogany"
+            name="mahogany"
+            onChange={[Function]}
+            type="radio"
+            value="mahogany"
+          />
+          <header
+            className="sc-fFSPTT hlozJR"
+          >
+            <label
+              className="sc-eCApnc sc-bkbkJK lfCIpU cWVbrl"
+              htmlFor="mahogany"
+              size="XS"
+            >
+              Mahogany Special Edition
+            </label>
+            <p
+              className="sc-jrsJWt sc-iemWCZ gNpvYE iLoMtj"
+            >
+              Pledge 
+              $200
+               or more
+            </p>
+            <div
+              className="sc-dIvrsQ fzJffv"
+            >
+              <strong
+                className="sc-eCApnc lfCIpU"
+                size="XS"
+              >
+                0
+              </strong>
+              <p
+                className="sc-jrsJWt gNpvYE"
+              >
+                left
+              </p>
+            </div>
+          </header>
+          <p
+            className="sc-jrsJWt sc-hHEiqL gNpvYE birGev"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
+          </p>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms/Modal Without Close Button 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <div
+    className="sc-iklJeh kEUbKe"
+  >
+    <div
+      className="sc-jJMGnK jujuGI"
+    >
+      <p>
+        Content of Without Close Button Modal
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms/NavBar Black 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <header
+    className="sc-jcwpoC fKvHjg"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Crowdfund logo"
+        src="logo-black.svg"
+      />
+    </a>
+    <nav>
+      <ul
+        className="sc-carFqZ bUNslZ"
+      >
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM gGWouM"
+            href="/about"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM gGWouM"
+            href="/discover"
+            onClick={[Function]}
+          >
+            Discover
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM gGWouM"
+            href="/get-started"
+            onClick={[Function]}
+          >
+            Get Started
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Organisms/NavBar Playground 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <header
+    className="sc-jcwpoC fKvHjg"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Crowdfund logo"
+        src="logo-white.svg"
+      />
+    </a>
+    <nav>
+      <ul
+        className="sc-carFqZ bUNslZ"
+      >
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM ckSJig"
+            href="/about"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM ckSJig"
+            href="/discover"
+            onClick={[Function]}
+          >
+            Discover
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM ckSJig"
+            href="/get-started"
+            onClick={[Function]}
+          >
+            Get Started
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Organisms/NavBar White 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <header
+    className="sc-jcwpoC fKvHjg"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Crowdfund logo"
+        src="logo-white.svg"
+      />
+    </a>
+    <nav>
+      <ul
+        className="sc-carFqZ bUNslZ"
+      >
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM ckSJig"
+            href="/about"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM ckSJig"
+            href="/discover"
+            onClick={[Function]}
+          >
+            Discover
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="sc-pNWdM ckSJig"
+            href="/get-started"
+            onClick={[Function]}
+          >
+            Get Started
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Organisms/NavBar Without Nav Items Black 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM liXHHL"
+  />
+  <header
+    className="sc-jcwpoC ijhA-DE"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Crowdfund logo"
+        src="logo-black.svg"
+      />
+    </a>
+    <nav>
+      <ul
+        className="sc-carFqZ bUNslZ"
+      />
+    </nav>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Organisms/NavBar Without Nav Items White 1`] = `
+<div
+  className="sc-gtsrHT csNdWE"
+>
+  <div
+    className="sc-bdnxRM zrODe"
+  />
+  <header
+    className="sc-jcwpoC ijhA-DE"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Crowdfund logo"
+        src="logo-white.svg"
+      />
+    </a>
+    <nav>
+      <ul
+        className="sc-carFqZ bUNslZ"
+      />
+    </nav>
+  </header>
+</div>
+`;

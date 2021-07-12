@@ -1,12 +1,18 @@
 export const mainTheme = {
-  colors: {
-    cyan100: ' hsl(176, 50%, 47%)',
-    cyan200: 'hsl(176, 72%, 28%)',
-    gray100: 'hsl(0, 0%, 48%)',
+  color: {
+    cyan100: ' hsl(176, 50%, 95%)',
+    cyan200: ' hsl(176, 50%, 47%)',
+    cyan300: 'hsl(176, 72%, 28%)',
+    gray100: 'hsl(0, 0%, 98%)',
+    gray200: 'hsl(0, 0%, 90%)',
+    gray300: 'hsl(0, 0%, 70%)',
+    gray400: 'hsl(0, 0%, 48%)',
+    red100: 'hsl(360, 75%, 55%)',
+    green100: 'hsl(122, 87%, 37%)',
     black: 'hsl(0, 0%, 0%)',
     white: 'hsl(0, 0%, 100%)',
   },
-  fonts: {
+  font: {
     headingXL: '3.2rem',
     headingL: '2.8rem',
     headingM: '2.4rem',
@@ -14,6 +20,7 @@ export const mainTheme = {
     headingXS: '1.8rem',
     bodyTextM: '1.6rem',
     bodyTextS: '1.4rem',
+    captionM: '1.1rem',
     regular: 400,
     medium: 500,
     bold: 700,
