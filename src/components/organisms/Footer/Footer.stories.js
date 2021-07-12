@@ -4,6 +4,12 @@ import Footer from '.';
 export default {
   title: 'Organisms/Footer',
   component: Footer,
+  parameters: {
+    storyPadding: false,
+    storyBackground: {
+      defaultValue: 'gray',
+    },
+  },
 };
 
 const sampleNavItems = [

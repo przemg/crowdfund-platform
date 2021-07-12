@@ -11,10 +11,9 @@ const StyledBackgroundBox = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
   background-color: ${({ currentBackground }) => currentBackground};
-  z-index: -9999;
 `;
 
 /*
@@ -44,12 +43,17 @@ const StoryBackgroundDecorator =
       return current;
     }, defaultValue);
 
-    const currentBackground = avaiableBackgrounds[currentValue] || avaiableBackgrounds.white;
+    const currentBackground = avaiableBackgrounds[currentValue];
 
     return (
       <>
-        <StyledBackgroundBox currentBackground={currentBackground} />
-        <Story />
+        {currentBackground ? (
+          <StyledBackgroundBox currentBackground={currentBackground}>
+            <Story />
+          </StyledBackgroundBox>
+        ) : (
+          <Story />
+        )}
       </>
     );
   };
