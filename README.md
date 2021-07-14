@@ -16,4 +16,4 @@ Users should be able to:
 - Bookmark interesting projects
 - Create own project
 - Make a selection of which pledge to make
-- Rewards kits with minimum pledge value
+- Choose one of rewards kits with minimum pledge value
