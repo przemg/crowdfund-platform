@@ -18,7 +18,7 @@ const StyledButton = styled(Button)`
   margin-top: 10px;
 `;
 
-const LoginPage = () => {
+const RegisterPage = () => {
   const {
     register,
     handleSubmit,
@@ -26,10 +26,7 @@ const LoginPage = () => {
   } = useForm();
 
   return (
-    <AuthTemplate
-      title="Welcome again!"
-      description="You need to confirm your identity to continue."
-    >
+    <AuthTemplate title="Join to us!" description="Create free account to start.">
       <StyledForm onSubmit={handleSubmit()}>
         <InputField
           autoFocus
@@ -47,6 +44,20 @@ const LoginPage = () => {
           })}
         />
         <InputField
+          id="name"
+          type="text"
+          label="Full name"
+          inputWidth={350}
+          error={errors.name?.message}
+          {...register('name', {
+            required: { value: true, message: 'Full name is required' },
+            pattern: {
+              value: /[a-z]+ [a-z-]+/i,
+              message: 'You must enter your first name and last name',
+            },
+          })}
+        />
+        <InputField
           passwordShowAction
           id="password"
           type="password"
@@ -55,15 +66,19 @@ const LoginPage = () => {
           error={errors.password?.message}
           {...register('password', {
             required: { value: true, message: 'Password is required' },
+            pattern: {
+              value: /^(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])[a-zA-Z0-9]{6,15}$/,
+              message: '6-20 characters (A-Z, a-z, 0-9 only)',
+            },
           })}
         />
-        <StyledButton>Login</StyledButton>
+        <StyledButton>Create account</StyledButton>
       </StyledForm>
       <Paragraph>
-        New user? <TextLink to="/register">Create an account</TextLink>
+        Already have an account? <TextLink to="/login">Login</TextLink>
       </Paragraph>
     </AuthTemplate>
   );
 };
 
-export default LoginPage;
+export default RegisterPage;

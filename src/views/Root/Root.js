@@ -1,7 +1,8 @@
 import * as React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import MainTemplate from 'templates/MainTemplate';
-import LoginPage from './LoginPage';
+import RegisterPage from 'views/RegisterPage';
+import LoginPage from '../LoginPage';
 
 const Root = () => (
   <MainTemplate>
@@ -9,6 +10,7 @@ const Root = () => (
       <Switch>
         <Route exact path="/" component={() => <p>Hello world</p>} />
         <Route path="/login" component={LoginPage} />
+        <Route path="/register" component={RegisterPage} />
       </Switch>
     </BrowserRouter>
   </MainTemplate>
