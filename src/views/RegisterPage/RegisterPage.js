@@ -6,12 +6,14 @@ import InputField from 'components/molecules/InputField';
 import { useForm } from 'react-hook-form';
 import Button from 'components/atoms/Button';
 import styled from 'styled-components';
+import { routes } from 'routes';
 
 const StyledForm = styled.form`
   width: 100%;
   display: grid;
   grid-gap: 16px;
   margin-bottom: 64px;
+  width: 360px;
 `;
 
 const StyledButton = styled(Button)`
@@ -27,13 +29,12 @@ const RegisterPage = () => {
 
   return (
     <AuthTemplate title="Join to us!" description="Create free account to start.">
-      <StyledForm onSubmit={handleSubmit()}>
+      <StyledForm onSubmit={handleSubmit((e) => console.log(e))}>
         <InputField
           autoFocus
           id="email"
           type="email"
           label="Email address"
-          inputWidth={350}
           error={errors.email?.message}
           {...register('email', {
             required: { value: true, message: 'Email address is required' },
@@ -47,7 +48,6 @@ const RegisterPage = () => {
           id="name"
           type="text"
           label="Full name"
-          inputWidth={350}
           error={errors.name?.message}
           {...register('name', {
             required: { value: true, message: 'Full name is required' },
@@ -62,7 +62,6 @@ const RegisterPage = () => {
           id="password"
           type="password"
           label="Password"
-          inputWidth={350}
           error={errors.password?.message}
           {...register('password', {
             required: { value: true, message: 'Password is required' },
@@ -72,10 +71,10 @@ const RegisterPage = () => {
             },
           })}
         />
-        <StyledButton>Create account</StyledButton>
+        <StyledButton type="submit">Create account</StyledButton>
       </StyledForm>
       <Paragraph>
-        Already have an account? <TextLink to="/login">Login</TextLink>
+        Already have an account? <TextLink to={routes.login}>Login</TextLink>
       </Paragraph>
     </AuthTemplate>
   );

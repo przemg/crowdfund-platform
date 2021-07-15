@@ -6,12 +6,14 @@ import InputField from 'components/molecules/InputField';
 import { useForm } from 'react-hook-form';
 import Button from 'components/atoms/Button';
 import styled from 'styled-components';
+import { routes } from 'routes';
 
 const StyledForm = styled.form`
   width: 100%;
   display: grid;
   grid-gap: 16px;
   margin-bottom: 64px;
+  width: 360px;
 `;
 
 const StyledButton = styled(Button)`
@@ -30,13 +32,12 @@ const LoginPage = () => {
       title="Welcome again!"
       description="You need to confirm your identity to continue."
     >
-      <StyledForm onSubmit={handleSubmit()}>
+      <StyledForm onSubmit={handleSubmit((e) => console.log(e))}>
         <InputField
           autoFocus
           id="email"
           type="email"
           label="Email address"
-          inputWidth={350}
           error={errors.email?.message}
           {...register('email', {
             required: { value: true, message: 'Email address is required' },
@@ -51,16 +52,15 @@ const LoginPage = () => {
           id="password"
           type="password"
           label="Password"
-          inputWidth={350}
           error={errors.password?.message}
           {...register('password', {
             required: { value: true, message: 'Password is required' },
           })}
         />
-        <StyledButton>Login</StyledButton>
+        <StyledButton type="submit">Login</StyledButton>
       </StyledForm>
       <Paragraph>
-        New user? <TextLink to="/register">Create an account</TextLink>
+        New user? <TextLink to={routes.register}>Create an account</TextLink>
       </Paragraph>
     </AuthTemplate>
   );
