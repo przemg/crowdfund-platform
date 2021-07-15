@@ -6,7 +6,7 @@ const StyledInput = styled.input`
   font-size: ${({ theme }) => theme.font.bodyTextS};
   font-weight: ${({ theme }) => theme.font.medium};
   color: ${({ theme }) => theme.color.black};
-  width: ${({ inputWidth }) => (inputWidth ? `${inputWidth}px` : 'auto')};
+  width: 100%;
   height: 44px;
   padding: 0 20px;
   border-radius: 24px;
@@ -34,7 +34,8 @@ const StyledButton = styled.button`
 
 const StyledWrapper = styled.div`
   position: relative;
-  width: fit-content;
+  width: ${({ inputWidth }) => (inputWidth ? `${inputWidth}px` : '100%')};
+  min-width: ${({ inputWidth }) => (inputWidth ? 'unset' : '200px')};
 
   ${({ priceLeadingIcon }) =>
     priceLeadingIcon &&
@@ -75,12 +76,12 @@ const Input = React.forwardRef(
       <StyledWrapper
         priceLeadingIcon={priceLeadingIcon}
         passwordShowAction={passedOnlyPasswordShowButtonProps}
+        inputWidth={inputWidth}
       >
         {passedOnlyPasswordShowButtonProps ? (
           <>
             <StyledInput
               error={error}
-              inputWidth={inputWidth}
               ref={ref}
               {...props}
               type={isPasswordShown ? 'text' : 'password'}

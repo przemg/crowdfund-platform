@@ -263,10 +263,10 @@ exports[`Storyshots Atoms/Input Custom Width 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-iCoGMd fsusVO"
+      className="sc-iCoGMd dUXmYh"
     >
       <input
-        className="sc-jSFjdj hyfHIU"
+        className="sc-jSFjdj cPnIJW"
       />
     </div>
   </div>
@@ -281,10 +281,10 @@ exports[`Storyshots Atoms/Input Default 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-iCoGMd fsusVO"
+      className="sc-iCoGMd gTKDoB"
     >
       <input
-        className="sc-jSFjdj fJCzXq"
+        className="sc-jSFjdj cPnIJW"
       />
     </div>
   </div>
@@ -299,10 +299,10 @@ exports[`Storyshots Atoms/Input Error 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-iCoGMd fsusVO"
+      className="sc-iCoGMd gTKDoB"
     >
       <input
-        className="sc-jSFjdj dYtENy"
+        className="sc-jSFjdj deIbi"
       />
     </div>
   </div>
@@ -317,10 +317,10 @@ exports[`Storyshots Atoms/Input Password 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-iCoGMd gGschl"
+      className="sc-iCoGMd ivWbhe"
     >
       <input
-        className="sc-jSFjdj fJCzXq"
+        className="sc-jSFjdj cPnIJW"
         type="password"
       />
       <button
@@ -343,10 +343,10 @@ exports[`Storyshots Atoms/Input Playground 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-iCoGMd fsusVO"
+      className="sc-iCoGMd gTKDoB"
     >
       <input
-        className="sc-jSFjdj fJCzXq"
+        className="sc-jSFjdj cPnIJW"
       />
     </div>
   </div>
@@ -361,10 +361,10 @@ exports[`Storyshots Atoms/Input Price 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-iCoGMd AqkNJ"
+      className="sc-iCoGMd dUjfQa"
     >
       <input
-        className="sc-jSFjdj fJCzXq"
+        className="sc-jSFjdj cPnIJW"
         type="number"
       />
     </div>
@@ -1034,10 +1034,10 @@ exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
               Enter your pledge: 
             </label>
             <div
-              className="sc-iCoGMd AqkNJ"
+              className="sc-iCoGMd cjUmVO"
             >
               <input
-                className="sc-jSFjdj lfTYEO"
+                className="sc-jSFjdj cPnIJW"
                 defaultValue={25}
                 id="pledge"
                 name="pledge"
@@ -1282,10 +1282,10 @@ exports[`Storyshots Molecules/InputField Default 1`] = `
         Default input: 
       </label>
       <div
-        className="sc-iCoGMd fsusVO"
+        className="sc-iCoGMd gTKDoB"
       >
         <input
-          className="sc-jSFjdj fJCzXq"
+          className="sc-jSFjdj cPnIJW"
           id="default-input"
         />
       </div>
@@ -1311,10 +1311,10 @@ exports[`Storyshots Molecules/InputField Error 1`] = `
         Error input: 
       </label>
       <div
-        className="sc-iCoGMd fsusVO"
+        className="sc-iCoGMd gTKDoB"
       >
         <input
-          className="sc-jSFjdj dYtENy"
+          className="sc-jSFjdj deIbi"
           id="error-input"
         />
       </div>
@@ -1346,10 +1346,10 @@ exports[`Storyshots Molecules/InputField Playground 1`] = `
         Example label: 
       </label>
       <div
-        className="sc-iCoGMd fsusVO"
+        className="sc-iCoGMd gTKDoB"
       >
         <input
-          className="sc-jSFjdj fJCzXq"
+          className="sc-jSFjdj cPnIJW"
           id="playground-input"
         />
       </div>
@@ -1375,10 +1375,10 @@ exports[`Storyshots Molecules/InputField Single Column 1`] = `
         Single column input: 
       </label>
       <div
-        className="sc-iCoGMd fsusVO"
+        className="sc-iCoGMd gTKDoB"
       >
         <input
-          className="sc-jSFjdj fJCzXq"
+          className="sc-jSFjdj cPnIJW"
           id="single-column-input"
         />
       </div>
@@ -1404,10 +1404,10 @@ exports[`Storyshots Molecules/InputField Single Column Error 1`] = `
         Single column input: 
       </label>
       <div
-        className="sc-iCoGMd fsusVO"
+        className="sc-iCoGMd gTKDoB"
       >
         <input
-          className="sc-jSFjdj dYtENy"
+          className="sc-jSFjdj deIbi"
           id="single-column-input"
         />
       </div>
