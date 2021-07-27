@@ -18,7 +18,8 @@
     "import/no-extraneous-dependencies": [
       "error",
       { "devDependencies": [".storybook/**", "src/**/*.stories.js", "src/**/*.test.js"] }
-    ]
+    ],
+    "no-underscore-dangle": ["error", { "allow": ["_id"] }]
   },
   "settings": {
     "import/resolver": {

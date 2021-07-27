@@ -7,6 +7,9 @@ import { useForm } from 'react-hook-form';
 import Button from 'components/atoms/Button';
 import styled from 'styled-components';
 import { routes } from 'routes';
+import { useFetch } from 'context/FetchContext';
+import { useAuth } from 'context/AuthContext';
+import { Redirect } from 'react-router-dom';
 
 const StyledForm = styled.form`
   width: 100%;
@@ -21,18 +24,51 @@ const StyledButton = styled(Button)`
 `;
 
 const LoginPage = () => {
+  const [loginError, setLoginError] = React.useState();
+  const [loginSuccess, setLoginSuccess] = React.useState();
+  const [loginLoading, setLoginLoading] = React.useState(false);
+  const [shouldRedirect, setShouldRedirect] = React.useState(false);
+  const { axiosInstance } = useFetch();
+  const { setAuthData } = useAuth();
+
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
+  const handleLoginRequest = async ({ email, password }) => {
+    try {
+      setLoginLoading(true);
+      const {
+        data: { data },
+      } = await axiosInstance.post('/auth/login', { email, password });
+
+      setAuthData(data);
+      setLoginSuccess('Successfully authenticated!');
+      setLoginError('');
+      setLoginLoading(false);
+
+      setTimeout(() => {
+        setShouldRedirect(true);
+      }, 700);
+    } catch (error) {
+      setLoginSuccess('');
+      setLoginError('Wrong email or password!');
+      setLoginLoading(false);
+    }
+  };
+
+  if (shouldRedirect) return <Redirect to="/" />;
+
   return (
     <AuthTemplate
       title="Welcome again!"
       description="You need to confirm your identity to continue."
     >
-      <StyledForm onSubmit={handleSubmit((e) => console.log(e))}>
+      <StyledForm onSubmit={handleSubmit(handleLoginRequest)}>
+        {loginError ? <p>{loginError}</p> : null}
+        {loginSuccess ? <p>{loginSuccess}</p> : null}
         <InputField
           autoFocus
           id="email"
@@ -57,7 +93,9 @@ const LoginPage = () => {
             required: { value: true, message: 'Password is required' },
           })}
         />
-        <StyledButton type="submit">Login</StyledButton>
+        <StyledButton disabled={loginLoading} type="submit">
+          {loginLoading ? 'Please wait...' : 'Login'}
+        </StyledButton>
       </StyledForm>
       <Paragraph>
         New user? <TextLink to={routes.register}>Create an account</TextLink>

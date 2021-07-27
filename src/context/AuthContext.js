@@ -18,7 +18,9 @@ const AuthProvider = ({ children }) => {
   React.useEffect(() => {
     const getAuthenticatedUserData = async () => {
       try {
-        const { data } = await axiosInstance.get('/auth/me');
+        const {
+          data: { data },
+        } = await axiosInstance.get('/auth/me');
         setAuthState({ account: data, isAuthenticated: true, checkedSessionCookie: true });
       } catch (error) {
         setAuthState({ account: null, isAuthenticated: false, checkedSessionCookie: true });
@@ -28,7 +30,10 @@ const AuthProvider = ({ children }) => {
     getAuthenticatedUserData();
   }, [axiosInstance]);
 
-  const login = () => {};
+  const setAuthData = (account) => {
+    setAuthState({ account, isAuthenticated: !!account?._id, ...authState });
+  };
+
   const logout = () => {};
 
   // We are waiting for a response from /auth/me to check if the user has a valid session cookie
@@ -37,7 +42,9 @@ const AuthProvider = ({ children }) => {
   }
 
   return (
-    <AuthContext.Provider value={{ ...authState, login, logout }}>{children}</AuthContext.Provider>
+    <AuthContext.Provider value={{ ...authState, setAuthData, logout }}>
+      {children}
+    </AuthContext.Provider>
   );
 };
 
