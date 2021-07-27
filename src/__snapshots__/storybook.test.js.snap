@@ -1904,18 +1904,54 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
 </div>
 `;
 
+exports[`Storyshots Organisms/GenericLoadingIndicator Default 1`] = `
+<div
+  className="sc-bdnxRM iMHPHc"
+>
+  <div
+    className="sc-gtsrHT gAAakf"
+  >
+    <div
+      className="sc-hiKfDv jrUhIV"
+    >
+      <div
+        className="sc-crzoAE gKuROo"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Organisms/GenericLoadingIndicator Playground 1`] = `
+<div
+  className="sc-bdnxRM iMHPHc"
+>
+  <div
+    className="sc-gtsrHT gAAakf"
+  >
+    <div
+      className="sc-hiKfDv jrUhIV"
+    >
+      <div
+        className="sc-crzoAE gKuROo"
+      />
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Organisms/Modal Default 1`] = `
 <div
   className="sc-bdnxRM iMHPHc"
 >
   <div
-    className="sc-hiKfDv bfioew"
+    className="sc-gXfVKN dQKqQQ"
   >
     <div
-      className="sc-gXfVKN hFkTfZ"
+      className="sc-cBoqAE TTQOw"
     >
       <button
-        className="sc-cBoqAE jkxYFe"
+        className="sc-ciSkZP fWNzNx"
         onClick={[Function]}
       />
       <p>
@@ -1931,23 +1967,23 @@ exports[`Storyshots Organisms/Modal Described 1`] = `
   className="sc-bdnxRM iMHPHc"
 >
   <div
-    className="sc-hiKfDv bfioew"
+    className="sc-gXfVKN dQKqQQ"
   >
     <div
-      className="sc-gXfVKN hFkTfZ"
+      className="sc-cBoqAE TTQOw"
     >
       <button
-        className="sc-cBoqAE jkxYFe"
+        className="sc-ciSkZP fWNzNx"
         onClick={[Function]}
       />
       <h2
-        className="sc-eCApnc sc-ciSkZP kYLptJ gMsZvx"
+        className="sc-eCApnc sc-jcwpoC kYLptJ hlsGQj"
         size="S"
       >
         Desscribed Modal Title
       </h2>
       <p
-        className="sc-jrsJWt sc-jcwpoC gNpvYE hrhBLz"
+        className="sc-jrsJWt sc-carFqZ gNpvYE bHmIis"
       >
         Sample described modal description
       </p>
@@ -1964,13 +2000,13 @@ exports[`Storyshots Organisms/Modal Playground 1`] = `
   className="sc-bdnxRM iMHPHc"
 >
   <div
-    className="sc-hiKfDv bfioew"
+    className="sc-gXfVKN dQKqQQ"
   >
     <div
-      className="sc-gXfVKN hFkTfZ"
+      className="sc-cBoqAE TTQOw"
     >
       <button
-        className="sc-cBoqAE jkxYFe"
+        className="sc-ciSkZP fWNzNx"
         onClick={[Function]}
       />
       <p>
@@ -1986,28 +2022,28 @@ exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
   className="sc-bdnxRM iMHPHc"
 >
   <div
-    className="sc-hiKfDv bfioew"
+    className="sc-gXfVKN dQKqQQ"
   >
     <div
-      className="sc-gXfVKN hFkTfZ"
+      className="sc-cBoqAE TTQOw"
     >
       <button
-        className="sc-cBoqAE jkxYFe"
+        className="sc-ciSkZP fWNzNx"
         onClick={[Function]}
       />
       <h2
-        className="sc-eCApnc sc-ciSkZP kYLptJ gMsZvx"
+        className="sc-eCApnc sc-jcwpoC kYLptJ hlsGQj"
         size="S"
       >
         Complex children data
       </h2>
       <p
-        className="sc-jrsJWt sc-jcwpoC gNpvYE hrhBLz"
+        className="sc-jrsJWt sc-carFqZ gNpvYE bHmIis"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere ante quis dui dapibus. eget malesuada orci porta. Ut sed purus eget tellus porta facilisis sed eu risus.
       </p>
       <div
-        className="sc-carFqZ hLTUJQ"
+        className="sc-iTVJFM lDWnT"
       >
         <article
           className="sc-fKgJPI VuTls"
@@ -2206,10 +2242,10 @@ exports[`Storyshots Organisms/Modal Without Close Button 1`] = `
   className="sc-bdnxRM iMHPHc"
 >
   <div
-    className="sc-hiKfDv bfioew"
+    className="sc-gXfVKN dQKqQQ"
   >
     <div
-      className="sc-gXfVKN hFkTfZ"
+      className="sc-cBoqAE TTQOw"
     >
       <p>
         Content of Without Close Button Modal
@@ -2227,7 +2263,7 @@ exports[`Storyshots Organisms/NavBar Black 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <header
-      className="sc-iTVJFM kmKUQA"
+      className="sc-iBzEeX gjmRKH"
     >
       <a
         href="/"
@@ -2240,7 +2276,7 @@ exports[`Storyshots Organisms/NavBar Black 1`] = `
       </a>
       <nav>
         <ul
-          className="sc-iBzEeX ddXzjx"
+          className="sc-efHYUO fZwGho"
         >
           <li>
             <a
@@ -2287,7 +2323,7 @@ exports[`Storyshots Organisms/NavBar Playground 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <header
-      className="sc-iTVJFM kmKUQA"
+      className="sc-iBzEeX gjmRKH"
     >
       <a
         href="/"
@@ -2300,7 +2336,7 @@ exports[`Storyshots Organisms/NavBar Playground 1`] = `
       </a>
       <nav>
         <ul
-          className="sc-iBzEeX ddXzjx"
+          className="sc-efHYUO fZwGho"
         >
           <li>
             <a
@@ -2347,7 +2383,7 @@ exports[`Storyshots Organisms/NavBar White 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <header
-      className="sc-iTVJFM kmKUQA"
+      className="sc-iBzEeX gjmRKH"
     >
       <a
         href="/"
@@ -2360,7 +2396,7 @@ exports[`Storyshots Organisms/NavBar White 1`] = `
       </a>
       <nav>
         <ul
-          className="sc-iBzEeX ddXzjx"
+          className="sc-efHYUO fZwGho"
         >
           <li>
             <a
@@ -2407,7 +2443,7 @@ exports[`Storyshots Organisms/NavBar Without Nav Items Black 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <header
-      className="sc-iTVJFM hBLNbM"
+      className="sc-iBzEeX gweKMr"
     >
       <a
         href="/"
@@ -2420,7 +2456,7 @@ exports[`Storyshots Organisms/NavBar Without Nav Items Black 1`] = `
       </a>
       <nav>
         <ul
-          className="sc-iBzEeX ddXzjx"
+          className="sc-efHYUO fZwGho"
         />
       </nav>
     </header>
@@ -2436,7 +2472,7 @@ exports[`Storyshots Organisms/NavBar Without Nav Items White 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <header
-      className="sc-iTVJFM hBLNbM"
+      className="sc-iBzEeX gweKMr"
     >
       <a
         href="/"
@@ -2449,7 +2485,7 @@ exports[`Storyshots Organisms/NavBar Without Nav Items White 1`] = `
       </a>
       <nav>
         <ul
-          className="sc-iBzEeX ddXzjx"
+          className="sc-efHYUO fZwGho"
         />
       </nav>
     </header>
