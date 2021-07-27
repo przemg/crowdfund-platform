@@ -1,17 +1,28 @@
 import * as React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import MainTemplate from 'templates/MainTemplate';
-import { routes } from 'routes';
-import LoginPage from '../LoginPage';
-import RegisterPage from '../RegisterPage';
+import { useAuth } from 'context/AuthContext';
+import UnauthenticatedApp from './UnauthenticatedApp';
+import AuthenticatedApp from './AuthenticatedApp';
+import CommonApp from './CommonApp';
+
+const App = () => {
+  const { isAuthenticated } = useAuth();
+
+  return (
+    <>
+      <CommonApp />
+      {isAuthenticated ? <AuthenticatedApp /> : <UnauthenticatedApp />}
+    </>
+  );
+};
 
 const Root = () => (
   <MainTemplate>
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={() => <p>Hello world</p>} />
-        <Route path={routes.login} component={LoginPage} />
-        <Route path={routes.register} component={RegisterPage} />
+        <App />
       </Switch>
     </BrowserRouter>
   </MainTemplate>
