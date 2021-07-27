@@ -6,12 +6,10 @@ import { mainTheme } from 'theme/mainTheme';
 import AppProvider from 'context';
 
 const MainTemplate = ({ children }) => (
-  <AppProvider>
-    <ThemeProvider theme={mainTheme}>
-      <GlobalStyle />
-      {children}
-    </ThemeProvider>
-  </AppProvider>
+  <ThemeProvider theme={mainTheme}>
+    <GlobalStyle />
+    <AppProvider>{children}</AppProvider>
+  </ThemeProvider>
 );
 
 MainTemplate.propTypes = {

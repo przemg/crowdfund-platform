@@ -1,5 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
+import GenericLoadingIndicator from 'components/organisms/GenericLoadingIndicator';
 import { useFetch } from './FetchContext';
 
 const AuthContext = React.createContext();
@@ -32,7 +33,7 @@ const AuthProvider = ({ children }) => {
 
   // We are waiting for a response from /auth/me to check if the user has a valid session cookie
   if (!authState.checkedSessionCookie) {
-    return <div>Loading...</div>;
+    return <GenericLoadingIndicator />;
   }
 
   return (
