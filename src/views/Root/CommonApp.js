@@ -1,15 +1,12 @@
-import * as React from 'react';
-import { Route, Switch } from 'react-router-dom';
 import { routes } from 'routes/index';
 import HomePage from 'views/HomePage/HomePage';
+import NotFoundPage from 'views/NotFoundPage/';
 
 // Part of application where every user has access whether he is authenticated or not
-const CommonApp = () => (
-  <Switch>
-    <Route exact path={routes.home} component={HomePage} />
+const commonApp = [
+  { path: routes.home.path, component: HomePage, exact: true },
 
-    <Route path="*" component={() => <p>404</p>} />
-  </Switch>
-);
+  { path: '*', component: NotFoundPage },
+];
 
-export default CommonApp;
+export default commonApp;
