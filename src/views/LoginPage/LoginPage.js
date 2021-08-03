@@ -10,6 +10,7 @@ import { routes } from 'routes';
 import { useFetch } from 'context/FetchContext';
 import { useAuth } from 'context/AuthContext';
 import Alert from 'components/atoms/Alert';
+import { useLocation } from 'react-router-dom';
 
 const StyledForm = styled.form`
   width: 100%;
@@ -29,6 +30,7 @@ const LoginPage = () => {
   const [loginLoading, setLoginLoading] = React.useState(false);
   const { axiosInstance } = useFetch();
   const { authenticateUser } = useAuth();
+  const { search } = useLocation();
 
   const {
     register,
@@ -63,6 +65,11 @@ const LoginPage = () => {
       description="You need to confirm your identity to continue."
     >
       <StyledForm onSubmit={handleSubmit(handleLoginRequest)}>
+        {search && !loginSuccess ? (
+          <Alert box type="error">
+            This page requires login to access. Please log in to continue.
+          </Alert>
+        ) : null}
         {loginError ? (
           <Alert box type="error">
             {loginError}
@@ -102,7 +109,7 @@ const LoginPage = () => {
         </StyledButton>
       </StyledForm>
       <Paragraph>
-        New user? <TextLink to={routes.register}>Create an account</TextLink>
+        New user? <TextLink to={routes.register.path}>Create an account</TextLink>
       </Paragraph>
     </AuthTemplate>
   );

@@ -113,7 +113,7 @@ const RegisterPage = () => {
         </StyledButton>
       </StyledForm>
       <Paragraph>
-        Already have an account? <TextLink to={routes.login}>Login</TextLink>
+        Already have an account? <TextLink to={routes.login.path}>Login</TextLink>
       </Paragraph>
     </AuthTemplate>
   );
