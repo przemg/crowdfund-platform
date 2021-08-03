@@ -1,14 +1,12 @@
-import * as React from 'react';
+import React from 'react';
 import { routes } from 'routes';
-import { Route, Switch } from 'react-router-dom';
-import LoginPage from '../LoginPage';
-import RegisterPage from '../RegisterPage';
 
-const UnauthenticatedApp = () => (
-  <Switch>
-    <Route path={routes.login} component={LoginPage} />
-    <Route path={routes.register} component={RegisterPage} />
-  </Switch>
-);
+const LoginPage = React.lazy(() => import('views/LoginPage'));
+const RegisterPage = React.lazy(() => import('views/RegisterPage'));
 
-export default UnauthenticatedApp;
+const unauthenticatedApp = [
+  { path: routes.login.path, component: LoginPage },
+  { path: routes.register.path, component: RegisterPage },
+];
+
+export default unauthenticatedApp;
