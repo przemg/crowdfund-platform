@@ -3,6 +3,9 @@ import BookmarkIcon from 'assets/icons/icon-bookmark.svg';
 import PropTypes from 'prop-types';
 
 const Button = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: ${({ theme }) => theme.font.bodyTextS};
   font-weight: ${({ theme }) => theme.font.bold};
   color: ${({ theme }) => theme.color.white};
@@ -14,6 +17,7 @@ const Button = styled.button`
   border: none;
   border-radius: 24px;
   cursor: pointer;
+  text-decoration: none;
   transition: background-color 0.3s ease-in;
 
   &:hover:not(:disabled) {

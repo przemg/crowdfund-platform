@@ -20,6 +20,7 @@ export const mainTheme = {
     headingM: '2.4rem',
     headingS: '2rem',
     headingXS: '1.8rem',
+    display: '24rem',
     bodyTextM: '1.6rem',
     bodyTextS: '1.4rem',
     captionM: '1.1rem',
