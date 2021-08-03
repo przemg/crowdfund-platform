@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { BrowserRouter, Switch } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import MainTemplate from 'templates/MainTemplate';
 import { useAuth } from 'context/AuthContext';
 import GenericLoadingIndicator from 'components/organisms/GenericLoadingIndicator';
@@ -11,12 +11,14 @@ const AuthenticatedApp = React.lazy(() => import('./AuthenticatedApp'));
 const App = () => {
   const { isAuthenticated } = useAuth();
 
+  // Important note:
+  // CommonApp component has to be passed as last to properly handle 404 error
   return (
     <>
-      <CommonApp />
       <React.Suspense fallback={<GenericLoadingIndicator />}>
         {isAuthenticated ? <AuthenticatedApp /> : <UnauthenticatedApp />}
       </React.Suspense>
+      <CommonApp />
     </>
   );
 };
@@ -24,9 +26,7 @@ const App = () => {
 const Root = () => (
   <MainTemplate>
     <BrowserRouter>
-      <Switch>
-        <App />
-      </Switch>
+      <App />
     </BrowserRouter>
   </MainTemplate>
 );
