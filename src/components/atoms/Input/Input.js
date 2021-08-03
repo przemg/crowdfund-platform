@@ -10,7 +10,7 @@ const StyledInput = styled.input`
   height: 44px;
   padding: 0 20px;
   border-radius: 24px;
-  border: 2px solid ${({ theme, error }) => theme.color[error ? 'red100' : 'gray300']};
+  border: 2px solid ${({ theme, error }) => theme.color[error ? 'red200' : 'gray300']};
   outline: none;
 
   &:focus {

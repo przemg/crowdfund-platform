@@ -1,5 +1,90 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Atoms/Alert Error 1`] = `
+<div
+  className="sc-bdnxRM iMHPHc"
+>
+  <div
+    className="sc-gtsrHT gAAakf"
+  >
+    <label
+      className="sc-dlnjwi lnwUfK"
+      type="error"
+    >
+      This is error message
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Alert Error Box 1`] = `
+<div
+  className="sc-bdnxRM iMHPHc"
+>
+  <div
+    className="sc-gtsrHT gAAakf"
+  >
+    <label
+      className="sc-dlnjwi bBOIeU"
+      type="error"
+    >
+      This is error box message
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Alert Playground 1`] = `
+<div
+  className="sc-bdnxRM iMHPHc"
+>
+  <div
+    className="sc-gtsrHT gAAakf"
+  >
+    <label
+      className="sc-dlnjwi lnwUfK"
+      type="error"
+    >
+      Sample error message
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Alert Success 1`] = `
+<div
+  className="sc-bdnxRM iMHPHc"
+>
+  <div
+    className="sc-gtsrHT gAAakf"
+  >
+    <label
+      className="sc-dlnjwi euwQOf"
+      type="success"
+    >
+      This is success message
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Alert Success Box 1`] = `
+<div
+  className="sc-bdnxRM iMHPHc"
+>
+  <div
+    className="sc-gtsrHT gAAakf"
+  >
+    <label
+      className="sc-dlnjwi lmoKrd"
+      type="success"
+    >
+      This is success box message
+    </label>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Atoms/Box Brand 1`] = `
 <div
   className="sc-bdnxRM gRPInY"
@@ -8,7 +93,7 @@ exports[`Storyshots Atoms/Box Brand 1`] = `
     className="sc-gtsrHT gYFURZ"
   >
     <div
-      className="sc-dlnjwi bOsBEG"
+      className="sc-hKFxyN hPHceG"
     >
       This is brand box
     </div>
@@ -24,7 +109,7 @@ exports[`Storyshots Atoms/Box Default 1`] = `
     className="sc-gtsrHT gYFURZ"
   >
     <div
-      className="sc-dlnjwi ghTIof"
+      className="sc-hKFxyN jEdhcT"
     >
       This is default box
     </div>
@@ -40,7 +125,7 @@ exports[`Storyshots Atoms/Box Playground 1`] = `
     className="sc-gtsrHT gYFURZ"
   >
     <div
-      className="sc-dlnjwi ghTIof"
+      className="sc-hKFxyN jEdhcT"
     >
       Example box content
     </div>
@@ -56,7 +141,7 @@ exports[`Storyshots Atoms/Button Bookmark 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <button
-      className="sc-hKFxyN iBpFtu"
+      className="sc-eCApnc fAwhcy"
       disabled={false}
     >
       Bookmark button
@@ -73,7 +158,7 @@ exports[`Storyshots Atoms/Button Bookmark Active 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <button
-      className="sc-hKFxyN caxjwi"
+      className="sc-eCApnc fHUvxe"
       disabled={false}
     >
       Bookmark active button
@@ -90,7 +175,7 @@ exports[`Storyshots Atoms/Button Default 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <button
-      className="sc-hKFxyN dpeOGK"
+      className="sc-eCApnc fxcfwS"
       disabled={false}
     >
       Button
@@ -107,7 +192,7 @@ exports[`Storyshots Atoms/Button Disabled 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <button
-      className="sc-hKFxyN dpeOGK"
+      className="sc-eCApnc fxcfwS"
       disabled={true}
     >
       This is disabled button
@@ -124,7 +209,7 @@ exports[`Storyshots Atoms/Button Playground 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <button
-      className="sc-hKFxyN dpeOGK"
+      className="sc-eCApnc fxcfwS"
       disabled={false}
     >
       This is sample button
@@ -141,7 +226,7 @@ exports[`Storyshots Atoms/Heading Default 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <h1
-      className="sc-eCApnc upmsQ"
+      className="sc-jSFjdj ciAFUl"
       size="XL"
     >
       This is default heading
@@ -158,37 +243,37 @@ exports[`Storyshots Atoms/Heading Levels 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <h1
-      className="sc-eCApnc upmsQ"
+      className="sc-jSFjdj ciAFUl"
       size="XL"
     >
       This is level 1 heading
     </h1>
     <h2
-      className="sc-eCApnc lfCuoH"
+      className="sc-jSFjdj bEsEVm"
       size="L"
     >
       This is level 2 heading
     </h2>
     <h3
-      className="sc-eCApnc Yyqdz"
+      className="sc-jSFjdj cMKkja"
       size="M"
     >
       This is level 3 heading
     </h3>
     <h4
-      className="sc-eCApnc kYLptJ"
+      className="sc-jSFjdj jQWmGU"
       size="S"
     >
       This is level 4 heading
     </h4>
     <h5
-      className="sc-eCApnc lfCIpU"
+      className="sc-jSFjdj bEssst"
       size="XS"
     >
       This is level 5 heading
     </h5>
     <h6
-      className="sc-eCApnc lfCIpU"
+      className="sc-jSFjdj bEssst"
       size="XS"
     >
       This is level 6 heading
@@ -205,7 +290,7 @@ exports[`Storyshots Atoms/Heading Playground 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <h1
-      className="sc-eCApnc upmsQ"
+      className="sc-jSFjdj ciAFUl"
       size="XL"
     >
       This sample content
@@ -222,31 +307,31 @@ exports[`Storyshots Atoms/Heading Sizes 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <h1
-      className="sc-eCApnc upmsQ"
+      className="sc-jSFjdj ciAFUl"
       size="XL"
     >
       This is extra large heading
     </h1>
     <h1
-      className="sc-eCApnc lfCuoH"
+      className="sc-jSFjdj bEsEVm"
       size="L"
     >
       This is large heading
     </h1>
     <h1
-      className="sc-eCApnc Yyqdz"
+      className="sc-jSFjdj cMKkja"
       size="M"
     >
       This is medium heading
     </h1>
     <h1
-      className="sc-eCApnc kYLptJ"
+      className="sc-jSFjdj jQWmGU"
       size="S"
     >
       This is small heading
     </h1>
     <h1
-      className="sc-eCApnc lfCIpU"
+      className="sc-jSFjdj bEssst"
       size="XS"
     >
       This is extra small heading
@@ -263,10 +348,10 @@ exports[`Storyshots Atoms/Input Custom Width 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-iCoGMd dUXmYh"
+      className="sc-fujyAs jFWQQU"
     >
       <input
-        className="sc-jSFjdj cPnIJW"
+        className="sc-gKAaRy ksTXtK"
       />
     </div>
   </div>
@@ -281,10 +366,10 @@ exports[`Storyshots Atoms/Input Default 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-iCoGMd gTKDoB"
+      className="sc-fujyAs dHPAkY"
     >
       <input
-        className="sc-jSFjdj cPnIJW"
+        className="sc-gKAaRy ksTXtK"
       />
     </div>
   </div>
@@ -299,10 +384,10 @@ exports[`Storyshots Atoms/Input Error 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-iCoGMd gTKDoB"
+      className="sc-fujyAs dHPAkY"
     >
       <input
-        className="sc-jSFjdj deIbi"
+        className="sc-gKAaRy bTMKWG"
       />
     </div>
   </div>
@@ -317,14 +402,14 @@ exports[`Storyshots Atoms/Input Password 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-iCoGMd ivWbhe"
+      className="sc-fujyAs izckOL"
     >
       <input
-        className="sc-jSFjdj cPnIJW"
+        className="sc-gKAaRy ksTXtK"
         type="password"
       />
       <button
-        className="sc-gKAaRy FQBZU"
+        className="sc-iCoGMd bljyTY"
         onClick={[Function]}
         type="button"
       >
@@ -343,10 +428,10 @@ exports[`Storyshots Atoms/Input Playground 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-iCoGMd gTKDoB"
+      className="sc-fujyAs dHPAkY"
     >
       <input
-        className="sc-jSFjdj cPnIJW"
+        className="sc-gKAaRy ksTXtK"
       />
     </div>
   </div>
@@ -361,10 +446,10 @@ exports[`Storyshots Atoms/Input Price 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-iCoGMd dUjfQa"
+      className="sc-fujyAs ejfzOT"
     >
       <input
-        className="sc-jSFjdj cPnIJW"
+        className="sc-gKAaRy ksTXtK"
         type="number"
       />
     </div>
@@ -380,7 +465,7 @@ exports[`Storyshots Atoms/Label Defaul 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <label
-      className="sc-fujyAs fWueyT"
+      className="sc-pNWdM innbAN"
     >
       This is default label
     </label>
@@ -396,7 +481,7 @@ exports[`Storyshots Atoms/Label Playground 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <label
-      className="sc-fujyAs fWueyT"
+      className="sc-pNWdM innbAN"
     >
       Label 
     </label>
@@ -473,7 +558,7 @@ exports[`Storyshots Atoms/MenuLink Black 1`] = `
   >
     <a
       aria-current={null}
-      className="sc-pNWdM gGWouM"
+      className="sc-jrsJWt efzWLW"
       href="/fancy-url"
       onClick={[Function]}
     >
@@ -492,7 +577,7 @@ exports[`Storyshots Atoms/MenuLink Playground 1`] = `
   >
     <a
       aria-current={null}
-      className="sc-pNWdM ckSJig"
+      className="sc-jrsJWt jTSVsC"
       href="/fancy-url"
       onClick={[Function]}
     >
@@ -511,7 +596,7 @@ exports[`Storyshots Atoms/MenuLink White 1`] = `
   >
     <a
       aria-current={null}
-      className="sc-pNWdM ckSJig"
+      className="sc-jrsJWt jTSVsC"
       href="/fancy-url"
       onClick={[Function]}
     >
@@ -529,7 +614,7 @@ exports[`Storyshots Atoms/Paragraph Default 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <p
-      className="sc-jrsJWt gNpvYE"
+      className="sc-kEqXSa gDyCab"
     >
       Fusce pellentesque quam semper nulla placerat vehicula. Donec et nibh tortor. Nulla ut felis in neque tempus volutpat ac et justo. Nulla elementum posuere lectus id tincidunt. Phasellus elementum metus arcu, non ultrices odio efficitur ut. Cras tellus quam, vestibulum vel porttitor a, dignissim sit amet dui. Vestibulum varius neque at lacus consequat, nec eleifend orci rhoncus. Praesent viverra non sapien vel blandit. Nulla sollicitudin mauris nisl, id elementum ante blandit in. Praesent interdum elit lorem, ac malesuada purus sollicitudin quis. Nulla condimentum tortor tortor, ac imperdiet tortor faucibus sit amet. Aliquam nibh velit, finibus vel diam sit amet, semper pellentesque libero. Nulla felis nisl, convallis ac molestie eu, pulvinar sit amet libero. Nam nisl arcu, fermentum tristique dui at, tincidunt maximus sem. Phasellus aliquet vestibulum urna eu facilisis. Pellentesque aliquam interdum tortor eu maximus.
     </p>
@@ -545,7 +630,7 @@ exports[`Storyshots Atoms/Paragraph Playground 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <p
-      className="sc-jrsJWt gNpvYE"
+      className="sc-kEqXSa gDyCab"
     >
       This is sample paragraph content
     </p>
@@ -561,7 +646,7 @@ exports[`Storyshots Atoms/ProgressBar Default 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <progress
-      className="sc-kEqXSa DWcUv"
+      className="sc-iqAclL goghoA"
       max={100}
       value={50}
     />
@@ -577,7 +662,7 @@ exports[`Storyshots Atoms/ProgressBar Playground 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <progress
-      className="sc-kEqXSa DWcUv"
+      className="sc-iqAclL goghoA"
       max={100}
       value={30}
     />
@@ -594,7 +679,7 @@ exports[`Storyshots Atoms/Radio Checked 1`] = `
   >
     <input
       checked={true}
-      className="sc-iqAclL iqwub"
+      className="sc-crzoAE kqFdF"
       disabled={false}
       readOnly={true}
       type="radio"
@@ -612,7 +697,7 @@ exports[`Storyshots Atoms/Radio Default 1`] = `
   >
     <input
       checked={false}
-      className="sc-iqAclL iqwub"
+      className="sc-crzoAE kqFdF"
       disabled={false}
       readOnly={true}
       type="radio"
@@ -630,14 +715,14 @@ exports[`Storyshots Atoms/Radio Disabled 1`] = `
   >
     <input
       checked={false}
-      className="sc-iqAclL iqwub"
+      className="sc-crzoAE kqFdF"
       disabled={true}
       readOnly={true}
       type="radio"
     />
     <input
       checked={true}
-      className="sc-iqAclL iqwub"
+      className="sc-crzoAE kqFdF"
       disabled={true}
       readOnly={true}
       type="radio"
@@ -655,7 +740,7 @@ exports[`Storyshots Atoms/Radio Playground 1`] = `
   >
     <input
       checked={false}
-      className="sc-iqAclL iqwub"
+      className="sc-crzoAE kqFdF"
       disabled={false}
       readOnly={true}
       type="radio"
@@ -672,7 +757,7 @@ exports[`Storyshots Atoms/Spinner Default 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-crzoAE gKuROo"
+      className="sc-dIsUp ftQnWv"
     />
   </div>
 </div>
@@ -686,7 +771,7 @@ exports[`Storyshots Atoms/Spinner Playground 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-crzoAE gKuROo"
+      className="sc-dIsUp ftQnWv"
     />
   </div>
 </div>
@@ -700,7 +785,7 @@ exports[`Storyshots Atoms/TextLink Default 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <a
-      className="sc-dIsUp bRDGbN"
+      className="sc-bqGGPW gNNTMm"
       href="/default"
       onClick={[Function]}
     >
@@ -718,63 +803,12 @@ exports[`Storyshots Atoms/TextLink Playground 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <a
-      className="sc-dIsUp bRDGbN"
+      className="sc-bqGGPW gNNTMm"
       href="/playground"
       onClick={[Function]}
     >
       Playground text link
     </a>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Atoms/TextMessage Error 1`] = `
-<div
-  className="sc-bdnxRM iMHPHc"
->
-  <div
-    className="sc-gtsrHT gAAakf"
-  >
-    <label
-      className="sc-bqGGPW ihkswj"
-      type="error"
-    >
-      This is error message
-    </label>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Atoms/TextMessage Playground 1`] = `
-<div
-  className="sc-bdnxRM iMHPHc"
->
-  <div
-    className="sc-gtsrHT gAAakf"
-  >
-    <label
-      className="sc-bqGGPW ihkswj"
-      type="error"
-    >
-      Sample error message
-    </label>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Atoms/TextMessage Success 1`] = `
-<div
-  className="sc-bdnxRM iMHPHc"
->
-  <div
-    className="sc-gtsrHT gAAakf"
-  >
-    <label
-      className="sc-bqGGPW jPeQlq"
-      type="success"
-    >
-      This is success message
-    </label>
   </div>
 </div>
 `;
@@ -793,14 +827,14 @@ exports[`Storyshots Molecules/Card Default 1`] = `
         className="sc-iemWCZ jKLJGR"
       >
         <h3
-          className="sc-eCApnc kYLptJ"
+          className="sc-jSFjdj jQWmGU"
           size="S"
         >
           Title of default card
         </h3>
       </header>
       <p
-        className="sc-jrsJWt sc-kfYoZR gNpvYE hFQsRl"
+        className="sc-kEqXSa sc-kfYoZR gDyCab hFQsRl"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
       </p>
@@ -808,7 +842,7 @@ exports[`Storyshots Molecules/Card Default 1`] = `
         className="sc-fnVZcZ imDLkW"
       >
         <button
-          className="sc-hKFxyN dpeOGK"
+          className="sc-eCApnc fxcfwS"
           disabled={false}
           onClick={[Function]}
         >
@@ -834,14 +868,14 @@ exports[`Storyshots Molecules/Card Playground 1`] = `
         className="sc-iemWCZ jKLJGR"
       >
         <h3
-          className="sc-eCApnc kYLptJ"
+          className="sc-jSFjdj jQWmGU"
           size="S"
         >
           Example card title
         </h3>
       </header>
       <p
-        className="sc-jrsJWt sc-kfYoZR gNpvYE hFQsRl"
+        className="sc-kEqXSa sc-kfYoZR gDyCab hFQsRl"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
       </p>
@@ -849,7 +883,7 @@ exports[`Storyshots Molecules/Card Playground 1`] = `
         className="sc-fnVZcZ imDLkW"
       >
         <button
-          className="sc-hKFxyN dpeOGK"
+          className="sc-eCApnc fxcfwS"
           disabled={false}
           onClick={[Function]}
         >
@@ -873,7 +907,7 @@ exports[`Storyshots Molecules/Card Radio Card 1`] = `
     >
       <input
         checked={false}
-        className="sc-iqAclL iqwub"
+        className="sc-crzoAE kqFdF"
         disabled={false}
         id="radio-card"
         name="radio-card"
@@ -885,14 +919,14 @@ exports[`Storyshots Molecules/Card Radio Card 1`] = `
         className="sc-iemWCZ jKLJGR"
       >
         <label
-          className="sc-eCApnc sc-dIvrsQ lfCIpU ehbliv"
+          className="sc-jSFjdj sc-dIvrsQ bEssst ehbliv"
           htmlFor="radio-card"
           size="XS"
         >
           Title of Radio Card
         </label>
         <p
-          className="sc-jrsJWt sc-hHEiqL gNpvYE lcQiiB"
+          className="sc-kEqXSa sc-hHEiqL gDyCab lcQiiB"
         >
           Pledge 
           $25
@@ -902,20 +936,20 @@ exports[`Storyshots Molecules/Card Radio Card 1`] = `
           className="sc-dlMDgC kyOnqx"
         >
           <strong
-            className="sc-eCApnc lfCIpU"
+            className="sc-jSFjdj bEssst"
             size="XS"
           >
             60
           </strong>
           <p
-            className="sc-jrsJWt gNpvYE"
+            className="sc-kEqXSa gDyCab"
           >
             left
           </p>
         </div>
       </header>
       <p
-        className="sc-jrsJWt sc-kfYoZR gNpvYE hFQsRl"
+        className="sc-kEqXSa sc-kfYoZR gDyCab hFQsRl"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
       </p>
@@ -932,11 +966,11 @@ exports[`Storyshots Molecules/Card Radio Card Out Of Stock 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <article
-      className="sc-fKgJPI gdEXtq"
+      className="sc-fKgJPI dovVEv"
     >
       <input
         checked={false}
-        className="sc-iqAclL iqwub"
+        className="sc-crzoAE kqFdF"
         disabled={true}
         id="radio-card"
         name="radio-card-out-of-stock"
@@ -948,14 +982,14 @@ exports[`Storyshots Molecules/Card Radio Card Out Of Stock 1`] = `
         className="sc-iemWCZ jKLJGR"
       >
         <label
-          className="sc-eCApnc sc-dIvrsQ lfCIpU ehbliv"
+          className="sc-jSFjdj sc-dIvrsQ bEssst ehbliv"
           htmlFor="radio-card"
           size="XS"
         >
           Title of Radio Card
         </label>
         <p
-          className="sc-jrsJWt sc-hHEiqL gNpvYE lcQiiB"
+          className="sc-kEqXSa sc-hHEiqL gDyCab lcQiiB"
         >
           Pledge 
           $25
@@ -965,20 +999,20 @@ exports[`Storyshots Molecules/Card Radio Card Out Of Stock 1`] = `
           className="sc-dlMDgC kyOnqx"
         >
           <strong
-            className="sc-eCApnc lfCIpU"
+            className="sc-jSFjdj bEssst"
             size="XS"
           >
             0
           </strong>
           <p
-            className="sc-jrsJWt gNpvYE"
+            className="sc-kEqXSa gDyCab"
           >
             left
           </p>
         </div>
       </header>
       <p
-        className="sc-jrsJWt sc-kfYoZR gNpvYE hFQsRl"
+        className="sc-kEqXSa sc-kfYoZR gDyCab hFQsRl"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
       </p>
@@ -999,7 +1033,7 @@ exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
     >
       <input
         checked={true}
-        className="sc-iqAclL iqwub"
+        className="sc-crzoAE kqFdF"
         disabled={false}
         id="radio-card"
         name="radio-selected"
@@ -1011,14 +1045,14 @@ exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
         className="sc-iemWCZ jKLJGR"
       >
         <label
-          className="sc-eCApnc sc-dIvrsQ lfCIpU ehbliv"
+          className="sc-jSFjdj sc-dIvrsQ bEssst ehbliv"
           htmlFor="radio-card"
           size="XS"
         >
           Title of Radio Card
         </label>
         <p
-          className="sc-jrsJWt sc-hHEiqL gNpvYE lcQiiB"
+          className="sc-kEqXSa sc-hHEiqL gDyCab lcQiiB"
         >
           Pledge 
           $25
@@ -1028,20 +1062,20 @@ exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
           className="sc-dlMDgC kyOnqx"
         >
           <strong
-            className="sc-eCApnc lfCIpU"
+            className="sc-jSFjdj bEssst"
             size="XS"
           >
             10
           </strong>
           <p
-            className="sc-jrsJWt gNpvYE"
+            className="sc-kEqXSa gDyCab"
           >
             left
           </p>
         </div>
       </header>
       <p
-        className="sc-jrsJWt sc-kfYoZR gNpvYE hFQsRl"
+        className="sc-kEqXSa sc-kfYoZR gDyCab hFQsRl"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
       </p>
@@ -1053,19 +1087,19 @@ exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
           onSubmit={[Function]}
         >
           <div
-            className="sc-hBMUJo eSGwyD"
+            className="sc-hBMUJo hfdfLh"
           >
             <label
-              className="sc-fujyAs sc-ksluID fWueyT eTifvC"
+              className="sc-pNWdM sc-ksluID innbAN eTifvC"
               htmlFor="pledge"
             >
               Enter your pledge: 
             </label>
             <div
-              className="sc-iCoGMd cjUmVO"
+              className="sc-fujyAs fhJFer"
             >
               <input
-                className="sc-jSFjdj cPnIJW"
+                className="sc-gKAaRy ksTXtK"
                 defaultValue={25}
                 id="pledge"
                 name="pledge"
@@ -1076,7 +1110,7 @@ exports[`Storyshots Molecules/Card Radio Card Selected 1`] = `
             </div>
           </div>
           <button
-            className="sc-hKFxyN dpeOGK"
+            className="sc-eCApnc fxcfwS"
             disabled={false}
             type="submit"
           >
@@ -1103,13 +1137,13 @@ exports[`Storyshots Molecules/Card Reward Card 1`] = `
         className="sc-iemWCZ jKLJGR"
       >
         <h3
-          className="sc-eCApnc kYLptJ"
+          className="sc-jSFjdj jQWmGU"
           size="S"
         >
           Title of Reward Card
         </h3>
         <p
-          className="sc-jrsJWt sc-hHEiqL gNpvYE fANLQJ"
+          className="sc-kEqXSa sc-hHEiqL gDyCab fANLQJ"
         >
           Pledge 
           $25
@@ -1117,7 +1151,7 @@ exports[`Storyshots Molecules/Card Reward Card 1`] = `
         </p>
       </header>
       <p
-        className="sc-jrsJWt sc-kfYoZR gNpvYE hFQsRl"
+        className="sc-kEqXSa sc-kfYoZR gDyCab hFQsRl"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
       </p>
@@ -1128,19 +1162,19 @@ exports[`Storyshots Molecules/Card Reward Card 1`] = `
           className="sc-bkbkJK dxbMNx"
         >
           <strong
-            className="sc-eCApnc upmsQ"
+            className="sc-jSFjdj ciAFUl"
             size="XL"
           >
             60
           </strong>
           <p
-            className="sc-jrsJWt gNpvYE"
+            className="sc-kEqXSa gDyCab"
           >
             left
           </p>
         </div>
         <button
-          className="sc-hKFxyN dpeOGK"
+          className="sc-eCApnc fxcfwS"
           disabled={false}
           onClick={[Function]}
         >
@@ -1160,19 +1194,19 @@ exports[`Storyshots Molecules/Card Reward Card Out Of Stock 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <article
-      className="sc-fKgJPI cTeCAH"
+      className="sc-fKgJPI jzNZxS"
     >
       <header
         className="sc-iemWCZ jKLJGR"
       >
         <h3
-          className="sc-eCApnc kYLptJ"
+          className="sc-jSFjdj jQWmGU"
           size="S"
         >
           Title of Reward Card Out of stock
         </h3>
         <p
-          className="sc-jrsJWt sc-hHEiqL gNpvYE fANLQJ"
+          className="sc-kEqXSa sc-hHEiqL gDyCab fANLQJ"
         >
           Pledge 
           $200
@@ -1180,7 +1214,7 @@ exports[`Storyshots Molecules/Card Reward Card Out Of Stock 1`] = `
         </p>
       </header>
       <p
-        className="sc-jrsJWt sc-kfYoZR gNpvYE hFQsRl"
+        className="sc-kEqXSa sc-kfYoZR gDyCab hFQsRl"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin, felis metus sagittis mi, vitae tristique ex ligula ut risus. Phasellus nec faucibus turpis.
       </p>
@@ -1191,19 +1225,19 @@ exports[`Storyshots Molecules/Card Reward Card Out Of Stock 1`] = `
           className="sc-bkbkJK dxbMNx"
         >
           <strong
-            className="sc-eCApnc upmsQ"
+            className="sc-jSFjdj ciAFUl"
             size="XL"
           >
             0
           </strong>
           <p
-            className="sc-jrsJWt gNpvYE"
+            className="sc-kEqXSa gDyCab"
           >
             left
           </p>
         </div>
         <button
-          className="sc-hKFxyN dpeOGK"
+          className="sc-eCApnc fxcfwS"
           disabled={true}
           onClick={[Function]}
         >
@@ -1226,13 +1260,13 @@ exports[`Storyshots Molecules/Cardinal Default 1`] = `
       className="sc-bCwfaz jHydAz"
     >
       <h3
-        className="sc-eCApnc sc-iwajpm upmsQ kKsTZo"
+        className="sc-jSFjdj sc-iwajpm ciAFUl kKsTZo"
         size="XL"
       >
         56
       </h3>
       <p
-        className="sc-jrsJWt sc-cxNHIi gNpvYE hDXoFJ"
+        className="sc-kEqXSa sc-cxNHIi gDyCab hDXoFJ"
       >
         days left
       </p>
@@ -1252,13 +1286,13 @@ exports[`Storyshots Molecules/Cardinal Playground 1`] = `
       className="sc-bCwfaz jHydAz"
     >
       <h3
-        className="sc-eCApnc sc-iwajpm upmsQ kKsTZo"
+        className="sc-jSFjdj sc-iwajpm ciAFUl kKsTZo"
         size="XL"
       >
         5,007
       </h3>
       <p
-        className="sc-jrsJWt sc-cxNHIi gNpvYE hDXoFJ"
+        className="sc-kEqXSa sc-cxNHIi gDyCab hDXoFJ"
       >
         total backers
       </p>
@@ -1278,13 +1312,13 @@ exports[`Storyshots Molecules/Cardinal Price Format 1`] = `
       className="sc-bCwfaz jHydAz"
     >
       <h3
-        className="sc-eCApnc sc-iwajpm upmsQ kKsTZo"
+        className="sc-jSFjdj sc-iwajpm ciAFUl kKsTZo"
         size="XL"
       >
         $78,000
       </h3>
       <p
-        className="sc-jrsJWt sc-cxNHIi gNpvYE hDXoFJ"
+        className="sc-kEqXSa sc-cxNHIi gDyCab hDXoFJ"
       >
         of $100,000 backed
       </p>
@@ -1304,16 +1338,16 @@ exports[`Storyshots Molecules/InputField Default 1`] = `
       className="sc-hBMUJo deOsuY"
     >
       <label
-        className="sc-fujyAs sc-ksluID fWueyT eTifvC"
+        className="sc-pNWdM sc-ksluID innbAN eTifvC"
         htmlFor="default-input"
       >
         Default input: 
       </label>
       <div
-        className="sc-iCoGMd gTKDoB"
+        className="sc-fujyAs dHPAkY"
       >
         <input
-          className="sc-jSFjdj cPnIJW"
+          className="sc-gKAaRy ksTXtK"
           id="default-input"
         />
       </div>
@@ -1333,21 +1367,21 @@ exports[`Storyshots Molecules/InputField Error 1`] = `
       className="sc-hBMUJo deOsuY"
     >
       <label
-        className="sc-fujyAs sc-ksluID fWueyT eTifvC"
+        className="sc-pNWdM sc-ksluID innbAN eTifvC"
         htmlFor="error-input"
       >
         Error input: 
       </label>
       <div
-        className="sc-iCoGMd gTKDoB"
+        className="sc-fujyAs dHPAkY"
       >
         <input
-          className="sc-jSFjdj deIbi"
+          className="sc-gKAaRy bTMKWG"
           id="error-input"
         />
       </div>
       <label
-        className="sc-bqGGPW ihkswj"
+        className="sc-dlnjwi lnwUfK"
         type="error"
       >
         Sample error message
@@ -1368,16 +1402,16 @@ exports[`Storyshots Molecules/InputField Playground 1`] = `
       className="sc-hBMUJo deOsuY"
     >
       <label
-        className="sc-fujyAs sc-ksluID fWueyT eTifvC"
+        className="sc-pNWdM sc-ksluID innbAN eTifvC"
         htmlFor="playground-input"
       >
         Example label: 
       </label>
       <div
-        className="sc-iCoGMd gTKDoB"
+        className="sc-fujyAs dHPAkY"
       >
         <input
-          className="sc-jSFjdj cPnIJW"
+          className="sc-gKAaRy ksTXtK"
           id="playground-input"
         />
       </div>
@@ -1394,19 +1428,19 @@ exports[`Storyshots Molecules/InputField Single Column 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-hBMUJo eSGwyD"
+      className="sc-hBMUJo hfdfLh"
     >
       <label
-        className="sc-fujyAs sc-ksluID fWueyT eTifvC"
+        className="sc-pNWdM sc-ksluID innbAN eTifvC"
         htmlFor="single-column-input"
       >
         Single column input: 
       </label>
       <div
-        className="sc-iCoGMd gTKDoB"
+        className="sc-fujyAs dHPAkY"
       >
         <input
-          className="sc-jSFjdj cPnIJW"
+          className="sc-gKAaRy ksTXtK"
           id="single-column-input"
         />
       </div>
@@ -1423,24 +1457,24 @@ exports[`Storyshots Molecules/InputField Single Column Error 1`] = `
     className="sc-gtsrHT gAAakf"
   >
     <div
-      className="sc-hBMUJo eSGwyD"
+      className="sc-hBMUJo hfdfLh"
     >
       <label
-        className="sc-fujyAs sc-ksluID fWueyT eTifvC"
+        className="sc-pNWdM sc-ksluID innbAN eTifvC"
         htmlFor="single-column-input"
       >
         Single column input: 
       </label>
       <div
-        className="sc-iCoGMd gTKDoB"
+        className="sc-fujyAs dHPAkY"
       >
         <input
-          className="sc-jSFjdj deIbi"
+          className="sc-gKAaRy bTMKWG"
           id="single-column-input"
         />
       </div>
       <label
-        className="sc-bqGGPW ihkswj"
+        className="sc-dlnjwi lnwUfK"
         type="error"
       >
         Sample error message
@@ -1458,7 +1492,7 @@ exports[`Storyshots Organisms/Footer Default 1`] = `
     className="sc-gtsrHT kLUjht"
   >
     <footer
-      className="sc-lmgQwP hPxDoj"
+      className="sc-lmgQwP dZInpu"
     >
       <div
         className="sc-iJCRrE fkmJlQ"
@@ -1474,7 +1508,7 @@ exports[`Storyshots Organisms/Footer Default 1`] = `
             />
           </a>
           <p
-            className="sc-jrsJWt sc-bYwzuL gNpvYE gaeCCw"
+            className="sc-kEqXSa sc-bYwzuL gDyCab gaeCCw"
           >
             Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
           </p>
@@ -1484,7 +1518,7 @@ exports[`Storyshots Organisms/Footer Default 1`] = `
         >
           <div>
             <h3
-              className="sc-eCApnc sc-iklJeh lfCIpU fqWAtP"
+              className="sc-jSFjdj sc-iklJeh bEssst fqWAtP"
               size="XS"
             >
               Help
@@ -1494,7 +1528,7 @@ exports[`Storyshots Organisms/Footer Default 1`] = `
             >
               <li>
                 <a
-                  className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                  className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                   href="/privacy-policy"
                   onClick={[Function]}
                 >
@@ -1503,7 +1537,7 @@ exports[`Storyshots Organisms/Footer Default 1`] = `
               </li>
               <li>
                 <a
-                  className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                  className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                   href="/regulations"
                   onClick={[Function]}
                 >
@@ -1521,7 +1555,7 @@ exports[`Storyshots Organisms/Footer Default 1`] = `
           className="sc-iJCRrE fkmJlQ"
         >
           <p
-            className="sc-fujyAs fWueyT"
+            className="sc-pNWdM innbAN"
           >
             © Copyright 
             2021
@@ -1532,7 +1566,7 @@ exports[`Storyshots Organisms/Footer Default 1`] = `
           >
             <li>
               <a
-                className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                 href="https://facebook.com"
                 rel="nofollow noreferrer"
                 target="_blank"
@@ -1542,7 +1576,7 @@ exports[`Storyshots Organisms/Footer Default 1`] = `
             </li>
             <li>
               <a
-                className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                 href="https://instagram.com"
                 rel="nofollow noreferrer"
                 target="_blank"
@@ -1552,7 +1586,7 @@ exports[`Storyshots Organisms/Footer Default 1`] = `
             </li>
             <li>
               <a
-                className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                 href="https://twitter.com"
                 rel="nofollow noreferrer"
                 target="_blank"
@@ -1576,10 +1610,10 @@ exports[`Storyshots Organisms/Footer Only Copy 1`] = `
     className="sc-gtsrHT kLUjht"
   >
     <footer
-      className="sc-lmgQwP hirfcM"
+      className="sc-lmgQwP kiMLdZ"
     >
       <p
-        className="sc-fujyAs fWueyT"
+        className="sc-pNWdM innbAN"
       >
         © Copyright 
         2021
@@ -1598,7 +1632,7 @@ exports[`Storyshots Organisms/Footer Playground 1`] = `
     className="sc-gtsrHT kLUjht"
   >
     <footer
-      className="sc-lmgQwP hPxDoj"
+      className="sc-lmgQwP dZInpu"
     >
       <div
         className="sc-iJCRrE fkmJlQ"
@@ -1614,7 +1648,7 @@ exports[`Storyshots Organisms/Footer Playground 1`] = `
             />
           </a>
           <p
-            className="sc-jrsJWt sc-bYwzuL gNpvYE gaeCCw"
+            className="sc-kEqXSa sc-bYwzuL gDyCab gaeCCw"
           >
             Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
           </p>
@@ -1624,7 +1658,7 @@ exports[`Storyshots Organisms/Footer Playground 1`] = `
         >
           <div>
             <h3
-              className="sc-eCApnc sc-iklJeh lfCIpU fqWAtP"
+              className="sc-jSFjdj sc-iklJeh bEssst fqWAtP"
               size="XS"
             >
               Menu
@@ -1634,7 +1668,7 @@ exports[`Storyshots Organisms/Footer Playground 1`] = `
             >
               <li>
                 <a
-                  className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                  className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                   href="/about"
                   onClick={[Function]}
                 >
@@ -1643,7 +1677,7 @@ exports[`Storyshots Organisms/Footer Playground 1`] = `
               </li>
               <li>
                 <a
-                  className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                  className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                   href="/discover"
                   onClick={[Function]}
                 >
@@ -1652,7 +1686,7 @@ exports[`Storyshots Organisms/Footer Playground 1`] = `
               </li>
               <li>
                 <a
-                  className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                  className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                   href="/get-started"
                   onClick={[Function]}
                 >
@@ -1663,7 +1697,7 @@ exports[`Storyshots Organisms/Footer Playground 1`] = `
           </div>
           <div>
             <h3
-              className="sc-eCApnc sc-iklJeh lfCIpU fqWAtP"
+              className="sc-jSFjdj sc-iklJeh bEssst fqWAtP"
               size="XS"
             >
               Help
@@ -1673,7 +1707,7 @@ exports[`Storyshots Organisms/Footer Playground 1`] = `
             >
               <li>
                 <a
-                  className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                  className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                   href="/privacy-policy"
                   onClick={[Function]}
                 >
@@ -1682,7 +1716,7 @@ exports[`Storyshots Organisms/Footer Playground 1`] = `
               </li>
               <li>
                 <a
-                  className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                  className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                   href="/regulations"
                   onClick={[Function]}
                 >
@@ -1700,7 +1734,7 @@ exports[`Storyshots Organisms/Footer Playground 1`] = `
           className="sc-iJCRrE fkmJlQ"
         >
           <p
-            className="sc-fujyAs fWueyT"
+            className="sc-pNWdM innbAN"
           >
             © Copyright 
             2021
@@ -1711,7 +1745,7 @@ exports[`Storyshots Organisms/Footer Playground 1`] = `
           >
             <li>
               <a
-                className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                 href="https://facebook.com"
                 rel="nofollow noreferrer"
                 target="_blank"
@@ -1721,7 +1755,7 @@ exports[`Storyshots Organisms/Footer Playground 1`] = `
             </li>
             <li>
               <a
-                className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                 href="https://instagram.com"
                 rel="nofollow noreferrer"
                 target="_blank"
@@ -1731,7 +1765,7 @@ exports[`Storyshots Organisms/Footer Playground 1`] = `
             </li>
             <li>
               <a
-                className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                 href="https://twitter.com"
                 rel="nofollow noreferrer"
                 target="_blank"
@@ -1755,7 +1789,7 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
     className="sc-gtsrHT kLUjht"
   >
     <footer
-      className="sc-lmgQwP hPxDoj"
+      className="sc-lmgQwP dZInpu"
     >
       <div
         className="sc-iJCRrE fkmJlQ"
@@ -1771,7 +1805,7 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
             />
           </a>
           <p
-            className="sc-jrsJWt sc-bYwzuL gNpvYE gaeCCw"
+            className="sc-kEqXSa sc-bYwzuL gDyCab gaeCCw"
           >
             Crowdfunding means a way of funding by the community. It is an innovative model of financing creative ideas through the community.
           </p>
@@ -1781,7 +1815,7 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
         >
           <div>
             <h3
-              className="sc-eCApnc sc-iklJeh lfCIpU fqWAtP"
+              className="sc-jSFjdj sc-iklJeh bEssst fqWAtP"
               size="XS"
             >
               Menu
@@ -1791,7 +1825,7 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
             >
               <li>
                 <a
-                  className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                  className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                   href="/about"
                   onClick={[Function]}
                 >
@@ -1800,7 +1834,7 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
               </li>
               <li>
                 <a
-                  className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                  className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                   href="/discover"
                   onClick={[Function]}
                 >
@@ -1809,7 +1843,7 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
               </li>
               <li>
                 <a
-                  className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                  className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                   href="/get-started"
                   onClick={[Function]}
                 >
@@ -1820,7 +1854,7 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
           </div>
           <div>
             <h3
-              className="sc-eCApnc sc-iklJeh lfCIpU fqWAtP"
+              className="sc-jSFjdj sc-iklJeh bEssst fqWAtP"
               size="XS"
             >
               Help
@@ -1830,7 +1864,7 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
             >
               <li>
                 <a
-                  className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                  className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                   href="/privacy-policy"
                   onClick={[Function]}
                 >
@@ -1839,7 +1873,7 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
               </li>
               <li>
                 <a
-                  className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                  className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                   href="/regulations"
                   onClick={[Function]}
                 >
@@ -1857,7 +1891,7 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
           className="sc-iJCRrE fkmJlQ"
         >
           <p
-            className="sc-fujyAs fWueyT"
+            className="sc-pNWdM innbAN"
           >
             © Copyright 
             2021
@@ -1868,7 +1902,7 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
           >
             <li>
               <a
-                className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                 href="https://facebook.com"
                 rel="nofollow noreferrer"
                 target="_blank"
@@ -1878,7 +1912,7 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
             </li>
             <li>
               <a
-                className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                 href="https://instagram.com"
                 rel="nofollow noreferrer"
                 target="_blank"
@@ -1888,7 +1922,7 @@ exports[`Storyshots Organisms/Footer With Nav 1`] = `
             </li>
             <li>
               <a
-                className="sc-pNWdM sc-jJMGnK gGWouM ilUrDj"
+                className="sc-jrsJWt sc-jJMGnK efzWLW ilUrDj"
                 href="https://twitter.com"
                 rel="nofollow noreferrer"
                 target="_blank"
@@ -1915,7 +1949,7 @@ exports[`Storyshots Organisms/GenericLoadingIndicator Default 1`] = `
       className="sc-hiKfDv jrUhIV"
     >
       <div
-        className="sc-crzoAE gKuROo"
+        className="sc-dIsUp ftQnWv"
       />
     </div>
   </div>
@@ -1933,7 +1967,7 @@ exports[`Storyshots Organisms/GenericLoadingIndicator Playground 1`] = `
       className="sc-hiKfDv jrUhIV"
     >
       <div
-        className="sc-crzoAE gKuROo"
+        className="sc-dIsUp ftQnWv"
       />
     </div>
   </div>
@@ -1977,13 +2011,13 @@ exports[`Storyshots Organisms/Modal Described 1`] = `
         onClick={[Function]}
       />
       <h2
-        className="sc-eCApnc sc-jcwpoC kYLptJ hlsGQj"
+        className="sc-jSFjdj sc-jcwpoC jQWmGU hlsGQj"
         size="S"
       >
         Desscribed Modal Title
       </h2>
       <p
-        className="sc-jrsJWt sc-carFqZ gNpvYE bHmIis"
+        className="sc-kEqXSa sc-carFqZ gDyCab bHmIis"
       >
         Sample described modal description
       </p>
@@ -2032,13 +2066,13 @@ exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
         onClick={[Function]}
       />
       <h2
-        className="sc-eCApnc sc-jcwpoC kYLptJ hlsGQj"
+        className="sc-jSFjdj sc-jcwpoC jQWmGU hlsGQj"
         size="S"
       >
         Complex children data
       </h2>
       <p
-        className="sc-jrsJWt sc-carFqZ gNpvYE bHmIis"
+        className="sc-kEqXSa sc-carFqZ gDyCab bHmIis"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere ante quis dui dapibus. eget malesuada orci porta. Ut sed purus eget tellus porta facilisis sed eu risus.
       </p>
@@ -2050,7 +2084,7 @@ exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
         >
           <input
             checked={false}
-            className="sc-iqAclL iqwub"
+            className="sc-crzoAE kqFdF"
             disabled={false}
             id="no-reward"
             name="no-reward"
@@ -2062,7 +2096,7 @@ exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
             className="sc-iemWCZ jKLJGR"
           >
             <label
-              className="sc-eCApnc sc-dIvrsQ lfCIpU ehbliv"
+              className="sc-jSFjdj sc-dIvrsQ bEssst ehbliv"
               htmlFor="no-reward"
               size="XS"
             >
@@ -2070,7 +2104,7 @@ exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
             </label>
           </header>
           <p
-            className="sc-jrsJWt sc-kfYoZR gNpvYE hFQsRl"
+            className="sc-kEqXSa sc-kfYoZR gDyCab hFQsRl"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
           </p>
@@ -2080,7 +2114,7 @@ exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
         >
           <input
             checked={false}
-            className="sc-iqAclL iqwub"
+            className="sc-crzoAE kqFdF"
             disabled={false}
             id="bamboo"
             name="bamboo"
@@ -2092,14 +2126,14 @@ exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
             className="sc-iemWCZ jKLJGR"
           >
             <label
-              className="sc-eCApnc sc-dIvrsQ lfCIpU ehbliv"
+              className="sc-jSFjdj sc-dIvrsQ bEssst ehbliv"
               htmlFor="bamboo"
               size="XS"
             >
               Bamboo Stand
             </label>
             <p
-              className="sc-jrsJWt sc-hHEiqL gNpvYE lcQiiB"
+              className="sc-kEqXSa sc-hHEiqL gDyCab lcQiiB"
             >
               Pledge 
               $25
@@ -2109,20 +2143,20 @@ exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
               className="sc-dlMDgC kyOnqx"
             >
               <strong
-                className="sc-eCApnc lfCIpU"
+                className="sc-jSFjdj bEssst"
                 size="XS"
               >
                 101
               </strong>
               <p
-                className="sc-jrsJWt gNpvYE"
+                className="sc-kEqXSa gDyCab"
               >
                 left
               </p>
             </div>
           </header>
           <p
-            className="sc-jrsJWt sc-kfYoZR gNpvYE hFQsRl"
+            className="sc-kEqXSa sc-kfYoZR gDyCab hFQsRl"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
           </p>
@@ -2132,7 +2166,7 @@ exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
         >
           <input
             checked={false}
-            className="sc-iqAclL iqwub"
+            className="sc-crzoAE kqFdF"
             disabled={false}
             id="black-edition"
             name="black-edition"
@@ -2144,14 +2178,14 @@ exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
             className="sc-iemWCZ jKLJGR"
           >
             <label
-              className="sc-eCApnc sc-dIvrsQ lfCIpU ehbliv"
+              className="sc-jSFjdj sc-dIvrsQ bEssst ehbliv"
               htmlFor="black-edition"
               size="XS"
             >
               Black Edition Stand
             </label>
             <p
-              className="sc-jrsJWt sc-hHEiqL gNpvYE lcQiiB"
+              className="sc-kEqXSa sc-hHEiqL gDyCab lcQiiB"
             >
               Pledge 
               $75
@@ -2161,30 +2195,30 @@ exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
               className="sc-dlMDgC kyOnqx"
             >
               <strong
-                className="sc-eCApnc lfCIpU"
+                className="sc-jSFjdj bEssst"
                 size="XS"
               >
                 64
               </strong>
               <p
-                className="sc-jrsJWt gNpvYE"
+                className="sc-kEqXSa gDyCab"
               >
                 left
               </p>
             </div>
           </header>
           <p
-            className="sc-jrsJWt sc-kfYoZR gNpvYE hFQsRl"
+            className="sc-kEqXSa sc-kfYoZR gDyCab hFQsRl"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
           </p>
         </article>
         <article
-          className="sc-fKgJPI gdEXtq"
+          className="sc-fKgJPI dovVEv"
         >
           <input
             checked={false}
-            className="sc-iqAclL iqwub"
+            className="sc-crzoAE kqFdF"
             disabled={true}
             id="mahogany"
             name="mahogany"
@@ -2196,14 +2230,14 @@ exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
             className="sc-iemWCZ jKLJGR"
           >
             <label
-              className="sc-eCApnc sc-dIvrsQ lfCIpU ehbliv"
+              className="sc-jSFjdj sc-dIvrsQ bEssst ehbliv"
               htmlFor="mahogany"
               size="XS"
             >
               Mahogany Special Edition
             </label>
             <p
-              className="sc-jrsJWt sc-hHEiqL gNpvYE lcQiiB"
+              className="sc-kEqXSa sc-hHEiqL gDyCab lcQiiB"
             >
               Pledge 
               $200
@@ -2213,20 +2247,20 @@ exports[`Storyshots Organisms/Modal With Complex Children 1`] = `
               className="sc-dlMDgC kyOnqx"
             >
               <strong
-                className="sc-eCApnc lfCIpU"
+                className="sc-jSFjdj bEssst"
                 size="XS"
               >
                 0
               </strong>
               <p
-                className="sc-jrsJWt gNpvYE"
+                className="sc-kEqXSa gDyCab"
               >
                 left
               </p>
             </div>
           </header>
           <p
-            className="sc-jrsJWt sc-kfYoZR gNpvYE hFQsRl"
+            className="sc-kEqXSa sc-kfYoZR gDyCab hFQsRl"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, odio sed tincidunt sollicitudin.
           </p>
@@ -2281,7 +2315,7 @@ exports[`Storyshots Organisms/NavBar Black 1`] = `
           <li>
             <a
               aria-current={null}
-              className="sc-pNWdM gGWouM"
+              className="sc-jrsJWt efzWLW"
               href="/about"
               onClick={[Function]}
             >
@@ -2291,7 +2325,7 @@ exports[`Storyshots Organisms/NavBar Black 1`] = `
           <li>
             <a
               aria-current={null}
-              className="sc-pNWdM gGWouM"
+              className="sc-jrsJWt efzWLW"
               href="/discover"
               onClick={[Function]}
             >
@@ -2301,7 +2335,7 @@ exports[`Storyshots Organisms/NavBar Black 1`] = `
           <li>
             <a
               aria-current={null}
-              className="sc-pNWdM gGWouM"
+              className="sc-jrsJWt efzWLW"
               href="/get-started"
               onClick={[Function]}
             >
@@ -2341,7 +2375,7 @@ exports[`Storyshots Organisms/NavBar Playground 1`] = `
           <li>
             <a
               aria-current={null}
-              className="sc-pNWdM ckSJig"
+              className="sc-jrsJWt jTSVsC"
               href="/about"
               onClick={[Function]}
             >
@@ -2351,7 +2385,7 @@ exports[`Storyshots Organisms/NavBar Playground 1`] = `
           <li>
             <a
               aria-current={null}
-              className="sc-pNWdM ckSJig"
+              className="sc-jrsJWt jTSVsC"
               href="/discover"
               onClick={[Function]}
             >
@@ -2361,7 +2395,7 @@ exports[`Storyshots Organisms/NavBar Playground 1`] = `
           <li>
             <a
               aria-current={null}
-              className="sc-pNWdM ckSJig"
+              className="sc-jrsJWt jTSVsC"
               href="/get-started"
               onClick={[Function]}
             >
@@ -2401,7 +2435,7 @@ exports[`Storyshots Organisms/NavBar White 1`] = `
           <li>
             <a
               aria-current={null}
-              className="sc-pNWdM ckSJig"
+              className="sc-jrsJWt jTSVsC"
               href="/about"
               onClick={[Function]}
             >
@@ -2411,7 +2445,7 @@ exports[`Storyshots Organisms/NavBar White 1`] = `
           <li>
             <a
               aria-current={null}
-              className="sc-pNWdM ckSJig"
+              className="sc-jrsJWt jTSVsC"
               href="/discover"
               onClick={[Function]}
             >
@@ -2421,7 +2455,7 @@ exports[`Storyshots Organisms/NavBar White 1`] = `
           <li>
             <a
               aria-current={null}
-              className="sc-pNWdM ckSJig"
+              className="sc-jrsJWt jTSVsC"
               href="/get-started"
               onClick={[Function]}
             >

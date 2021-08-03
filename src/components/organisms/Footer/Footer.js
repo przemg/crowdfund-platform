@@ -11,7 +11,6 @@ import PropTypes from 'prop-types';
 const StyledFooter = styled.footer`
   border-top: 3px solid ${({ theme }) => theme.color.cyan200};
   padding-top: 56px;
-  background-color: ${({ theme }) => theme.color.gray100};
 
   ${({ onlyCopy }) =>
     onlyCopy &&
