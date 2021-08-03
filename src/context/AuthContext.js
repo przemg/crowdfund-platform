@@ -21,6 +21,7 @@ const AuthProvider = ({ children }) => {
         const {
           data: { data },
         } = await axiosInstance.get('/auth/me');
+
         setAuthState({ account: data, isAuthenticated: true, checkedSessionCookie: true });
       } catch (error) {
         setAuthState({ account: null, isAuthenticated: false, checkedSessionCookie: true });
@@ -30,8 +31,8 @@ const AuthProvider = ({ children }) => {
     getAuthenticatedUserData();
   }, [axiosInstance]);
 
-  const setAuthData = (account) => {
-    setAuthState({ account, isAuthenticated: !!account?._id, ...authState });
+  const authenticateUser = (account) => {
+    setAuthState({ ...authState, account, isAuthenticated: !!account?._id });
   };
 
   const logout = () => {};
@@ -42,7 +43,7 @@ const AuthProvider = ({ children }) => {
   }
 
   return (
-    <AuthContext.Provider value={{ ...authState, setAuthData, logout }}>
+    <AuthContext.Provider value={{ ...authState, authenticateUser, logout }}>
       {children}
     </AuthContext.Provider>
   );

@@ -11,7 +11,7 @@ const Alert = styled.label`
     box &&
     css`
       display: block;
-      padding: 16px 24px;
+      padding: 12px 16px;
       border-radius: 8px;
       border: 1px solid
         ${({ theme, type }) => theme.color[type === 'error' ? 'red200' : 'green200']};

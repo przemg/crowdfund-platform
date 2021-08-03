@@ -9,7 +9,7 @@ import styled from 'styled-components';
 import { routes } from 'routes';
 import { useFetch } from 'context/FetchContext';
 import { useAuth } from 'context/AuthContext';
-import { Redirect } from 'react-router-dom';
+import Alert from 'components/atoms/Alert';
 
 const StyledForm = styled.form`
   width: 100%;
@@ -27,9 +27,8 @@ const LoginPage = () => {
   const [loginError, setLoginError] = React.useState();
   const [loginSuccess, setLoginSuccess] = React.useState();
   const [loginLoading, setLoginLoading] = React.useState(false);
-  const [shouldRedirect, setShouldRedirect] = React.useState(false);
   const { axiosInstance } = useFetch();
-  const { setAuthData } = useAuth();
+  const { authenticateUser } = useAuth();
 
   const {
     register,
@@ -44,13 +43,12 @@ const LoginPage = () => {
         data: { data },
       } = await axiosInstance.post('/auth/login', { email, password });
 
-      setAuthData(data);
       setLoginSuccess('Successfully authenticated!');
       setLoginError('');
       setLoginLoading(false);
 
       setTimeout(() => {
-        setShouldRedirect(true);
+        authenticateUser(data);
       }, 700);
     } catch (error) {
       setLoginSuccess('');
@@ -59,16 +57,22 @@ const LoginPage = () => {
     }
   };
 
-  if (shouldRedirect) return <Redirect to="/" />;
-
   return (
     <AuthTemplate
       title="Welcome again!"
       description="You need to confirm your identity to continue."
     >
       <StyledForm onSubmit={handleSubmit(handleLoginRequest)}>
-        {loginError ? <p>{loginError}</p> : null}
-        {loginSuccess ? <p>{loginSuccess}</p> : null}
+        {loginError ? (
+          <Alert box type="error">
+            {loginError}
+          </Alert>
+        ) : null}
+        {loginSuccess ? (
+          <Alert box type="success">
+            {loginSuccess}
+          </Alert>
+        ) : null}
         <InputField
           autoFocus
           id="email"
