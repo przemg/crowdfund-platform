@@ -29,19 +29,6 @@ const Button = styled.button`
     cursor: not-allowed;
   }
 
-  ${({ textOnly }) =>
-    textOnly &&
-    css`
-      background-color: transparent;
-      color: ${({ theme }) => theme.color.black};
-      height: auto;
-
-      &&:hover {
-        background-color: transparent;
-        color: ${({ theme }) => theme.color.gray400};
-      }
-    `}
-
   ${({ bookmark, active }) =>
     bookmark &&
     css`
