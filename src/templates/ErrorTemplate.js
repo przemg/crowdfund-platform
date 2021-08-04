@@ -23,17 +23,19 @@ const StyledBox = styled(Box)`
   align-items: center;
   min-width: 50vw;
   margin-top: 10%;
-`;
+  position: relative;
 
-const StyledStatusParagraph = styled(Paragraph)`
-  color: ${({ theme }) => theme.color.gray200};
-  font-size: ${({ theme }) => theme.font.display};
-  font-weight: ${({ theme }) => theme.font.bold};
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -68%);
-  z-index: -1;
+  &::before {
+    content: '{${({ status }) => `${status}`}}';
+    color: ${({ theme }) => theme.color.gray200};
+    font-size: ${({ theme }) => theme.font.display};
+    font-weight: ${({ theme }) => theme.font.bold};
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -85%);
+    z-index: -1;
+  }
 `;
 
 const StyledParagraph = styled(Paragraph)`
@@ -44,8 +46,7 @@ const StyledParagraph = styled(Paragraph)`
 
 const ErrorTemplate = ({ status, type, message }) => (
   <StyledWrapper>
-    <StyledBox>
-      <StyledStatusParagraph as="span">{status}</StyledStatusParagraph>
+    <StyledBox status={status}>
       <Heading>{type}</Heading>
       <StyledParagraph>{message}</StyledParagraph>
       <Button as={Link} to={routes.home.path}>
