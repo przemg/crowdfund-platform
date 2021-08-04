@@ -15,6 +15,7 @@ Playground.args = {
   disabled: false,
   bookmark: false,
   active: false,
+  textOnly: false,
 };
 
 export const Default = () => <Button>Button</Button>;
@@ -28,3 +29,5 @@ export const BookmarkActive = () => (
     Bookmark active button
   </Button>
 );
+
+export const TextOnly = () => <Button textOnly>Text only button</Button>;
