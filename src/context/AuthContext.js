@@ -35,7 +35,15 @@ const AuthProvider = ({ children }) => {
     setAuthState({ ...authState, account, isAuthenticated: !!account?._id });
   };
 
-  const logout = () => {};
+  const logout = async () => {
+    try {
+      await axiosInstance.delete('/auth/logout');
+      authenticateUser(null);
+    } catch (error) {
+      authenticateUser(null);
+      console.log(error);
+    }
+  };
 
   // We are waiting for a response from /auth/me to check if the user has a valid session cookie
   if (!authState.checkedSessionCookie) {
