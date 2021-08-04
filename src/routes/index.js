@@ -21,4 +21,20 @@ export const routes = {
     path: '/dashboard',
     allowedScope: scopes.AUTHENTICATED_SCOPE,
   },
+  about: {
+    path: '/about',
+    allowedScope: scopes.COMMON_SCOPE,
+  },
+  discover: {
+    path: '/discover',
+    allowedScope: scopes.COMMON_SCOPE,
+  },
+  privacy: {
+    path: '/privacy-policy',
+    allowedScope: scopes.COMMON_SCOPE,
+  },
+  regulations: {
+    path: '/regulations',
+    allowedScope: scopes.COMMON_SCOPE,
+  },
 };
