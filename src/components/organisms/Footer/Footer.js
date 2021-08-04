@@ -104,7 +104,7 @@ const Footer = ({ onlyCopy }) =>
                 <StyledMenuLink to={routes.about.path} as={Link} $color="black">
                   About
                 </StyledMenuLink>
-              </li>{' '}
+              </li>
               <li>
                 <StyledMenuLink to={routes.discover.path} as={Link} $color="black">
                   Discover

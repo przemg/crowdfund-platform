@@ -53,4 +53,6 @@ AuthProvider.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export { AuthProvider, useAuth };
+// Additionally, importing AuthContext to create a fake authentication state for storybook
+// to properly render components that require AuthContext
+export { AuthProvider, useAuth, AuthContext };
