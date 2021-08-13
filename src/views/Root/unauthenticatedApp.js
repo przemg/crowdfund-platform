@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { routes } from 'routes';
 
 const LoginPage = React.lazy(() => import('views/LoginPage'));
