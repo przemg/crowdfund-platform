@@ -1,6 +1,8 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import GenericLoadingIndicator from 'components/organisms/GenericLoadingIndicator';
+import { useHistory } from 'react-router-dom';
+import { routes } from 'routes';
 import { useFetch } from './FetchContext';
 
 const AuthContext = React.createContext();
@@ -8,6 +10,7 @@ const useAuth = () => React.useContext(AuthContext);
 
 const AuthProvider = ({ children }) => {
   const { axiosInstance } = useFetch();
+  const history = useHistory();
 
   const [authState, setAuthState] = React.useState({
     account: null,
@@ -38,11 +41,12 @@ const AuthProvider = ({ children }) => {
   const logout = async () => {
     try {
       await axiosInstance.delete('/auth/logout');
-      authenticateUser(null);
     } catch (error) {
-      authenticateUser(null);
       console.log(error);
     }
+
+    authenticateUser(null);
+    history.push(routes.login);
   };
 
   // We are waiting for a response from /auth/me to check if the user has a valid session cookie

@@ -50,8 +50,8 @@ const PublicRoute = ({ component: Component, ...rest }) => {
   - <ProtectedRoute /> Component - intended for routes where only authenticated users can go
 */
 const Root = () => (
-  <MainTemplate>
-    <BrowserRouter>
+  <BrowserRouter>
+    <MainTemplate>
       <React.Suspense fallback={<GenericLoadingIndicator />}>
         <Switch>
           <Route exact path={routes.home} component={HomePage} />
@@ -62,8 +62,8 @@ const Root = () => (
           <Route path="*" component={NotFoundPage} />
         </Switch>
       </React.Suspense>
-    </BrowserRouter>
-  </MainTemplate>
+    </MainTemplate>
+  </BrowserRouter>
 );
 
 PublicRoute.propTypes = {
