@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 import { useAuth } from 'context/AuthContext';
 import { routes } from 'routes';
 import Button from 'components/atoms/Button/Button';
+import Dropdown from 'components/molecules/Dropdown';
 import { Link } from 'react-router-dom';
 
 const StyledHeader = styled.header`
@@ -50,16 +51,19 @@ const NavBar = ({ color }) => {
             </MenuLink>
           </li>
           {isAuthenticated ? (
-            <>
-              <li>
-                <MenuLink to={routes.dashboard} activeClassName="active" $color={color}>
-                  Dashboard
-                </MenuLink>
-              </li>
-              <li>
-                <Button onClick={logout}>Log Out</Button>
-              </li>
-            </>
+            <li>
+              <Dropdown>
+                <Dropdown.Button>My Account</Dropdown.Button>
+                <Dropdown.List>
+                  <Dropdown.Item type="link" to={routes.dashboard}>
+                    Dashboard
+                  </Dropdown.Item>
+                  <Dropdown.Item type="button" onClick={logout}>
+                    Log Out
+                  </Dropdown.Item>
+                </Dropdown.List>
+              </Dropdown>
+            </li>
           ) : (
             <>
               <li>
