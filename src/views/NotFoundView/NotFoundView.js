@@ -1,7 +1,7 @@
 import * as React from 'react';
 import ErrorTemplate from 'templates/ErrorTemplate';
 
-const NotFoundPage = () => (
+const NotFoundView = () => (
   <ErrorTemplate
     status={404}
     type="Not Found"
@@ -9,4 +9,4 @@ const NotFoundPage = () => (
   />
 );
 
-export default NotFoundPage;
+export default NotFoundView;

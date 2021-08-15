@@ -8,9 +8,8 @@ import Button from 'components/atoms/Button';
 import styled from 'styled-components';
 import { routes } from 'routes';
 import { useFetch } from 'context/FetchContext';
-import { useAuth } from 'context/AuthContext';
 import Alert from 'components/atoms/Alert';
-import { useLocation } from 'react-router-dom';
+import { useAuth } from 'context/AuthContext';
 
 const StyledForm = styled.form`
   width: 100%;
@@ -24,13 +23,12 @@ const StyledButton = styled(Button)`
   margin-top: 10px;
 `;
 
-const LoginPage = () => {
-  const [loginError, setLoginError] = React.useState();
-  const [loginSuccess, setLoginSuccess] = React.useState();
-  const [loginLoading, setLoginLoading] = React.useState(false);
+const RegisterView = () => {
+  const [registerError, setRegisterError] = React.useState();
+  const [registerSuccess, setRegisterSuccess] = React.useState();
+  const [registerLoading, setRegisterLoading] = React.useState(false);
   const { axiosInstance } = useFetch();
   const { authenticateUser } = useAuth();
-  const { search } = useLocation();
 
   const {
     register,
@@ -38,46 +36,34 @@ const LoginPage = () => {
     formState: { errors },
   } = useForm();
 
-  const handleLoginRequest = async ({ email, password }) => {
+  const handleRegisterRequest = async ({ email, name, password }) => {
     try {
-      setLoginLoading(true);
+      setRegisterLoading(true);
+
       const {
         data: { data },
-      } = await axiosInstance.post('/auth/login', { email, password });
+      } = await axiosInstance.post('/auth/signup', { email, name, password });
 
-      setLoginSuccess('Successfully authenticated!');
-      setLoginError('');
-      setLoginLoading(false);
+      setRegisterError('');
+      setRegisterSuccess('User successfully created!');
+      setRegisterLoading(false);
 
       setTimeout(() => {
         authenticateUser(data);
       }, 700);
     } catch (error) {
-      setLoginSuccess('');
-      setLoginError('Wrong email or password!');
-      setLoginLoading(false);
+      setRegisterError('ups');
+      setRegisterSuccess('');
+      setRegisterLoading(false);
     }
   };
 
   return (
-    <AuthTemplate
-      title="Welcome again!"
-      description="You need to confirm your identity to continue."
-    >
-      <StyledForm onSubmit={handleSubmit(handleLoginRequest)}>
-        {search && !loginSuccess ? (
-          <Alert box type="error">
-            This page requires login to access. Please log in to continue.
-          </Alert>
-        ) : null}
-        {loginError ? (
-          <Alert box type="error">
-            {loginError}
-          </Alert>
-        ) : null}
-        {loginSuccess ? (
+    <AuthTemplate title="Join to us!" description="Create free account to start.">
+      <StyledForm onSubmit={handleSubmit(handleRegisterRequest)}>
+        {registerSuccess ? (
           <Alert box type="success">
-            {loginSuccess}
+            {registerSuccess}
           </Alert>
         ) : null}
         <InputField
@@ -85,12 +71,25 @@ const LoginPage = () => {
           id="email"
           type="email"
           label="Email address"
-          error={errors.email?.message}
+          error={registerError ? 'Given email address is already in use' : errors.email?.message}
           {...register('email', {
             required: { value: true, message: 'Email address is required' },
             pattern: {
               value: /[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]{2,}\.[a-z0-9]{2,}$/i,
               message: 'You must provide correct email address',
+            },
+          })}
+        />
+        <InputField
+          id="name"
+          type="text"
+          label="Full name"
+          error={errors.name?.message}
+          {...register('name', {
+            required: { value: true, message: 'Full name is required' },
+            pattern: {
+              value: /[a-z]+ [a-z-]+/i,
+              message: 'You must enter your first name and last name',
             },
           })}
         />
@@ -102,17 +101,22 @@ const LoginPage = () => {
           error={errors.password?.message}
           {...register('password', {
             required: { value: true, message: 'Password is required' },
+            pattern: {
+              value: /^(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])[a-zA-Z0-9]{6,15}$/,
+              message:
+                'Should consist of 6-20 characters, at least one lowercase, one uppercase and one number',
+            },
           })}
         />
-        <StyledButton disabled={loginLoading} type="submit">
-          {loginLoading ? 'Please wait...' : 'Login'}
+        <StyledButton disabled={registerLoading} type="submit">
+          {registerLoading ? 'Please wait...' : 'Create account'}
         </StyledButton>
       </StyledForm>
       <Paragraph>
-        New user? <TextLink to={routes.register}>Create an account</TextLink>
+        Already have an account? <TextLink to={routes.login}>Login</TextLink>
       </Paragraph>
     </AuthTemplate>
   );
 };
 
-export default LoginPage;
+export default RegisterView;

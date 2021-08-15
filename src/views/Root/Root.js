@@ -4,13 +4,13 @@ import PropTypes from 'prop-types';
 import MainTemplate from 'templates/MainTemplate';
 import { useAuth } from 'context/AuthContext';
 import { routes } from 'routes';
-import HomePage from 'views/HomePage';
-import NotFoundPage from 'views/NotFoundPage';
-import LoginPage from 'views/LoginPage';
-import RegisterPage from 'views/RegisterPage';
+import HomeView from 'views/HomeView';
+import NotFoundView from 'views/NotFoundView';
+import LoginView from 'views/LoginView';
+import RegisterView from 'views/RegisterView';
 import GenericLoadingIndicator from 'components/organisms/GenericLoadingIndicator';
 
-const DashboardPage = React.lazy(() => import('views/DashboardPage'));
+const DashboardView = React.lazy(() => import('views/DashboardView'));
 
 const ProtectedRoute = ({ component: Component, ...rest }) => {
   const { isAuthenticated } = useAuth();
@@ -54,12 +54,12 @@ const Root = () => (
     <MainTemplate>
       <React.Suspense fallback={<GenericLoadingIndicator />}>
         <Switch>
-          <Route exact path={routes.home} component={HomePage} />
-          <PublicRoute path={routes.login} component={LoginPage} />
-          <PublicRoute path={routes.register} component={RegisterPage} />
-          <ProtectedRoute path={routes.dashboard} component={DashboardPage} />
+          <Route exact path={routes.home} component={HomeView} />
+          <PublicRoute path={routes.login} component={LoginView} />
+          <PublicRoute path={routes.register} component={RegisterView} />
+          <ProtectedRoute path={routes.dashboard} component={DashboardView} />
 
-          <Route path="*" component={NotFoundPage} />
+          <Route path="*" component={NotFoundView} />
         </Switch>
       </React.Suspense>
     </MainTemplate>
