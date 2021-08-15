@@ -65,7 +65,7 @@ const LoginView = () => {
       description="You need to confirm your identity to continue."
     >
       <StyledForm onSubmit={handleSubmit(handleLoginRequest)}>
-        {search && !loginSuccess ? (
+        {search.includes('referrer=') && !loginSuccess ? (
           <Alert box type="error">
             This page requires login to access. Please log in to continue.
           </Alert>

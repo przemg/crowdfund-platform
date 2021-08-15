@@ -36,7 +36,7 @@ const PublicRoute = ({ component: Component, ...rest }) => {
     <Route
       {...rest}
       render={({ location }) => {
-        const [, referrerUrl] = location?.search.split('=');
+        const [, referrerUrl] = location?.search.split('referrer=');
 
         return isAuthenticated ? <Redirect to={referrerUrl || routes.home} /> : <Component />;
       }}
