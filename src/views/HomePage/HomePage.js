@@ -1,5 +1,6 @@
 import * as React from 'react';
+import GenericTemplate from 'templates/GenericTemplate';
 
-const HomePage = () => <p>Home</p>;
+const HomePage = () => <GenericTemplate>Home</GenericTemplate>;
 
 export default HomePage;

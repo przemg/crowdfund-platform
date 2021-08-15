@@ -96,17 +96,17 @@ const Footer = ({ onlyCopy }) =>
             </StyledHeading>
             <StyledList>
               <li>
-                <StyledMenuLink to={routes.home.path} as={Link} $color="black">
+                <StyledMenuLink to={routes.home} as={Link} $color="black">
                   Home
                 </StyledMenuLink>
               </li>
               <li>
-                <StyledMenuLink to={routes.about.path} as={Link} $color="black">
+                <StyledMenuLink to={routes.about} as={Link} $color="black">
                   About
                 </StyledMenuLink>
               </li>
               <li>
-                <StyledMenuLink to={routes.discover.path} as={Link} $color="black">
+                <StyledMenuLink to={routes.discover} as={Link} $color="black">
                   Discover
                 </StyledMenuLink>
               </li>
@@ -118,12 +118,12 @@ const Footer = ({ onlyCopy }) =>
             </StyledHeading>
             <StyledList>
               <li>
-                <StyledMenuLink to={routes.privacy.path} as={Link} $color="black">
+                <StyledMenuLink to={routes.privacy} as={Link} $color="black">
                   Privacy Policy
                 </StyledMenuLink>
               </li>
               <li>
-                <StyledMenuLink to={routes.regulations.path} as={Link} $color="black">
+                <StyledMenuLink to={routes.regulations} as={Link} $color="black">
                   Regulations
                 </StyledMenuLink>
               </li>

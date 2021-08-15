@@ -35,24 +35,24 @@ const NavBar = ({ color }) => {
       <nav>
         <StyledList>
           <li>
-            <MenuLink exact to={routes.home.path} activeClassName="active" $color={color}>
+            <MenuLink exact to={routes.home} activeClassName="active" $color={color}>
               Home
             </MenuLink>
           </li>
           <li>
-            <MenuLink to={routes.about.path} activeClassName="active" $color={color}>
+            <MenuLink to={routes.about} activeClassName="active" $color={color}>
               About
             </MenuLink>
           </li>
           <li>
-            <MenuLink to={routes.discover.path} activeClassName="active" $color={color}>
+            <MenuLink to={routes.discover} activeClassName="active" $color={color}>
               Discover
             </MenuLink>
           </li>
           {isAuthenticated ? (
             <>
               <li>
-                <MenuLink to={routes.dashboard.path} activeClassName="active" $color={color}>
+                <MenuLink to={routes.dashboard} activeClassName="active" $color={color}>
                   Dashboard
                 </MenuLink>
               </li>
@@ -63,12 +63,12 @@ const NavBar = ({ color }) => {
           ) : (
             <>
               <li>
-                <MenuLink as={Link} to={routes.login.path} $color={color}>
+                <MenuLink as={Link} to={routes.login} $color={color}>
                   Log In
                 </MenuLink>
               </li>
               <li>
-                <Button as={Link} to={routes.register.path}>
+                <Button as={Link} to={routes.register}>
                   Get Started
                 </Button>
               </li>

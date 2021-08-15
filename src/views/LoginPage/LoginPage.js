@@ -109,7 +109,7 @@ const LoginPage = () => {
         </StyledButton>
       </StyledForm>
       <Paragraph>
-        New user? <TextLink to={routes.register.path}>Create an account</TextLink>
+        New user? <TextLink to={routes.register}>Create an account</TextLink>
       </Paragraph>
     </AuthTemplate>
   );

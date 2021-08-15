@@ -49,7 +49,7 @@ const ErrorTemplate = ({ status, type, message }) => (
     <StyledBox status={status}>
       <Heading>{type}</Heading>
       <StyledParagraph>{message}</StyledParagraph>
-      <Button as={Link} to={routes.home.path}>
+      <Button as={Link} to={routes.home}>
         Come back to homepage
       </Button>
     </StyledBox>
