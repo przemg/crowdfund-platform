@@ -43,18 +43,12 @@ const StoryBackgroundDecorator =
       return current;
     }, defaultValue);
 
-    const currentBackground = avaiableBackgrounds[currentValue];
+    const currentBackground = avaiableBackgrounds[currentValue] || avaiableBackgrounds.white;
 
     return (
-      <>
-        {currentBackground ? (
-          <StyledBackgroundBox currentBackground={currentBackground}>
-            <Story />
-          </StyledBackgroundBox>
-        ) : (
-          <Story />
-        )}
-      </>
+      <StyledBackgroundBox currentBackground={currentBackground}>
+        <Story />
+      </StyledBackgroundBox>
     );
   };
 

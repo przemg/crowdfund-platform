@@ -5,6 +5,7 @@ import { mainTheme } from 'theme/mainTheme';
 import { customViewports } from './data/customStorybookSettings';
 import StoryBackgroundDecorator from './decorators/setStoryBackgroundDecorator';
 import StoryPaddingDecorator from './decorators/setStoryPaddingDecorator';
+import { AuthContext } from '../src/context/AuthContext';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -22,6 +23,19 @@ export const parameters = {
   },
 };
 
+const fakeAuthContextValue = {
+  account: {
+    name: 'Storybook User',
+  },
+  isAuthenticated: false,
+  login() {
+    fakeAuthContextValue.isAuthenticated = true;
+  },
+  logout() {
+    fakeAuthContextValue.isAuthenticated = false;
+  },
+};
+
 export const decorators = [
   StoryRouter(),
   StoryPaddingDecorator(),
@@ -29,7 +43,9 @@ export const decorators = [
   (Story) => (
     <ThemeProvider theme={mainTheme}>
       <GlobalStyle />
-      <Story />
+      <AuthContext.Provider value={fakeAuthContextValue}>
+        <Story />
+      </AuthContext.Provider>
     </ThemeProvider>
   ),
 ];

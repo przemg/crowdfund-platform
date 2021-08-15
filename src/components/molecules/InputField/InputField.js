@@ -2,7 +2,7 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import Label from 'components/atoms/Label';
 import Input from 'components/atoms/Input';
-import TextMessage from 'components/atoms/TextMessage';
+import Alert from 'components/atoms/Alert';
 import styled, { css } from 'styled-components';
 
 const StyledLabel = styled(Label)`
@@ -23,7 +23,7 @@ const StyledWrapper = styled.div`
         padding-bottom: 0;
       }
 
-      ${TextMessage} {
+      ${Alert} {
         grid-column: 2 / span 1;
       }
     `};
@@ -33,7 +33,7 @@ const InputField = React.forwardRef(({ singleColumn, id, label, error, ...props 
   <StyledWrapper singleColumn={singleColumn}>
     <StyledLabel htmlFor={id}>{`${label}: `}</StyledLabel>
     <Input id={id} ref={ref} error={!!error} {...props} />
-    {error ? <TextMessage type="error">{error}</TextMessage> : null}
+    {error ? <Alert type="error">{error}</Alert> : null}
   </StyledWrapper>
 ));
 

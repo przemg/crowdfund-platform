@@ -84,7 +84,7 @@ export const RadioCardFooter = () => {
             required: { value: true, message: 'Pledge is required' },
             min: {
               value: minPledge || 1,
-              message: `Pledge must be greater or equal ${priceFormatter(minPledge)}`,
+              message: `Pledge must be greater or equal ${priceFormatter(minPledge || 1)}`,
             },
             valueAsNumber: true,
           })}

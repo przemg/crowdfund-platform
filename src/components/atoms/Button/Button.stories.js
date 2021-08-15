@@ -13,18 +13,18 @@ export const Playground = Template.bind({});
 Playground.args = {
   children: 'This is sample button',
   disabled: false,
-  bookmark: false,
-  active: false,
+  $bookmark: false,
+  $active: false,
 };
 
 export const Default = () => <Button>Button</Button>;
 
 export const Disabled = () => <Button disabled>This is disabled button</Button>;
 
-export const Bookmark = () => <Button bookmark>Bookmark button</Button>;
+export const Bookmark = () => <Button $bookmark>Bookmark button</Button>;
 
 export const BookmarkActive = () => (
-  <Button bookmark active>
+  <Button $bookmark $active>
     Bookmark active button
   </Button>
 );

@@ -19,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
     font-weight: ${({ theme }) => theme.font.regular};
     color: ${({ theme }) => theme.color.gray400};
     font-family: 'Commissioner', sans-serif;
+    background-color: ${({ theme }) => theme.color.gray100};
   }
 `;
 

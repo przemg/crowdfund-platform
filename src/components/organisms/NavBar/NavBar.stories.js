@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useAuth } from 'context/AuthContext';
 import NavBar from '.';
 
 export default {
@@ -13,13 +14,15 @@ export default {
   },
 };
 
-const Template = (args) => <NavBar {...args} />;
+// eslint-disable-next-line react/prop-types
+const Template = ({ isAuthenticated, ...rest }) => {
+  const { login, logout } = useAuth();
 
-const sampleNavItems = [
-  { to: '/about', label: 'About' },
-  { to: '/discover', label: 'Discover' },
-  { to: '/get-started', label: 'Get Started' },
-];
+  if (isAuthenticated === true) login();
+  if (isAuthenticated === false) logout();
+
+  return <NavBar {...rest} />;
+};
 
 export const Playground = Template.bind({});
 
@@ -34,19 +37,39 @@ Playground.argTypes = {
 
 Playground.args = {
   color: 'white',
-  navItems: sampleNavItems,
+  isAuthenticated: false,
 };
 
-export const Black = () => <NavBar color="black" navItems={sampleNavItems} />;
+export const BlackUnauthenticated = () => {
+  const { logout } = useAuth();
+  logout();
+
+  return <NavBar color="black" />;
+};
 
 // This must be set for the StoryBackgroundDecorator to correctly set the background color of story
-Black.args = { color: 'black' };
+BlackUnauthenticated.args = { color: 'black' };
 
-export const White = () => <NavBar color="white" navItems={sampleNavItems} />;
+export const BlackAuthenticated = () => {
+  const { login } = useAuth();
+  login();
 
-export const WithoutNavItemsBlack = () => <NavBar color="black" />;
+  return <NavBar color="black" />;
+};
 
 // This must be set for the StoryBackgroundDecorator to correctly set the background color of story
-WithoutNavItemsBlack.args = { color: 'black' };
+BlackAuthenticated.args = { color: 'black' };
 
-export const WithoutNavItemsWhite = () => <NavBar color="white" />;
+export const WhiteUnauthenticated = () => {
+  const { logout } = useAuth();
+  logout();
+
+  return <NavBar color="white" />;
+};
+
+export const WhiteAuthenticated = () => {
+  const { login } = useAuth();
+  login();
+
+  return <NavBar color="white" />;
+};
