@@ -8,6 +8,9 @@ import HomePage from 'views/HomePage';
 import NotFoundPage from 'views/NotFoundPage';
 import LoginPage from 'views/LoginPage';
 import RegisterPage from 'views/RegisterPage';
+import GenericLoadingIndicator from 'components/organisms/GenericLoadingIndicator';
+
+const DashboardPage = React.lazy(() => import('views/DashboardPage'));
 
 const ProtectedRoute = ({ component: Component, ...rest }) => {
   const { isAuthenticated } = useAuth();
@@ -49,14 +52,16 @@ const PublicRoute = ({ component: Component, ...rest }) => {
 const Root = () => (
   <MainTemplate>
     <BrowserRouter>
-      <Switch>
-        <Route exact path={routes.home} component={HomePage} />
-        <PublicRoute path={routes.login} component={LoginPage} />
-        <PublicRoute path={routes.register} component={RegisterPage} />
-        <ProtectedRoute path={routes.dashboard} component={() => <p>dashboard</p>} />
+      <React.Suspense fallback={<GenericLoadingIndicator />}>
+        <Switch>
+          <Route exact path={routes.home} component={HomePage} />
+          <PublicRoute path={routes.login} component={LoginPage} />
+          <PublicRoute path={routes.register} component={RegisterPage} />
+          <ProtectedRoute path={routes.dashboard} component={DashboardPage} />
 
-        <Route path="*" component={NotFoundPage} />
-      </Switch>
+          <Route path="*" component={NotFoundPage} />
+        </Switch>
+      </React.Suspense>
     </BrowserRouter>
   </MainTemplate>
 );
