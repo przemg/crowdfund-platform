@@ -111,7 +111,7 @@ const DropdownList = ({ children }) => {
   const { expanded } = useDropdown();
 
   return (
-    <StyledList isExpanded={expanded} ariaExpanded="false">
+    <StyledList isExpanded={expanded} aria-expanded="false">
       {children}
     </StyledList>
   );
