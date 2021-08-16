@@ -8,7 +8,7 @@ import GenericTemplate from './GenericTemplate';
 
 const StyledWrapper = styled.main`
   max-width: 1024px;
-  margin: 40px auto 80px;
+  margin: 40px auto 160px;
 `;
 
 const StyledSection = styled.section`
@@ -42,25 +42,60 @@ const StyledGridWrapper = styled.div`
   grid-gap: 16px;
 `;
 
-const DashboardTemplate = ({ children }) => (
-  <GenericTemplate>
-    <StyledWrapper>{children}</StyledWrapper>
-  </GenericTemplate>
-);
+const DashboardTemplateContext = React.createContext();
 
-const DashboardTemplateHeading = ({ children }) => <Heading level={1}>{children}</Heading>;
+const useDashboardTemplate = () => React.useContext(DashboardTemplateContext);
 
-const DashboardTemplateSection = ({ title, children, action }) => (
-  <StyledSection>
-    <StyledSectionHeader>
-      <StyledHeading level={2}>{title}</StyledHeading>
-      <Button as={Link} to={action.to} $secondary>
-        {action.label}
-      </Button>
-    </StyledSectionHeader>
-    <StyledGridWrapper>{children}</StyledGridWrapper>
-  </StyledSection>
-);
+const DashboardTemplate = ({ children }) => {
+  const [mainHeading, setMainHeading] = React.useState(false);
+
+  const dashboardTemplateHeadingRef = React.useRef();
+  const dashboardTemplateSectionsRef = React.useRef([]);
+
+  React.useEffect(() => {
+    if (!dashboardTemplateHeadingRef.current && dashboardTemplateSectionsRef.current.length === 1) {
+      setMainHeading(true);
+    }
+  }, []);
+
+  return (
+    <GenericTemplate>
+      <DashboardTemplateContext.Provider
+        value={{ dashboardTemplateHeadingRef, dashboardTemplateSectionsRef, mainHeading }}
+      >
+        <StyledWrapper>{children}</StyledWrapper>
+      </DashboardTemplateContext.Provider>
+    </GenericTemplate>
+  );
+};
+
+const DashboardTemplateHeading = ({ children }) => {
+  const { dashboardTemplateHeadingRef } = useDashboardTemplate();
+
+  return (
+    <Heading ref={dashboardTemplateHeadingRef} level={1}>
+      {children}
+    </Heading>
+  );
+};
+
+const DashboardTemplateSection = ({ title, children, action }) => {
+  const { dashboardTemplateSectionsRef, mainHeading } = useDashboardTemplate();
+
+  return (
+    <StyledSection ref={(el) => dashboardTemplateSectionsRef.current.push(el)}>
+      <StyledSectionHeader>
+        <StyledHeading level={mainHeading ? 1 : 2} size="l">
+          {title}
+        </StyledHeading>
+        <Button as={Link} to={action.to} $secondary>
+          {action.label}
+        </Button>
+      </StyledSectionHeader>
+      <StyledGridWrapper>{children}</StyledGridWrapper>
+    </StyledSection>
+  );
+};
 
 DashboardTemplateHeading.propTypes = {
   children: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.node)]).isRequired,
