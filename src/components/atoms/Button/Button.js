@@ -29,8 +29,8 @@ const Button = styled.button`
     cursor: not-allowed;
   }
 
-  ${({ secondary, $bookmark }) =>
-    secondary &&
+  ${({ $secondary, $bookmark }) =>
+    $secondary &&
     !$bookmark &&
     css`
       background-color: transparent;
@@ -97,14 +97,14 @@ Button.propTypes = {
   $bookmark: PropTypes.bool,
   $active: PropTypes.bool,
   disabled: PropTypes.bool,
-  secondary: PropTypes.bool,
+  $secondary: PropTypes.bool,
 };
 
 Button.defaultProps = {
   $bookmark: false,
   $active: false,
   disabled: false,
-  secondary: false,
+  $secondary: false,
 };
 
 export default Button;
