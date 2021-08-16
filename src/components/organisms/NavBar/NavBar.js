@@ -58,6 +58,9 @@ const NavBar = ({ color }) => {
                   <Dropdown.Item type="link" to={routes.dashboard}>
                     Dashboard
                   </Dropdown.Item>
+                  <Dropdown.Item type="link" to={routes.dashboardProjects}>
+                    Own Projects
+                  </Dropdown.Item>
                   <Dropdown.Item type="button" onClick={logout}>
                     Log Out
                   </Dropdown.Item>

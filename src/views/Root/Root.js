@@ -11,6 +11,7 @@ import RegisterView from 'views/RegisterView';
 import GenericLoadingIndicator from 'components/organisms/GenericLoadingIndicator';
 
 const DashboardView = React.lazy(() => import('views/DashboardView'));
+const DashboardProjectsView = React.lazy(() => import('views/DashboardProjectsView'));
 
 const ProtectedRoute = ({ component: Component, ...rest }) => {
   const { isAuthenticated } = useAuth();
@@ -57,7 +58,8 @@ const Root = () => (
           <Route exact path={routes.home} component={HomeView} />
           <PublicRoute path={routes.login} component={LoginView} />
           <PublicRoute path={routes.register} component={RegisterView} />
-          <ProtectedRoute path={routes.dashboard} component={DashboardView} />
+          <ProtectedRoute exact path={routes.dashboard} component={DashboardView} />
+          <ProtectedRoute path={routes.dashboardProjects} component={DashboardProjectsView} />
 
           <Route path="*" component={NotFoundView} />
         </Switch>
