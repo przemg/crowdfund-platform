@@ -12,6 +12,7 @@ export const Playground = Template.bind({});
 
 Playground.args = {
   children: 'This is sample button',
+  secondary: false,
   disabled: false,
   $bookmark: false,
   $active: false,
@@ -20,6 +21,8 @@ Playground.args = {
 export const Default = () => <Button>Button</Button>;
 
 export const Disabled = () => <Button disabled>This is disabled button</Button>;
+
+export const Secondary = () => <Button secondary>This is secondary button</Button>;
 
 export const Bookmark = () => <Button $bookmark>Bookmark button</Button>;
 

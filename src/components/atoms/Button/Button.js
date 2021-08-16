@@ -29,6 +29,24 @@ const Button = styled.button`
     cursor: not-allowed;
   }
 
+  ${({ secondary, $bookmark }) =>
+    secondary &&
+    !$bookmark &&
+    css`
+      background-color: transparent;
+      color: ${({ theme }) => theme.color.cyan300};
+      border: 2px solid ${({ theme }) => theme.color.cyan300};
+
+      &:hover:not(:disabled) {
+        background-color: ${({ theme }) => theme.color.cyan100};
+      }
+
+      &:disabled {
+        color: ${({ theme }) => theme.color.white};
+        border: 2px solid ${({ theme }) => theme.color.gray200};
+      }
+    `}
+
   ${({ $bookmark, $active }) =>
     $bookmark &&
     css`
@@ -79,12 +97,14 @@ Button.propTypes = {
   $bookmark: PropTypes.bool,
   $active: PropTypes.bool,
   disabled: PropTypes.bool,
+  secondary: PropTypes.bool,
 };
 
 Button.defaultProps = {
   $bookmark: false,
   $active: false,
   disabled: false,
+  secondary: false,
 };
 
 export default Button;
