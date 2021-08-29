@@ -29,14 +29,15 @@ const StyledProjectLogo = styled.div`
   align-items: center;
   justify-content: center;
   background-color: ${({ brandColor }) => brandColor};
+  width: 64px;
+  height: 64px;
   padding: 8px;
   border-radius: 50%;
   box-shadow: 0 8px 32px -8px ${({ theme }) => theme.color.gray200};
 `;
 
 const StyledIMG = styled.img`
-  width: 56px;
-  height: 56px;
+  width: 100%;
 `;
 
 const StyledWrapper = styled.div`

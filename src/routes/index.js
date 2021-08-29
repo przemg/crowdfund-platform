@@ -8,4 +8,6 @@ export const routes = {
   discover: '/discover',
   privacy: '/privacy-policy',
   regulations: '/regulations',
+  projectDetails: '/projects/:projectId',
+  editProject: '/projects/:projectId/edit',
 };
