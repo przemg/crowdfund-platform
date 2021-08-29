@@ -13,6 +13,7 @@ export const mainTheme = {
     green200: 'hsl(122, 87%, 37%)',
     black: 'hsl(0, 0%, 0%)',
     white: 'hsl(0, 0%, 100%)',
+    shadow: 'hsla(0, 0%, 0%, 0.48)',
   },
   font: {
     headingXL: '3.2rem',
